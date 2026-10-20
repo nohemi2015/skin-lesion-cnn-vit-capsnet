@@ -1,13 +1,13 @@
 """ROC curves on the test partition (Figure 1 of the article).
 
-Usage: python src/figura_roc.py --results_dir results --out figures/roc_stage2.png
+Usage: python figura_roc.py
 """
 import pandas as pd, numpy as np, matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from sklearn.metrics import roc_curve, roc_auc_score
 import argparse
-ap=argparse.ArgumentParser(); ap.add_argument("--results_dir",default="results"); ap.add_argument("--out",default="figures/roc_stage2.png"); args=ap.parse_args()
+ap=argparse.ArgumentParser(); ap.add_argument("--results_dir",default="."); ap.add_argument("--out",default="roc_stage2.png"); args=ap.parse_args()
 import os
 F=[("EfficientNet-B1","predicciones_efficientnetb1_finetuned.csv","#2a78d6","-"),
    ("ViT-Base/32","predicciones_vit_base32_finetuned.csv","#eb6834","--"),

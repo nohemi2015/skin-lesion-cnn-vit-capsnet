@@ -6,7 +6,7 @@ Seed-averaged test AUC with 95% lesion-clustered bootstrap CIs
 pipelines. Reproduces the AUC intervals reported in the article.
 
 Usage:
-    python src/analisis_bootstrap.py --results_dir results --ledger data/split_ledger.csv
+    python analisis_bootstrap.py
 """
 import argparse
 import os
@@ -22,8 +22,8 @@ PIPELINES = [("EfficientNet-B1", "predicciones_efficientnetb1_finetuned.csv"),
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--results_dir", default="results")
-    ap.add_argument("--ledger", default="data/split_ledger.csv")
+    ap.add_argument("--results_dir", default=".")
+    ap.add_argument("--ledger", default="split_ledger.csv")
     ap.add_argument("--n_boot", type=int, default=2000)
     ap.add_argument("--seed", type=int, default=2026)
     args = ap.parse_args()
