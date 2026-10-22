@@ -71,30 +71,37 @@ Code: MIT (see `LICENSE`). HAM10000 data: subject to its original license.
 
 ## Revision v2.0 (October 2026)
 
-The folder `revision_v2/` contains the additional experiments of the revised manuscript. They followed the protocol in `revision_v2/PROTOCOLO_REVISION.md`, which was fixed before the experiments were run. The files of release v1.0 (above) are unchanged.
+The files listed below contain the additional experiments of the revised manuscript. They followed the protocol in `PROTOCOLO_REVISION.md`, which was fixed before the experiments were run. The files of release v1.0 (above) are unchanged.
 
-**Implementation finding.** In the original ViT pipeline (`modelos_reducidos.py`), the Hugging Face ViT (a tf-keras model) is wrapped in a Keras 3 layer. Keras 3 does not track its variables, so only the dense head (98,561 parameters) was trained and the backbone stayed frozen. `revision_v2/code/verificar_vit_original.py` reproduces this check. The original ViT results therefore correspond to a frozen-backbone pipeline. `revision_v2/code/modelos_v3.py` builds the ViT entirely in tf-keras, so that fine-tuning works.
+**Implementation finding.** In the original ViT pipeline (`modelos_reducidos.py`), the Hugging Face ViT (a tf-keras model) is wrapped in a Keras 3 layer. Keras 3 does not track its variables, so only the dense head (98,561 parameters) was trained and the backbone stayed frozen. `verificar_vit_original.py` reproduces this check. The original ViT results therefore correspond to a frozen-backbone pipeline. `modelos_v3.py` builds the ViT entirely in tf-keras, so that fine-tuning works.
 
 ```
-revision_v2/
-  PROTOCOLO_REVISION.md           pre-specified revision protocol
-  code/                           modelos_v3.py, entrenar_v3.py, capsnet_diagnostico.py,
-                                  seleccionar_capsnet.py, cohorte_confirmacion.py,
-                                  analisis_revision.py, verificar_vit_original.py,
-                                  PASO1-4 .bat files and LEEME.md (instructions, Spanish)
-  diagnostico_capsnet/            CapsNet-R3 diagnosis (gates G1-G6)
-  resultados_v3.zip               per-seed results, per-image predictions, per-epoch histories
-                                  and split ledgers: original split 2026 (new pipelines and
-                                  CapsNet selection grid) and repeated splits 3001-3005
-  predicciones_confirmacion.zip   per-image scores of the original-split models on the
-                                  untouched cohort (7,124 HAM10000 images, 5,740 lesions)
-  confirmacion_manifest.csv       images, lesions and diagnoses of the untouched cohort
-  analisis_revision/              outputs of analisis_revision.py (AUCs, bootstrap CIs,
-                                  repeated-split summaries, confirmation cohort)
-  figures/                        figures of the revised manuscript
+PROTOCOLO_REVISION.md            pre-specified revision protocol
+modelos_v3.py                    model builders of the revision (7 pipelines)
+entrenar_v3.py                   training/evaluation on any lesion-grouped split
+capsnet_diagnostico.py           CapsNet-R3 diagnosis, gates G1-G5
+seleccionar_capsnet.py           validation-only selection of the revised CapsNet-R3 (gate G6)
+cohorte_confirmacion.py          evaluation on the untouched cohort (with reload check)
+analisis_revision.py             all statistics of the revision
+verificar_vit_original.py        check that the original ViT backbone was not trained
+CONFIGURAR.bat, PASO1-4 *.bat    Windows runners; LEEME.md: instructions (Spanish)
+G3_gradientes.csv, G4_*.csv/json,
+G5_traza_saturacion.csv,
+capsnet_seleccion.json,
+resumen_diagnostico_*.txt        outputs of the CapsNet-R3 diagnosis
+resultados_v3.zip                per-seed results, per-image predictions, per-epoch histories
+                                 and split ledgers: split 2026 (new pipelines and CapsNet grid)
+                                 and repeated splits 3001-3005
+predicciones_confirmacion.zip    per-image scores of the split-2026 models on the untouched
+                                 cohort (7,124 HAM10000 images, 5,740 lesions)
+confirmacion_manifest.csv        images, lesions and diagnoses of the untouched cohort
+A_*.csv, B_*.csv, C_*.csv,
+resumen_analisis.txt             outputs of analisis_revision.py
+capsnet_saturation.png, roc_split2026_v3.png,
+repeated_splits.png              figures of the revised manuscript
 ```
 
-To re-run the statistics without training: copy `revision_v2/code/*.py` next to the v1.0 files, unzip `resultados_v3.zip`, put `predicciones_confirmacion.csv` in a folder `confirmacion/`, create `resultados_split_final_v2/` with the v1.0 `resultados_*.csv`, `predicciones_*.csv` and `split_ledger.csv`, and run `python analisis_revision.py`.
+To re-run the statistics without training: unzip `resultados_v3.zip`, put `predicciones_confirmacion.csv` in a folder `confirmacion/`, create a folder `resultados_split_final_v2/` with the v1.0 `resultados_*.csv`, `predicciones_*.csv` and `split_ledger.csv`, and run `python analisis_revision.py`.
 
 | Pipeline | Original split AUC | Repeated splits, mean AUC (5 splits) | Untouched cohort AUC |
 |---|---|---|---|
