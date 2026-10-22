@@ -1,0 +1,63 @@
+{
+ "selected": true,
+ "rule": "max validation AUC among G4-passing lrs; tie<0.005 -> lower val loss; accept if val AUC >= 0.60",
+ "grid": [
+  {
+   "lr": 0.0001,
+   "input_norm": "none",
+   "val_auc": 0.8523541685566542,
+   "best_val_loss": 0.1357030123472213,
+   "best_epoch": 64.0,
+   "n_epochs_run": 74.0,
+   "passed_G4": true
+  },
+  {
+   "lr": 0.0001,
+   "input_norm": "imagenet",
+   "val_auc": 0.8617889866642474,
+   "best_val_loss": 0.1331706494092941,
+   "best_epoch": 29.0,
+   "n_epochs_run": 39.0,
+   "passed_G4": true
+  },
+  {
+   "lr": 3e-05,
+   "input_norm": "none",
+   "val_auc": 0.7822734282863104,
+   "best_val_loss": 0.1486206501722335,
+   "best_epoch": 12.0,
+   "n_epochs_run": 22.0,
+   "passed_G4": false
+  },
+  {
+   "lr": 3e-05,
+   "input_norm": "imagenet",
+   "val_auc": 0.8208291753606096,
+   "best_val_loss": 0.1409125030040741,
+   "best_epoch": 15.0,
+   "n_epochs_run": 25.0,
+   "passed_G4": false
+  },
+  {
+   "lr": 1e-05,
+   "input_norm": "none",
+   "val_auc": 0.7971514106867459,
+   "best_val_loss": 0.1453888416290283,
+   "best_epoch": 36.0,
+   "n_epochs_run": 46.0,
+   "passed_G4": false
+  },
+  {
+   "lr": 1e-05,
+   "input_norm": "imagenet",
+   "val_auc": 0.8330309353170644,
+   "best_val_loss": 0.1353933960199356,
+   "best_epoch": 46.0,
+   "n_epochs_run": 56.0,
+   "passed_G4": false
+  }
+ ],
+ "lr": 0.0001,
+ "input_norm": "imagenet",
+ "val_auc": 0.8617889866642474
+}

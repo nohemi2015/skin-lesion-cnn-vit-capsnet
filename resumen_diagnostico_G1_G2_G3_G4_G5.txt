@@ -1,0 +1,31 @@
+CapsNet-R3 diagnosis | split 2026 | train 1404 images, val 297 images | gates ['G1', 'G2', 'G3', 'G4', 'G5']
+G1 labels consistent with diagnoses: True (0 mismatches)
+G1 lesions with mixed labels: 0
+G1 duplicated image_id: 0
+G1 missing image files: 0
+G1 one-hot order [benign, malignant] matches labels: True
+G1 input range: min=0.000 max=1.000 mean=0.611 (expected within [0, 1])
+G1 batch-order / batch-size invariance of predictions: True
+G1 synthetic metric controls {'perfect': 1.0, 'inverted': 0.0, 'constant': 0.5}, Youden threshold=0.80: True
+G1 RESULT: PASS
+G2 squash max abs diff vs NumPy: 1.11e-16
+G2 routing (3 iterations) max abs diff vs NumPy: 4.67e-08
+G2 coupling coefficients sum to 1 over output capsules: True
+G2 margin loss abs diff vs NumPy: 5.96e-08
+G2 RESULT: PASS
+G3 initial loss 0.8094; all gradients finite and non-zero: True; variables updated after one step: 9/9
+G3 RESULT: PASS
+G4 real_32      lr=1e-03: final train accuracy=0.500, final loss=0.4049 (initial 0.5903), malignant length 0.9998+/-0.0000, benign 1.0000+/-0.0000 -> not memorized (30s)
+G4 synthetic_32 lr=1e-03: final train accuracy=0.500, final loss=0.3916 (initial 0.8071), malignant length 0.8990+/-0.0005, benign 0.9947+/-0.0000 -> not memorized (30s)
+G4 real_32      lr=1e-04: final train accuracy=1.000, final loss=0.0023 (initial 0.8007), malignant length 0.4899+/-0.4037, benign 0.4936+/-0.3675 -> memorized (30s)
+G4 synthetic_32 lr=1e-04: final train accuracy=1.000, final loss=0.0000 (initial 0.8094), malignant length 0.4934+/-0.4183, benign 0.5048+/-0.4636 -> memorized (30s)
+G4 real_32      lr=3e-05: final train accuracy=0.938, final loss=0.0772 (initial 0.8089), malignant length 0.5326+/-0.2739, benign 0.5221+/-0.2864 -> not memorized (30s)
+G4 synthetic_32 lr=3e-05: final train accuracy=1.000, final loss=0.0000 (initial 0.8094), malignant length 0.4913+/-0.4541, benign 0.4891+/-0.4729 -> memorized (30s)
+G4 real_32      lr=1e-05: final train accuracy=0.750, final loss=0.1589 (initial 0.8093), malignant length 0.5918+/-0.2253, benign 0.5885+/-0.1344 -> not memorized (30s)
+G4 synthetic_32 lr=1e-05: final train accuracy=1.000, final loss=0.0000 (initial 0.8094), malignant length 0.4811+/-0.4277, benign 0.4800+/-0.4447 -> memorized (30s)
+G4 learning rates that memorize 32 real training images (final accuracy >= 0.95 and loss <= 0.10): ['1e-04']
+G4 RESULT: PASS (at least one learning rate)
+G5 lr=1e-03 routing=3: primary length 0.021 -> 1.000; >50% primary capsules saturated (>0.9) from step 5; final malignant length 0.9987+/-0.0000, benign 0.9998+/-0.0000
+G5 lr=1e-03 routing=1: primary length 0.021 -> 1.000; >50% primary capsules saturated (>0.9) from step 5; final malignant length 0.9990+/-0.0000, benign 0.9998+/-0.0000
+G5 lr=1e-05 routing=3: primary length 0.021 -> 0.413; >50% primary capsules saturated (>0.9) from step None; final malignant length 0.6106+/-0.0729, benign 0.5446+/-0.0727
+G5 RESULT: descriptive (see G5_traza_saturacion.csv)
