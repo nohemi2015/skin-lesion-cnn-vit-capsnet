@@ -1,0 +1,1001 @@
+rank,similarity,image_a,lesion_a,dx_a,use_a,image_b,lesion_b,dx_b,use_b,same_dx,crosses_train_test_in
+1,0.9787,ISIC_0033421,HAM_0004196,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:val; s3005:train,ISIC_0033481,HAM_0004198,nv,cohort:cohort,True,cohort
+2,0.9751,ISIC_0033374,HAM_0006766,nv,cohort:cohort,ISIC_0033417,HAM_0007301,nv,cohort:cohort,True,
+3,0.9724,ISIC_0027027,HAM_0007604,bkl,cohort:cohort,ISIC_0029036,HAM_0000955,bkl,cohort:cohort,True,
+4,0.9644,ISIC_0026204,HAM_0000670,nv,cohort:cohort,ISIC_0030985,HAM_0004679,nv,cohort:cohort,True,
+5,0.9638,ISIC_0027636,HAM_0001109,nv,cohort:cohort,ISIC_0027994,HAM_0007525,nv,s2026:val; s3001:train; s3002:train; s3003:test; s3004:train; s3005:train,True,cohort
+6,0.9635,ISIC_0027028,HAM_0005912,nv,cohort:cohort,ISIC_0028574,HAM_0004686,nv,cohort:cohort,True,
+7,0.9629,ISIC_0029691,HAM_0002880,nv,cohort:cohort,ISIC_0030854,HAM_0003908,nv,cohort:cohort,True,
+8,0.9624,ISIC_0033173,HAM_0003813,nv,cohort:cohort,ISIC_0029152,HAM_0003816,nv,cohort:cohort,True,
+9,0.9623,ISIC_0024879,HAM_0001387,nv,cohort:cohort,ISIC_0030906,HAM_0004847,nv,s2026:train; s3001:train; s3002:val; s3003:val; s3004:train; s3005:train,True,cohort
+10,0.9619,ISIC_0025437,HAM_0007273,nv,cohort:cohort,ISIC_0024966,HAM_0004137,nv,cohort:cohort,True,
+11,0.9616,ISIC_0031227,HAM_0002252,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,ISIC_0030788,HAM_0004785,nv,cohort:cohort,True,cohort
+12,0.9615,ISIC_0033701,HAM_0004245,bkl,cohort:cohort,ISIC_0033888,HAM_0006925,nv,cohort:cohort,False,
+13,0.9613,ISIC_0027992,HAM_0004451,nv,cohort:cohort,ISIC_0025725,HAM_0000056,nv,cohort:cohort,True,
+14,0.9602,ISIC_0029940,HAM_0007297,nv,cohort:cohort,ISIC_0026240,HAM_0006429,nv,cohort:cohort,True,
+15,0.9599,ISIC_0029979,HAM_0004233,nv,cohort:cohort,ISIC_0026241,HAM_0003412,nv,cohort:cohort,True,
+16,0.9593,ISIC_0025201,HAM_0000377,nv,cohort:cohort,ISIC_0028458,HAM_0006680,nv,cohort:cohort,True,
+17,0.9593,ISIC_0029239,HAM_0001367,nv,cohort:cohort,ISIC_0025139,HAM_0007584,nv,cohort:cohort,True,
+18,0.9589,ISIC_0032009,HAM_0001107,nv,cohort:cohort,ISIC_0024821,HAM_0001172,nv,cohort:cohort,True,
+19,0.9575,ISIC_0026143,HAM_0002776,nv,cohort:cohort,ISIC_0024655,HAM_0000013,nv,cohort:cohort,True,
+20,0.9575,ISIC_0024563,HAM_0000497,nv,cohort:cohort,ISIC_0030108,HAM_0005165,nv,cohort:cohort,True,
+21,0.9574,ISIC_0026204,HAM_0000670,nv,cohort:cohort,ISIC_0027054,HAM_0005414,nv,cohort:cohort,True,
+22,0.9574,ISIC_0026519,HAM_0007255,nv,not used,ISIC_0031145,HAM_0004267,nv,s2026:test; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,True,
+23,0.9571,ISIC_0034132,HAM_0003466,mel,s2026:train; s3001:train; s3002:val; s3003:val; s3004:train; s3005:test,ISIC_0033863,HAM_0007086,mel,s2026:train; s3001:test; s3002:train; s3003:test; s3004:train; s3005:train,True,"s3001,s3003,s3005"
+24,0.957,ISIC_0026204,HAM_0000670,nv,cohort:cohort,ISIC_0025159,HAM_0000283,nv,cohort:cohort,True,
+25,0.957,ISIC_0032009,HAM_0001107,nv,cohort:cohort,ISIC_0025271,HAM_0003430,nv,s2026:train; s3001:train; s3002:val; s3003:train; s3004:train; s3005:train,True,cohort
+26,0.9569,ISIC_0030074,HAM_0000140,nv,cohort:cohort,ISIC_0025226,HAM_0004919,nv,cohort:cohort,True,
+27,0.9569,ISIC_0030050,HAM_0001662,nv,cohort:cohort,ISIC_0028054,HAM_0004890,nv,cohort:cohort,True,
+28,0.9568,ISIC_0030921,HAM_0000350,nv,cohort:cohort,ISIC_0029484,HAM_0005296,nv,cohort:cohort,True,
+29,0.9568,ISIC_0024346,HAM_0003411,nv,cohort:cohort,ISIC_0030556,HAM_0001771,nv,cohort:cohort,True,
+30,0.9567,ISIC_0025702,HAM_0006347,nv,s2026:test; s3001:val; s3002:train; s3003:train; s3004:train; s3005:train,ISIC_0028436,HAM_0005127,nv,cohort:cohort,True,
+31,0.9567,ISIC_0028786,HAM_0005272,nv,cohort:cohort,ISIC_0026240,HAM_0006429,nv,cohort:cohort,True,
+32,0.9564,ISIC_0029239,HAM_0001367,nv,cohort:cohort,ISIC_0027426,HAM_0004381,nv,cohort:cohort,True,
+33,0.9563,ISIC_0024713,HAM_0005955,nv,cohort:cohort,ISIC_0028268,HAM_0004875,nv,cohort:cohort,True,
+34,0.9563,ISIC_0026904,HAM_0004626,nv,cohort:cohort,ISIC_0025281,HAM_0007416,nv,cohort:cohort,True,
+35,0.9562,ISIC_0030921,HAM_0000350,nv,cohort:cohort,ISIC_0030788,HAM_0004785,nv,cohort:cohort,True,
+36,0.9557,ISIC_0029892,HAM_0006511,nv,cohort:cohort,ISIC_0031229,HAM_0004489,nv,cohort:cohort,True,
+37,0.9554,ISIC_0032259,HAM_0004333,nv,s2026:train; s3001:train; s3002:train; s3003:test; s3004:train; s3005:train,ISIC_0025582,HAM_0007423,nv,s2026:train; s3001:test; s3002:train; s3003:train; s3004:train; s3005:test,True,"s3001,s3003,s3005"
+38,0.9554,ISIC_0028007,HAM_0006969,nv,cohort:cohort,ISIC_0029295,HAM_0005941,nv,cohort:cohort,True,
+39,0.9553,ISIC_0029754,HAM_0000389,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:val; s3005:train,ISIC_0030632,HAM_0002811,nv,s2026:train; s3001:train; s3002:val; s3003:train; s3004:train; s3005:train,True,
+40,0.955,ISIC_0024713,HAM_0005955,nv,cohort:cohort,ISIC_0031210,HAM_0004390,nv,cohort:cohort,True,
+41,0.9548,ISIC_0025481,HAM_0001909,nv,s2026:train; s3001:train; s3002:train; s3003:test; s3004:train; s3005:train,ISIC_0025595,HAM_0000192,nv,s2026:train; s3001:train; s3002:train; s3003:val; s3004:test; s3005:test,True,"s3003,s3004,s3005"
+42,0.9548,ISIC_0028745,HAM_0003214,nv,s2026:test; s3001:train; s3002:train; s3003:test; s3004:train; s3005:val,ISIC_0025308,HAM_0001821,nv,cohort:cohort,True,
+43,0.9548,ISIC_0026629,HAM_0004065,df,cohort:cohort,ISIC_0027272,HAM_0004668,nv,s2026:train; s3001:test; s3002:train; s3003:test; s3004:train; s3005:train,False,cohort
+44,0.9546,ISIC_0031128,HAM_0004287,nv,cohort:cohort,ISIC_0031507,HAM_0003510,nv,cohort:cohort,True,
+45,0.954,ISIC_0028177,HAM_0000031,nv,cohort:cohort,ISIC_0030971,HAM_0001700,nv,s2026:train; s3001:train; s3002:test; s3003:train; s3004:train; s3005:train,True,cohort
+46,0.9539,ISIC_0032066,HAM_0002225,nv,cohort:cohort,ISIC_0029171,HAM_0004179,nv,cohort:cohort,True,
+47,0.9539,ISIC_0033120,HAM_0007558,mel,s2026:train; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,ISIC_0034205,HAM_0007583,mel,not used,True,
+48,0.9537,ISIC_0029322,HAM_0001371,nv,cohort:cohort,ISIC_0031240,HAM_0004602,nv,cohort:cohort,True,
+49,0.9537,ISIC_0030556,HAM_0001771,nv,cohort:cohort,ISIC_0028277,HAM_0005168,nv,cohort:cohort,True,
+50,0.9536,ISIC_0025886,HAM_0006741,nv,cohort:cohort,ISIC_0029295,HAM_0005941,nv,cohort:cohort,True,
+51,0.9536,ISIC_0024437,HAM_0002566,nv,cohort:cohort,ISIC_0031299,HAM_0003384,nv,cohort:cohort,True,
+52,0.9536,ISIC_0028764,HAM_0004746,mel,not used,ISIC_0031063,HAM_0003764,bcc,s2026:train; s3001:val; s3002:test; s3003:test; s3004:train; s3005:train,False,
+53,0.9534,ISIC_0024989,HAM_0002035,nv,cohort:cohort,ISIC_0026143,HAM_0002776,nv,cohort:cohort,True,
+54,0.9533,ISIC_0024736,HAM_0003762,nv,cohort:cohort,ISIC_0029748,HAM_0006260,nv,cohort:cohort,True,
+55,0.9533,ISIC_0033739,HAM_0004296,nv,s2026:val; s3001:train; s3002:train; s3003:test; s3004:val; s3005:train,ISIC_0033497,HAM_0001697,nv,cohort:cohort,True,cohort
+56,0.9533,ISIC_0030380,HAM_0002405,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:val; s3005:test,ISIC_0025725,HAM_0000056,nv,cohort:cohort,True,cohort
+57,0.9532,ISIC_0030556,HAM_0001771,nv,cohort:cohort,ISIC_0032465,HAM_0004557,nv,s2026:train; s3001:test; s3002:train; s3003:train; s3004:train; s3005:train,True,cohort
+58,0.9531,ISIC_0028695,HAM_0006010,nv,cohort:cohort,ISIC_0030409,HAM_0001181,nv,cohort:cohort,True,
+59,0.953,ISIC_0031769,HAM_0006861,nv,cohort:cohort,ISIC_0025653,HAM_0005347,nv,cohort:cohort,True,
+60,0.953,ISIC_0024989,HAM_0002035,nv,cohort:cohort,ISIC_0024655,HAM_0000013,nv,cohort:cohort,True,
+61,0.9529,ISIC_0034248,HAM_0004214,nv,cohort:cohort,ISIC_0034228,HAM_0004213,nv,cohort:cohort,True,
+62,0.9527,ISIC_0033391,HAM_0001186,bkl,cohort:cohort,ISIC_0034186,HAM_0000825,bkl,cohort:cohort,True,
+63,0.9526,ISIC_0028164,HAM_0006443,nv,cohort:cohort,ISIC_0030788,HAM_0004785,nv,cohort:cohort,True,
+64,0.9521,ISIC_0028268,HAM_0004875,nv,cohort:cohort,ISIC_0027625,HAM_0002922,nv,cohort:cohort,True,
+65,0.9518,ISIC_0032702,HAM_0004814,nv,not used,ISIC_0033311,HAM_0005190,nv,cohort:cohort,True,
+66,0.9518,ISIC_0029940,HAM_0007297,nv,cohort:cohort,ISIC_0028786,HAM_0005272,nv,cohort:cohort,True,
+67,0.9514,ISIC_0027357,HAM_0004540,nv,s2026:train; s3001:train; s3002:train; s3003:test; s3004:train; s3005:val,ISIC_0030441,HAM_0000479,nv,cohort:cohort,True,cohort
+68,0.9514,ISIC_0028268,HAM_0004875,nv,cohort:cohort,ISIC_0026931,HAM_0003901,nv,cohort:cohort,True,
+69,0.9511,ISIC_0029367,HAM_0003304,nv,cohort:cohort,ISIC_0029844,HAM_0002999,nv,cohort:cohort,True,
+70,0.951,ISIC_0025736,HAM_0004948,nv,s2026:test; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,ISIC_0027660,HAM_0000171,nv,cohort:cohort,True,
+71,0.951,ISIC_0029367,HAM_0003304,nv,cohort:cohort,ISIC_0028784,HAM_0004460,nv,cohort:cohort,True,
+72,0.9509,ISIC_0032153,HAM_0001627,nv,cohort:cohort,ISIC_0024713,HAM_0005955,nv,cohort:cohort,True,
+73,0.9509,ISIC_0027820,HAM_0001310,bkl,cohort:cohort,ISIC_0028209,HAM_0002096,bkl,cohort:cohort,True,
+74,0.9508,ISIC_0030337,HAM_0002640,nv,cohort:cohort,ISIC_0031755,HAM_0003928,nv,cohort:cohort,True,
+75,0.9508,ISIC_0025653,HAM_0005347,nv,cohort:cohort,ISIC_0028008,HAM_0005018,nv,cohort:cohort,True,
+76,0.9508,ISIC_0031845,HAM_0007203,nv,cohort:cohort,ISIC_0030762,HAM_0006944,nv,cohort:cohort,True,
+77,0.9507,ISIC_0033556,HAM_0004199,nv,cohort:cohort,ISIC_0032634,HAM_0004184,nv,cohort:cohort,True,
+78,0.9506,ISIC_0025281,HAM_0007416,nv,cohort:cohort,ISIC_0026931,HAM_0003901,nv,cohort:cohort,True,
+79,0.9505,ISIC_0027422,HAM_0002539,nv,cohort:cohort,ISIC_0027927,HAM_0006614,nv,cohort:cohort,True,
+80,0.9504,ISIC_0028902,HAM_0005426,nv,cohort:cohort,ISIC_0025839,HAM_0003385,nv,cohort:cohort,True,
+81,0.9502,ISIC_0030357,HAM_0004026,nv,s2026:train; s3001:val; s3002:train; s3003:train; s3004:train; s3005:val,ISIC_0032369,HAM_0003079,nv,cohort:cohort,True,cohort
+82,0.9502,ISIC_0033460,HAM_0005847,bkl,cohort:cohort,ISIC_0033526,HAM_0003439,mel,not used,False,
+83,0.9501,ISIC_0026858,HAM_0007093,nv,cohort:cohort,ISIC_0029421,HAM_0003203,nv,cohort:cohort,True,
+84,0.9501,ISIC_0032661,HAM_0003606,nv,cohort:cohort,ISIC_0033888,HAM_0006925,nv,cohort:cohort,True,
+85,0.95,ISIC_0028979,HAM_0004608,nv,cohort:cohort,ISIC_0029116,HAM_0007062,nv,s2026:train; s3001:train; s3002:val; s3003:test; s3004:train; s3005:train,True,cohort
+86,0.95,ISIC_0029981,HAM_0005357,nv,cohort:cohort,ISIC_0027532,HAM_0005602,nv,cohort:cohort,True,
+87,0.9498,ISIC_0024456,HAM_0003612,nv,cohort:cohort,ISIC_0027243,HAM_0007288,nv,cohort:cohort,True,
+88,0.9498,ISIC_0029556,HAM_0001831,nv,cohort:cohort,ISIC_0027880,HAM_0005687,nv,cohort:cohort,True,
+89,0.9497,ISIC_0024736,HAM_0003762,nv,cohort:cohort,ISIC_0025496,HAM_0002996,nv,cohort:cohort,True,
+90,0.9496,ISIC_0028164,HAM_0006443,nv,cohort:cohort,ISIC_0026881,HAM_0006021,nv,cohort:cohort,True,
+91,0.9496,ISIC_0028838,HAM_0004541,nv,cohort:cohort,ISIC_0025625,HAM_0004497,nv,s2026:val; s3001:val; s3002:val; s3003:train; s3004:train; s3005:train,True,cohort
+92,0.9495,ISIC_0024456,HAM_0003612,nv,cohort:cohort,ISIC_0026931,HAM_0003901,nv,cohort:cohort,True,
+93,0.9494,ISIC_0030050,HAM_0001662,nv,cohort:cohort,ISIC_0025481,HAM_0001909,nv,s2026:train; s3001:train; s3002:train; s3003:test; s3004:train; s3005:train,True,cohort
+94,0.9493,ISIC_0027453,HAM_0000780,nv,cohort:cohort,ISIC_0029709,HAM_0003763,nv,cohort:cohort,True,
+95,0.9493,ISIC_0032267,HAM_0004605,nv,cohort:cohort,ISIC_0029657,HAM_0006694,nv,cohort:cohort,True,
+96,0.9492,ISIC_0025933,HAM_0006095,nv,cohort:cohort,ISIC_0025294,HAM_0006015,nv,cohort:cohort,True,
+97,0.9491,ISIC_0032583,HAM_0000006,mel,s2026:train; s3001:train; s3002:test; s3003:train; s3004:train; s3005:train,ISIC_0033589,HAM_0006925,nv,cohort:cohort,False,cohort
+98,0.9491,ISIC_0026102,HAM_0006841,nv,cohort:cohort,ISIC_0031497,HAM_0004774,nv,cohort:cohort,True,
+99,0.9491,ISIC_0034132,HAM_0003466,mel,s2026:train; s3001:train; s3002:val; s3003:val; s3004:train; s3005:test,ISIC_0032546,HAM_0000547,nv,cohort:cohort,False,cohort
+100,0.949,ISIC_0031210,HAM_0004390,nv,cohort:cohort,ISIC_0031548,HAM_0003575,nv,cohort:cohort,True,
+101,0.9489,ISIC_0029421,HAM_0003203,nv,cohort:cohort,ISIC_0025139,HAM_0007584,nv,cohort:cohort,True,
+102,0.9489,ISIC_0025702,HAM_0006347,nv,s2026:test; s3001:val; s3002:train; s3003:train; s3004:train; s3005:train,ISIC_0028413,HAM_0005360,nv,s2026:train; s3001:train; s3002:train; s3003:test; s3004:train; s3005:train,True,"s2026,s3003"
+103,0.9489,ISIC_0026252,HAM_0003651,nv,cohort:cohort,ISIC_0032416,HAM_0003347,nv,cohort:cohort,True,
+104,0.9488,ISIC_0030040,HAM_0003543,nv,cohort:cohort,ISIC_0026408,HAM_0000271,nv,cohort:cohort,True,
+105,0.9488,ISIC_0032332,HAM_0004449,nv,cohort:cohort,ISIC_0028574,HAM_0004686,nv,cohort:cohort,True,
+106,0.9487,ISIC_0028277,HAM_0005168,nv,cohort:cohort,ISIC_0032465,HAM_0004557,nv,s2026:train; s3001:test; s3002:train; s3003:train; s3004:train; s3005:train,True,cohort
+107,0.9486,ISIC_0027265,HAM_0005347,nv,cohort:cohort,ISIC_0028338,HAM_0004742,nv,cohort:cohort,True,
+108,0.9486,ISIC_0033545,HAM_0007558,mel,not used,ISIC_0032504,HAM_0001791,mel,s2026:train; s3001:val; s3002:train; s3003:train; s3004:train; s3005:train,True,
+109,0.9486,ISIC_0024821,HAM_0001172,nv,cohort:cohort,ISIC_0025271,HAM_0003430,nv,s2026:train; s3001:train; s3002:val; s3003:train; s3004:train; s3005:train,True,cohort
+110,0.9486,ISIC_0024346,HAM_0003411,nv,cohort:cohort,ISIC_0028277,HAM_0005168,nv,cohort:cohort,True,
+111,0.9485,ISIC_0031492,HAM_0003638,nv,cohort:cohort,ISIC_0029327,HAM_0003163,nv,cohort:cohort,True,
+112,0.9484,ISIC_0025629,HAM_0002977,nv,cohort:cohort,ISIC_0028169,HAM_0002500,nv,cohort:cohort,True,
+113,0.9484,ISIC_0026635,HAM_0004057,nv,cohort:cohort,ISIC_0029327,HAM_0003163,nv,cohort:cohort,True,
+114,0.9484,ISIC_0027743,HAM_0004591,nv,cohort:cohort,ISIC_0028268,HAM_0004875,nv,cohort:cohort,True,
+115,0.9484,ISIC_0025580,HAM_0002938,nv,cohort:cohort,ISIC_0028268,HAM_0004875,nv,cohort:cohort,True,
+116,0.9483,ISIC_0028436,HAM_0005127,nv,cohort:cohort,ISIC_0025653,HAM_0005347,nv,cohort:cohort,True,
+117,0.9482,ISIC_0028443,HAM_0004601,nv,s2026:train; s3001:train; s3002:train; s3003:test; s3004:train; s3005:val,ISIC_0027317,HAM_0001857,nv,cohort:cohort,True,cohort
+118,0.9482,ISIC_0028436,HAM_0005127,nv,cohort:cohort,ISIC_0031769,HAM_0006861,nv,cohort:cohort,True,
+119,0.9482,ISIC_0029981,HAM_0005357,nv,cohort:cohort,ISIC_0026198,HAM_0004729,nv,s2026:test; s3001:test; s3002:train; s3003:train; s3004:train; s3005:train,True,
+120,0.9481,ISIC_0028054,HAM_0004890,nv,cohort:cohort,ISIC_0025551,HAM_0003022,nv,cohort:cohort,True,
+121,0.9481,ISIC_0028302,HAM_0007302,nv,s2026:test; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,ISIC_0030911,HAM_0005111,nv,cohort:cohort,True,
+122,0.9481,ISIC_0028317,HAM_0005752,mel,s2026:train; s3001:train; s3002:val; s3003:train; s3004:train; s3005:test,ISIC_0025778,HAM_0000609,nv,cohort:cohort,False,cohort
+123,0.9481,ISIC_0031369,HAM_0000531,mel,not used,ISIC_0028317,HAM_0005752,mel,s2026:train; s3001:train; s3002:val; s3003:train; s3004:train; s3005:test,True,
+124,0.9481,ISIC_0025480,HAM_0006990,nv,cohort:cohort,ISIC_0025921,HAM_0007099,nv,cohort:cohort,True,
+125,0.9481,ISIC_0030517,HAM_0005093,nv,cohort:cohort,ISIC_0030788,HAM_0004785,nv,cohort:cohort,True,
+126,0.9479,ISIC_0030409,HAM_0001181,nv,cohort:cohort,ISIC_0027363,HAM_0001030,nv,cohort:cohort,True,
+127,0.9478,ISIC_0031845,HAM_0007203,nv,cohort:cohort,ISIC_0027765,HAM_0005307,nv,cohort:cohort,True,
+128,0.9478,ISIC_0028616,HAM_0002846,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:val; s3005:val,ISIC_0026410,HAM_0002104,nv,cohort:cohort,True,cohort
+129,0.9477,ISIC_0026170,HAM_0001010,nv,cohort:cohort,ISIC_0026808,HAM_0004661,nv,cohort:cohort,True,
+130,0.9477,ISIC_0031210,HAM_0004390,nv,cohort:cohort,ISIC_0025595,HAM_0000192,nv,s2026:train; s3001:train; s3002:train; s3003:val; s3004:test; s3005:test,True,cohort
+131,0.9477,ISIC_0025258,HAM_0006519,nv,cohort:cohort,ISIC_0025294,HAM_0006015,nv,cohort:cohort,True,
+132,0.9476,ISIC_0024465,HAM_0006377,nv,cohort:cohort,ISIC_0025889,HAM_0002801,nv,cohort:cohort,True,
+133,0.9476,ISIC_0031800,HAM_0003551,nv,cohort:cohort,ISIC_0029484,HAM_0005296,nv,cohort:cohort,True,
+134,0.9475,ISIC_0025159,HAM_0000283,nv,cohort:cohort,ISIC_0025625,HAM_0004497,nv,s2026:val; s3001:val; s3002:val; s3003:train; s3004:train; s3005:train,True,cohort
+135,0.9474,ISIC_0025186,HAM_0002586,nv,cohort:cohort,ISIC_0027749,HAM_0000466,nv,cohort:cohort,True,
+136,0.9474,ISIC_0025159,HAM_0000283,nv,cohort:cohort,ISIC_0032282,HAM_0007064,nv,cohort:cohort,True,
+137,0.9474,ISIC_0029171,HAM_0004179,nv,cohort:cohort,ISIC_0024536,HAM_0003273,nv,cohort:cohort,True,
+138,0.9474,ISIC_0025481,HAM_0001909,nv,s2026:train; s3001:train; s3002:train; s3003:test; s3004:train; s3005:train,ISIC_0026308,HAM_0005714,nv,cohort:cohort,True,cohort
+139,0.9474,ISIC_0027927,HAM_0006614,nv,cohort:cohort,ISIC_0024655,HAM_0000013,nv,cohort:cohort,True,
+140,0.9474,ISIC_0028927,HAM_0000680,nv,s2026:train; s3001:train; s3002:val; s3003:val; s3004:train; s3005:train,ISIC_0027247,HAM_0001447,nv,cohort:cohort,True,cohort
+141,0.9472,ISIC_0033120,HAM_0007558,mel,s2026:train; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,ISIC_0032702,HAM_0004814,nv,not used,False,
+142,0.9471,ISIC_0030846,HAM_0006242,nv,cohort:cohort,ISIC_0031101,HAM_0000621,nv,cohort:cohort,True,
+143,0.9471,ISIC_0028624,HAM_0003750,nv,cohort:cohort,ISIC_0024655,HAM_0000013,nv,cohort:cohort,True,
+144,0.9471,ISIC_0028268,HAM_0004875,nv,cohort:cohort,ISIC_0031548,HAM_0003575,nv,cohort:cohort,True,
+145,0.947,ISIC_0027378,HAM_0002989,nv,cohort:cohort,ISIC_0025796,HAM_0002830,nv,cohort:cohort,True,
+146,0.9469,ISIC_0026912,HAM_0007337,bkl,cohort:cohort,ISIC_0024490,HAM_0000985,bkl,cohort:cohort,True,
+147,0.9469,ISIC_0030337,HAM_0002640,nv,cohort:cohort,ISIC_0026088,HAM_0002958,nv,cohort:cohort,True,
+148,0.9468,ISIC_0026395,HAM_0005382,bcc,not used,ISIC_0024762,HAM_0005154,nv,s2026:val; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,False,
+149,0.9468,ISIC_0033038,HAM_0003466,mel,not used,ISIC_0032913,HAM_0004881,mel,s2026:val; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,True,
+150,0.9467,ISIC_0030713,HAM_0006866,nv,cohort:cohort,ISIC_0025595,HAM_0000192,nv,s2026:train; s3001:train; s3002:train; s3003:val; s3004:test; s3005:test,True,cohort
+151,0.9467,ISIC_0028917,HAM_0003349,nv,cohort:cohort,ISIC_0025258,HAM_0006519,nv,cohort:cohort,True,
+152,0.9467,ISIC_0027272,HAM_0004668,nv,s2026:train; s3001:test; s3002:train; s3003:test; s3004:train; s3005:train,ISIC_0025582,HAM_0007423,nv,s2026:train; s3001:test; s3002:train; s3003:train; s3004:train; s3005:test,True,"s3003,s3005"
+153,0.9466,ISIC_0031330,HAM_0002495,nv,cohort:cohort,ISIC_0030814,HAM_0005675,nv,cohort:cohort,True,
+154,0.9466,ISIC_0029484,HAM_0005296,nv,cohort:cohort,ISIC_0030788,HAM_0004785,nv,cohort:cohort,True,
+155,0.9465,ISIC_0028164,HAM_0006443,nv,cohort:cohort,ISIC_0031227,HAM_0002252,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,True,cohort
+156,0.9465,ISIC_0028893,HAM_0007556,nv,cohort:cohort,ISIC_0032147,HAM_0006867,nv,cohort:cohort,True,
+157,0.9465,ISIC_0028316,HAM_0001296,bcc,cohort:cohort,ISIC_0029638,HAM_0000005,akiec,not used,False,
+158,0.9464,ISIC_0032609,HAM_0003512,nv,cohort:cohort,ISIC_0033501,HAM_0006799,nv,cohort:cohort,True,
+159,0.9464,ISIC_0024325,HAM_0002044,nv,cohort:cohort,ISIC_0025139,HAM_0007584,nv,cohort:cohort,True,
+160,0.9464,ISIC_0025294,HAM_0006015,nv,cohort:cohort,ISIC_0025643,HAM_0000156,nv,cohort:cohort,True,
+161,0.9463,ISIC_0031853,HAM_0003789,bkl,s2026:train; s3001:test; s3002:train; s3003:val; s3004:train; s3005:train,ISIC_0032414,HAM_0001926,bcc,s2026:train; s3001:train; s3002:test; s3003:test; s3004:test; s3005:train,False,"s3001,s3002,s3003,s3004"
+162,0.9463,ISIC_0027723,HAM_0003264,nv,s2026:test; s3001:train; s3002:test; s3003:train; s3004:train; s3005:test,ISIC_0024485,HAM_0006172,nv,cohort:cohort,True,
+163,0.9463,ISIC_0025159,HAM_0000283,nv,cohort:cohort,ISIC_0027054,HAM_0005414,nv,cohort:cohort,True,
+164,0.9463,ISIC_0027325,HAM_0005951,nv,cohort:cohort,ISIC_0032332,HAM_0004449,nv,cohort:cohort,True,
+165,0.9463,ISIC_0030502,HAM_0002991,nv,cohort:cohort,ISIC_0025796,HAM_0002830,nv,cohort:cohort,True,
+166,0.9463,ISIC_0030921,HAM_0000350,nv,cohort:cohort,ISIC_0031227,HAM_0002252,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,True,cohort
+167,0.9463,ISIC_0032267,HAM_0004605,nv,cohort:cohort,ISIC_0032069,HAM_0006535,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:test; s3005:test,True,cohort
+168,0.9462,ISIC_0030637,HAM_0004173,nv,s2026:test; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,ISIC_0024521,HAM_0007330,nv,s2026:train; s3001:val; s3002:train; s3003:val; s3004:train; s3005:val,True,s2026
+169,0.9462,ISIC_0024456,HAM_0003612,nv,cohort:cohort,ISIC_0029236,HAM_0000503,nv,cohort:cohort,True,
+170,0.9462,ISIC_0030502,HAM_0002991,nv,cohort:cohort,ISIC_0032483,HAM_0004104,nv,cohort:cohort,True,
+171,0.9462,ISIC_0027656,HAM_0002578,nv,cohort:cohort,ISIC_0028904,HAM_0003269,nv,cohort:cohort,True,
+172,0.9462,ISIC_0025685,HAM_0003029,nv,cohort:cohort,ISIC_0029648,HAM_0005099,nv,cohort:cohort,True,
+173,0.9461,ISIC_0027598,HAM_0002848,df,cohort:cohort,ISIC_0025609,HAM_0005906,nv,cohort:cohort,False,
+174,0.9461,ISIC_0027927,HAM_0006614,nv,cohort:cohort,ISIC_0025294,HAM_0006015,nv,cohort:cohort,True,
+175,0.9461,ISIC_0030928,HAM_0002047,nv,s2026:train; s3001:train; s3002:val; s3003:test; s3004:train; s3005:test,ISIC_0030715,HAM_0003339,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:test; s3005:val,True,"s3003,s3004,s3005"
+176,0.9461,ISIC_0026648,HAM_0003994,nv,cohort:cohort,ISIC_0030530,HAM_0001244,nv,cohort:cohort,True,
+177,0.9461,ISIC_0032650,HAM_0002908,nv,cohort:cohort,ISIC_0033481,HAM_0004198,nv,cohort:cohort,True,
+178,0.946,ISIC_0027155,HAM_0000282,mel,s2026:train; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,ISIC_0029094,HAM_0006527,mel,cohort:cohort,True,cohort
+179,0.946,ISIC_0025258,HAM_0006519,nv,cohort:cohort,ISIC_0025921,HAM_0007099,nv,cohort:cohort,True,
+180,0.9459,ISIC_0028695,HAM_0006010,nv,cohort:cohort,ISIC_0029497,HAM_0001300,nv,cohort:cohort,True,
+181,0.9459,ISIC_0033298,HAM_0005433,nv,cohort:cohort,ISIC_0033517,HAM_0001683,nv,cohort:cohort,True,
+182,0.9459,ISIC_0029397,HAM_0006538,mel,cohort:cohort,ISIC_0024535,HAM_0001287,nv,s2026:test; s3001:val; s3002:train; s3003:train; s3004:train; s3005:train,False,
+183,0.9458,ISIC_0028511,HAM_0004889,bkl,cohort:cohort,ISIC_0031832,HAM_0006972,nv,cohort:cohort,False,
+184,0.9458,ISIC_0033437,HAM_0000802,bkl,cohort:cohort,ISIC_0034048,HAM_0000042,mel,s2026:val; s3001:train; s3002:val; s3003:train; s3004:train; s3005:test,False,cohort
+185,0.9458,ISIC_0030228,HAM_0002777,nv,cohort:cohort,ISIC_0030632,HAM_0002811,nv,s2026:train; s3001:train; s3002:val; s3003:train; s3004:train; s3005:train,True,cohort
+186,0.9458,ISIC_0029663,HAM_0002039,nv,cohort:cohort,ISIC_0031884,HAM_0004753,nv,cohort:cohort,True,
+187,0.9457,ISIC_0033185,HAM_0004113,bkl,cohort:cohort,ISIC_0033888,HAM_0006925,nv,cohort:cohort,False,
+188,0.9457,ISIC_0028935,HAM_0001336,nv,s2026:val; s3001:train; s3002:test; s3003:test; s3004:test; s3005:train,ISIC_0032239,HAM_0004858,nv,cohort:cohort,True,cohort
+189,0.9457,ISIC_0030896,HAM_0003406,nv,cohort:cohort,ISIC_0024606,HAM_0006576,nv,cohort:cohort,True,
+190,0.9456,ISIC_0024821,HAM_0001172,nv,cohort:cohort,ISIC_0025653,HAM_0005347,nv,cohort:cohort,True,
+191,0.9456,ISIC_0024794,HAM_0006811,nv,cohort:cohort,ISIC_0029171,HAM_0004179,nv,cohort:cohort,True,
+192,0.9456,ISIC_0026602,HAM_0003571,nv,cohort:cohort,ISIC_0028178,HAM_0006083,nv,cohort:cohort,True,
+193,0.9455,ISIC_0031690,HAM_0006809,nv,cohort:cohort,ISIC_0030832,HAM_0003756,nv,cohort:cohort,True,
+194,0.9455,ISIC_0028054,HAM_0004890,nv,cohort:cohort,ISIC_0024348,HAM_0002426,nv,cohort:cohort,True,
+195,0.9455,ISIC_0030967,HAM_0005881,nv,cohort:cohort,ISIC_0024933,HAM_0000266,nv,cohort:cohort,True,
+196,0.9454,ISIC_0033409,HAM_0005539,nv,cohort:cohort,ISIC_0034102,HAM_0003713,nv,cohort:cohort,True,
+197,0.9454,ISIC_0029381,HAM_0002681,nv,cohort:cohort,ISIC_0024713,HAM_0005955,nv,cohort:cohort,True,
+198,0.9454,ISIC_0028801,HAM_0003855,nv,cohort:cohort,ISIC_0025124,HAM_0004484,nv,cohort:cohort,True,
+199,0.9453,ISIC_0026627,HAM_0003519,nv,cohort:cohort,ISIC_0029069,HAM_0003792,nv,cohort:cohort,True,
+200,0.9453,ISIC_0030281,HAM_0003315,mel,not used,ISIC_0028436,HAM_0005127,nv,cohort:cohort,False,
+201,0.9453,ISIC_0024346,HAM_0003411,nv,cohort:cohort,ISIC_0031324,HAM_0003628,nv,s2026:val; s3001:val; s3002:train; s3003:train; s3004:train; s3005:train,True,cohort
+202,0.9453,ISIC_0025435,HAM_0002619,nv,cohort:cohort,ISIC_0027377,HAM_0005105,nv,cohort:cohort,True,
+203,0.9453,ISIC_0028177,HAM_0000031,nv,cohort:cohort,ISIC_0029327,HAM_0003163,nv,cohort:cohort,True,
+204,0.9452,ISIC_0025087,HAM_0004359,nv,cohort:cohort,ISIC_0029458,HAM_0002762,nv,cohort:cohort,True,
+205,0.9452,ISIC_0028778,HAM_0006534,nv,cohort:cohort,ISIC_0028663,HAM_0000635,nv,cohort:cohort,True,
+206,0.9452,ISIC_0030679,HAM_0005784,nv,cohort:cohort,ISIC_0024713,HAM_0005955,nv,cohort:cohort,True,
+207,0.9452,ISIC_0028850,HAM_0003837,nv,cohort:cohort,ISIC_0028574,HAM_0004686,nv,cohort:cohort,True,
+208,0.9452,ISIC_0030729,HAM_0003048,nv,cohort:cohort,ISIC_0026241,HAM_0003412,nv,cohort:cohort,True,
+209,0.9452,ISIC_0028927,HAM_0000680,nv,s2026:train; s3001:train; s3002:val; s3003:val; s3004:train; s3005:train,ISIC_0030857,HAM_0003479,nv,cohort:cohort,True,cohort
+210,0.9452,ISIC_0024978,HAM_0003629,nv,cohort:cohort,ISIC_0032177,HAM_0002520,nv,cohort:cohort,True,
+211,0.9451,ISIC_0029458,HAM_0002762,nv,cohort:cohort,ISIC_0029090,HAM_0007389,nv,cohort:cohort,True,
+212,0.9451,ISIC_0033577,HAM_0004346,nv,cohort:cohort,ISIC_0033896,HAM_0004349,nv,s2026:train; s3001:test; s3002:test; s3003:train; s3004:train; s3005:train,True,cohort
+213,0.9451,ISIC_0026128,HAM_0006033,nv,cohort:cohort,ISIC_0031086,HAM_0004159,nv,cohort:cohort,True,
+214,0.945,ISIC_0028745,HAM_0003214,nv,s2026:test; s3001:train; s3002:train; s3003:test; s3004:train; s3005:val,ISIC_0028435,HAM_0001324,nv,cohort:cohort,True,
+215,0.945,ISIC_0028054,HAM_0004890,nv,cohort:cohort,ISIC_0030409,HAM_0001181,nv,cohort:cohort,True,
+216,0.945,ISIC_0024762,HAM_0005154,nv,s2026:val; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,ISIC_0028008,HAM_0005018,nv,cohort:cohort,True,cohort
+217,0.945,ISIC_0027854,HAM_0002105,nv,cohort:cohort,ISIC_0027363,HAM_0001030,nv,cohort:cohort,True,
+218,0.945,ISIC_0025702,HAM_0006347,nv,s2026:test; s3001:val; s3002:train; s3003:train; s3004:train; s3005:train,ISIC_0028008,HAM_0005018,nv,cohort:cohort,True,
+219,0.945,ISIC_0032066,HAM_0002225,nv,cohort:cohort,ISIC_0024536,HAM_0003273,nv,cohort:cohort,True,
+220,0.9449,ISIC_0027854,HAM_0002105,nv,cohort:cohort,ISIC_0030409,HAM_0001181,nv,cohort:cohort,True,
+221,0.9449,ISIC_0027366,HAM_0005839,nv,cohort:cohort,ISIC_0029069,HAM_0003792,nv,cohort:cohort,True,
+222,0.9449,ISIC_0027532,HAM_0005602,nv,cohort:cohort,ISIC_0027979,HAM_0003272,nv,cohort:cohort,True,
+223,0.9449,ISIC_0027862,HAM_0007271,nv,cohort:cohort,ISIC_0027123,HAM_0003780,nv,cohort:cohort,True,
+224,0.9449,ISIC_0025874,HAM_0003689,bkl,cohort:cohort,ISIC_0031913,HAM_0000104,nv,cohort:cohort,False,
+225,0.9448,ISIC_0024976,HAM_0006789,nv,cohort:cohort,ISIC_0027532,HAM_0005602,nv,cohort:cohort,True,
+226,0.9448,ISIC_0026602,HAM_0003571,nv,cohort:cohort,ISIC_0028669,HAM_0004989,nv,cohort:cohort,True,
+227,0.9448,ISIC_0029979,HAM_0004233,nv,cohort:cohort,ISIC_0028405,HAM_0002816,nv,cohort:cohort,True,
+228,0.9448,ISIC_0031548,HAM_0003575,nv,cohort:cohort,ISIC_0026931,HAM_0003901,nv,cohort:cohort,True,
+229,0.9448,ISIC_0026252,HAM_0003651,nv,cohort:cohort,ISIC_0028068,HAM_0002331,nv,s2026:train; s3001:train; s3002:test; s3003:val; s3004:val; s3005:train,True,cohort
+230,0.9448,ISIC_0025404,HAM_0000251,nv,cohort:cohort,ISIC_0032320,HAM_0005990,nv,cohort:cohort,True,
+231,0.9447,ISIC_0030050,HAM_0001662,nv,cohort:cohort,ISIC_0026128,HAM_0006033,nv,cohort:cohort,True,
+232,0.9447,ISIC_0030682,HAM_0002924,nv,s2026:val; s3001:train; s3002:train; s3003:train; s3004:val; s3005:val,ISIC_0028838,HAM_0004541,nv,cohort:cohort,True,cohort
+233,0.9447,ISIC_0027553,HAM_0002974,nv,cohort:cohort,ISIC_0031128,HAM_0004287,nv,cohort:cohort,True,
+234,0.9446,ISIC_0024811,HAM_0007452,nv,cohort:cohort,ISIC_0028783,HAM_0007326,nv,cohort:cohort,True,
+235,0.9446,ISIC_0030381,HAM_0005702,nv,cohort:cohort,ISIC_0030530,HAM_0001244,nv,cohort:cohort,True,
+236,0.9446,ISIC_0031086,HAM_0004159,nv,cohort:cohort,ISIC_0025595,HAM_0000192,nv,s2026:train; s3001:train; s3002:train; s3003:val; s3004:test; s3005:test,True,cohort
+237,0.9445,ISIC_0027426,HAM_0004381,nv,cohort:cohort,ISIC_0026858,HAM_0007093,nv,cohort:cohort,True,
+238,0.9445,ISIC_0031816,HAM_0005321,nv,s2026:train; s3001:test; s3002:train; s3003:test; s3004:train; s3005:test,ISIC_0025886,HAM_0006741,nv,cohort:cohort,True,cohort
+239,0.9445,ISIC_0031151,HAM_0003438,nv,s2026:val; s3001:train; s3002:train; s3003:train; s3004:train; s3005:val,ISIC_0027292,HAM_0006460,nv,cohort:cohort,True,cohort
+240,0.9445,ISIC_0025702,HAM_0006347,nv,s2026:test; s3001:val; s3002:train; s3003:train; s3004:train; s3005:train,ISIC_0031769,HAM_0006861,nv,cohort:cohort,True,
+241,0.9445,ISIC_0029605,HAM_0005502,nv,cohort:cohort,ISIC_0028783,HAM_0007326,nv,cohort:cohort,True,
+242,0.9445,ISIC_0032009,HAM_0001107,nv,cohort:cohort,ISIC_0031769,HAM_0006861,nv,cohort:cohort,True,
+243,0.9444,ISIC_0030739,HAM_0002678,nv,cohort:cohort,ISIC_0032077,HAM_0004334,nv,cohort:cohort,True,
+244,0.9444,ISIC_0027834,HAM_0002138,nv,cohort:cohort,ISIC_0028786,HAM_0005272,nv,cohort:cohort,True,
+245,0.9443,ISIC_0027940,HAM_0003436,nv,cohort:cohort,ISIC_0025625,HAM_0004497,nv,s2026:val; s3001:val; s3002:val; s3003:train; s3004:train; s3005:train,True,cohort
+246,0.9443,ISIC_0027830,HAM_0001516,nv,cohort:cohort,ISIC_0025308,HAM_0001821,nv,cohort:cohort,True,
+247,0.9443,ISIC_0033003,HAM_0002750,nv,not used,ISIC_0033896,HAM_0004349,nv,s2026:train; s3001:test; s3002:test; s3003:train; s3004:train; s3005:train,True,
+248,0.9442,ISIC_0032317,HAM_0001629,nv,cohort:cohort,ISIC_0027307,HAM_0002262,nv,cohort:cohort,True,
+249,0.9442,ISIC_0024713,HAM_0005955,nv,cohort:cohort,ISIC_0025706,HAM_0003138,nv,cohort:cohort,True,
+250,0.9442,ISIC_0024438,HAM_0002251,nv,cohort:cohort,ISIC_0030889,HAM_0002356,nv,cohort:cohort,True,
+251,0.9442,ISIC_0027389,HAM_0005332,nv,cohort:cohort,ISIC_0028013,HAM_0007363,nv,cohort:cohort,True,
+252,0.9441,ISIC_0025159,HAM_0000283,nv,cohort:cohort,ISIC_0030985,HAM_0004679,nv,cohort:cohort,True,
+253,0.9441,ISIC_0026731,HAM_0001213,nv,cohort:cohort,ISIC_0029116,HAM_0007062,nv,s2026:train; s3001:train; s3002:val; s3003:test; s3004:train; s3005:train,True,cohort
+254,0.9441,ISIC_0028552,HAM_0000240,nv,cohort:cohort,ISIC_0029964,HAM_0006165,nv,s2026:train; s3001:train; s3002:val; s3003:test; s3004:train; s3005:test,True,cohort
+255,0.9441,ISIC_0025084,HAM_0001522,nv,cohort:cohort,ISIC_0024557,HAM_0001247,nv,cohort:cohort,True,
+256,0.944,ISIC_0031210,HAM_0004390,nv,cohort:cohort,ISIC_0024325,HAM_0002044,nv,cohort:cohort,True,
+257,0.944,ISIC_0026733,HAM_0006385,nv,cohort:cohort,ISIC_0024427,HAM_0003988,nv,cohort:cohort,True,
+258,0.9439,ISIC_0030338,HAM_0001775,nv,cohort:cohort,ISIC_0027363,HAM_0001030,nv,cohort:cohort,True,
+259,0.9439,ISIC_0027854,HAM_0002105,nv,cohort:cohort,ISIC_0028054,HAM_0004890,nv,cohort:cohort,True,
+260,0.9439,ISIC_0024693,HAM_0000559,nv,s2026:train; s3001:train; s3002:val; s3003:train; s3004:train; s3005:train,ISIC_0024717,HAM_0004887,nv,cohort:cohort,True,cohort
+261,0.9439,ISIC_0026858,HAM_0007093,nv,cohort:cohort,ISIC_0025868,HAM_0003251,nv,cohort:cohort,True,
+262,0.9438,ISIC_0032572,HAM_0003356,nv,cohort:cohort,ISIC_0028338,HAM_0004742,nv,cohort:cohort,True,
+263,0.9438,ISIC_0033793,HAM_0003143,nv,cohort:cohort,ISIC_0033852,HAM_0004708,nv,s2026:train; s3001:train; s3002:test; s3003:train; s3004:train; s3005:train,True,cohort
+264,0.9437,ISIC_0028996,HAM_0004151,nv,cohort:cohort,ISIC_0030997,HAM_0006825,nv,cohort:cohort,True,
+265,0.9437,ISIC_0024900,HAM_0004593,mel,cohort:cohort,ISIC_0028316,HAM_0001296,bcc,cohort:cohort,False,
+266,0.9436,ISIC_0027830,HAM_0001516,nv,cohort:cohort,ISIC_0027547,HAM_0000558,nv,cohort:cohort,True,
+267,0.9436,ISIC_0025971,HAM_0000504,bcc,cohort:cohort,ISIC_0029544,HAM_0007013,nv,s2026:train; s3001:train; s3002:train; s3003:val; s3004:train; s3005:train,False,cohort
+268,0.9436,ISIC_0028769,HAM_0004242,nv,cohort:cohort,ISIC_0029116,HAM_0007062,nv,s2026:train; s3001:train; s3002:val; s3003:test; s3004:train; s3005:train,True,cohort
+269,0.9436,ISIC_0024821,HAM_0001172,nv,cohort:cohort,ISIC_0028008,HAM_0005018,nv,cohort:cohort,True,
+270,0.9436,ISIC_0025349,HAM_0006139,nv,cohort:cohort,ISIC_0029511,HAM_0006627,nv,cohort:cohort,True,
+271,0.9436,ISIC_0025404,HAM_0000251,nv,cohort:cohort,ISIC_0030040,HAM_0003543,nv,cohort:cohort,True,
+272,0.9436,ISIC_0029381,HAM_0002681,nv,cohort:cohort,ISIC_0026854,HAM_0004842,nv,cohort:cohort,True,
+273,0.9436,ISIC_0025024,HAM_0002562,nv,cohort:cohort,ISIC_0029484,HAM_0005296,nv,cohort:cohort,True,
+274,0.9436,ISIC_0029708,HAM_0000899,nv,cohort:cohort,ISIC_0025496,HAM_0002996,nv,cohort:cohort,True,
+275,0.9435,ISIC_0030781,HAM_0000592,nv,cohort:cohort,ISIC_0024583,HAM_0004652,nv,cohort:cohort,True,
+276,0.9435,ISIC_0025868,HAM_0003251,nv,cohort:cohort,ISIC_0029421,HAM_0003203,nv,cohort:cohort,True,
+277,0.9434,ISIC_0029979,HAM_0004233,nv,cohort:cohort,ISIC_0030713,HAM_0006866,nv,cohort:cohort,True,
+278,0.9434,ISIC_0030409,HAM_0001181,nv,cohort:cohort,ISIC_0029497,HAM_0001300,nv,cohort:cohort,True,
+279,0.9434,ISIC_0027703,HAM_0001049,nv,cohort:cohort,ISIC_0025725,HAM_0000056,nv,cohort:cohort,True,
+280,0.9434,ISIC_0029691,HAM_0002880,nv,cohort:cohort,ISIC_0026873,HAM_0001866,nv,cohort:cohort,True,
+281,0.9434,ISIC_0025566,HAM_0006117,nv,cohort:cohort,ISIC_0025796,HAM_0002830,nv,cohort:cohort,True,
+282,0.9434,ISIC_0029335,HAM_0005119,nv,cohort:cohort,ISIC_0031523,HAM_0000686,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:train; s3005:val,True,cohort
+283,0.9433,ISIC_0029146,HAM_0002079,mel,s2026:train; s3001:test; s3002:train; s3003:train; s3004:val; s3005:train,ISIC_0026984,HAM_0001903,akiec,s2026:train; s3001:train; s3002:test; s3003:train; s3004:test; s3005:train,False,"s3001,s3002,s3004"
+284,0.9433,ISIC_0024816,HAM_0007434,nv,cohort:cohort,ISIC_0030441,HAM_0000479,nv,cohort:cohort,True,
+285,0.9432,ISIC_0033437,HAM_0000802,bkl,cohort:cohort,ISIC_0032797,HAM_0001863,mel,not used,False,
+286,0.9432,ISIC_0033363,HAM_0002363,nv,cohort:cohort,ISIC_0025271,HAM_0003430,nv,s2026:train; s3001:train; s3002:val; s3003:train; s3004:train; s3005:train,True,cohort
+287,0.9431,ISIC_0024483,HAM_0004266,nv,s2026:train; s3001:train; s3002:val; s3003:test; s3004:train; s3005:train,ISIC_0028078,HAM_0005637,nv,cohort:cohort,True,cohort
+288,0.9431,ISIC_0026143,HAM_0002776,nv,cohort:cohort,ISIC_0032177,HAM_0002520,nv,cohort:cohort,True,
+289,0.943,ISIC_0028850,HAM_0003837,nv,cohort:cohort,ISIC_0027028,HAM_0005912,nv,cohort:cohort,True,
+290,0.943,ISIC_0031548,HAM_0003575,nv,cohort:cohort,ISIC_0025595,HAM_0000192,nv,s2026:train; s3001:train; s3002:train; s3003:val; s3004:test; s3005:test,True,cohort
+291,0.943,ISIC_0031116,HAM_0004217,nv,cohort:cohort,ISIC_0032457,HAM_0005691,nv,cohort:cohort,True,
+292,0.9429,ISIC_0029766,HAM_0004023,nv,cohort:cohort,ISIC_0025418,HAM_0006571,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:test; s3005:train,True,cohort
+293,0.9429,ISIC_0028597,HAM_0000652,nv,cohort:cohort,ISIC_0026128,HAM_0006033,nv,cohort:cohort,True,
+294,0.9429,ISIC_0024465,HAM_0006377,nv,cohort:cohort,ISIC_0025186,HAM_0002586,nv,cohort:cohort,True,
+295,0.9428,ISIC_0032913,HAM_0004881,mel,s2026:val; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,ISIC_0032797,HAM_0001863,mel,not used,True,
+296,0.9428,ISIC_0028007,HAM_0006969,nv,cohort:cohort,ISIC_0031816,HAM_0005321,nv,s2026:train; s3001:test; s3002:train; s3003:test; s3004:train; s3005:test,True,cohort
+297,0.9428,ISIC_0031532,HAM_0004247,nv,cohort:cohort,ISIC_0028070,HAM_0000989,nv,cohort:cohort,True,
+298,0.9428,ISIC_0030248,HAM_0006403,nv,cohort:cohort,ISIC_0024427,HAM_0003988,nv,cohort:cohort,True,
+299,0.9428,ISIC_0031105,HAM_0002566,nv,cohort:cohort,ISIC_0028438,HAM_0003384,nv,cohort:cohort,True,
+300,0.9428,ISIC_0027307,HAM_0002262,nv,cohort:cohort,ISIC_0027499,HAM_0001070,nv,cohort:cohort,True,
+301,0.9427,ISIC_0025580,HAM_0002938,nv,cohort:cohort,ISIC_0028169,HAM_0002500,nv,cohort:cohort,True,
+302,0.9427,ISIC_0027426,HAM_0004381,nv,cohort:cohort,ISIC_0029295,HAM_0005941,nv,cohort:cohort,True,
+303,0.9427,ISIC_0028051,HAM_0006636,mel,s2026:train; s3001:val; s3002:train; s3003:val; s3004:train; s3005:val,ISIC_0034027,HAM_0005059,nv,cohort:cohort,False,cohort
+304,0.9426,ISIC_0034165,HAM_0004113,bkl,cohort:cohort,ISIC_0033589,HAM_0006925,nv,cohort:cohort,False,
+305,0.9426,ISIC_0028726,HAM_0005900,nv,cohort:cohort,ISIC_0029804,HAM_0005851,nv,s2026:train; s3001:test; s3002:train; s3003:train; s3004:train; s3005:train,True,cohort
+306,0.9425,ISIC_0026975,HAM_0006063,nv,cohort:cohort,ISIC_0030471,HAM_0002540,nv,cohort:cohort,True,
+307,0.9425,ISIC_0027243,HAM_0007288,nv,cohort:cohort,ISIC_0026931,HAM_0003901,nv,cohort:cohort,True,
+308,0.9425,ISIC_0026803,HAM_0007355,bkl,cohort:cohort,ISIC_0031853,HAM_0003789,bkl,s2026:train; s3001:test; s3002:train; s3003:val; s3004:train; s3005:train,True,cohort
+309,0.9424,ISIC_0029710,HAM_0002068,nv,cohort:cohort,ISIC_0027377,HAM_0005105,nv,cohort:cohort,True,
+310,0.9423,ISIC_0024911,HAM_0006896,mel,s2026:train; s3001:train; s3002:val; s3003:test; s3004:train; s3005:train,ISIC_0027244,HAM_0006484,nv,cohort:cohort,False,cohort
+311,0.9423,ISIC_0025159,HAM_0000283,nv,cohort:cohort,ISIC_0025308,HAM_0001821,nv,cohort:cohort,True,
+312,0.9423,ISIC_0030050,HAM_0001662,nv,cohort:cohort,ISIC_0028597,HAM_0000652,nv,cohort:cohort,True,
+313,0.9423,ISIC_0025580,HAM_0002938,nv,cohort:cohort,ISIC_0031246,HAM_0003538,nv,cohort:cohort,True,
+314,0.9422,ISIC_0031365,HAM_0006728,nv,s2026:val; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,ISIC_0030838,HAM_0007017,nv,cohort:cohort,True,cohort
+315,0.9422,ISIC_0029355,HAM_0007069,nv,cohort:cohort,ISIC_0031105,HAM_0002566,nv,cohort:cohort,True,
+316,0.9421,ISIC_0033623,HAM_0004202,nv,cohort:cohort,ISIC_0033858,HAM_0004207,nv,cohort:cohort,True,
+317,0.9421,ISIC_0033884,HAM_0004245,bkl,cohort:cohort,ISIC_0033338,HAM_0006925,nv,cohort:cohort,False,
+318,0.942,ISIC_0026733,HAM_0006385,nv,cohort:cohort,ISIC_0027035,HAM_0003331,nv,s2026:val; s3001:train; s3002:train; s3003:test; s3004:train; s3005:train,True,cohort
+319,0.942,ISIC_0026460,HAM_0006792,nv,cohort:cohort,ISIC_0028927,HAM_0000680,nv,s2026:train; s3001:train; s3002:val; s3003:val; s3004:train; s3005:train,True,cohort
+320,0.942,ISIC_0025551,HAM_0003022,nv,cohort:cohort,ISIC_0027325,HAM_0005951,nv,cohort:cohort,True,
+321,0.9419,ISIC_0026733,HAM_0006385,nv,cohort:cohort,ISIC_0028786,HAM_0005272,nv,cohort:cohort,True,
+322,0.9419,ISIC_0028695,HAM_0006010,nv,cohort:cohort,ISIC_0026345,HAM_0007140,nv,cohort:cohort,True,
+323,0.9419,ISIC_0030050,HAM_0001662,nv,cohort:cohort,ISIC_0025595,HAM_0000192,nv,s2026:train; s3001:train; s3002:train; s3003:val; s3004:test; s3005:test,True,cohort
+324,0.9419,ISIC_0029471,HAM_0000205,nv,cohort:cohort,ISIC_0030685,HAM_0000585,nv,cohort:cohort,True,
+325,0.9419,ISIC_0027576,HAM_0003063,nv,cohort:cohort,ISIC_0027378,HAM_0002989,nv,cohort:cohort,True,
+326,0.9418,ISIC_0026648,HAM_0003994,nv,cohort:cohort,ISIC_0029738,HAM_0003637,nv,cohort:cohort,True,
+327,0.9418,ISIC_0029173,HAM_0003292,nv,cohort:cohort,ISIC_0027947,HAM_0004416,nv,cohort:cohort,True,
+328,0.9418,ISIC_0027927,HAM_0006614,nv,cohort:cohort,ISIC_0027586,HAM_0001421,nv,cohort:cohort,True,
+329,0.9418,ISIC_0025894,HAM_0000017,nv,cohort:cohort,ISIC_0028071,HAM_0000969,nv,cohort:cohort,True,
+330,0.9418,ISIC_0025481,HAM_0001909,nv,s2026:train; s3001:train; s3002:train; s3003:test; s3004:train; s3005:train,ISIC_0030713,HAM_0006866,nv,cohort:cohort,True,cohort
+331,0.9418,ISIC_0027971,HAM_0007082,nv,cohort:cohort,ISIC_0032491,HAM_0001513,nv,cohort:cohort,True,
+332,0.9418,ISIC_0027834,HAM_0002138,nv,cohort:cohort,ISIC_0026240,HAM_0006429,nv,cohort:cohort,True,
+333,0.9418,ISIC_0031617,HAM_0000376,nv,cohort:cohort,ISIC_0032009,HAM_0001107,nv,cohort:cohort,True,
+334,0.9418,ISIC_0030562,HAM_0004093,nv,cohort:cohort,ISIC_0031861,HAM_0000033,nv,cohort:cohort,True,
+335,0.9417,ISIC_0027325,HAM_0005951,nv,cohort:cohort,ISIC_0028574,HAM_0004686,nv,cohort:cohort,True,
+336,0.9417,ISIC_0027927,HAM_0006614,nv,cohort:cohort,ISIC_0028245,HAM_0006067,nv,cohort:cohort,True,
+337,0.9417,ISIC_0027292,HAM_0006460,nv,cohort:cohort,ISIC_0029964,HAM_0006165,nv,s2026:train; s3001:train; s3002:val; s3003:test; s3004:train; s3005:test,True,cohort
+338,0.9417,ISIC_0031461,HAM_0001241,nv,cohort:cohort,ISIC_0030020,HAM_0003986,nv,s2026:train; s3001:train; s3002:test; s3003:train; s3004:train; s3005:test,True,cohort
+339,0.9416,ISIC_0027018,HAM_0006525,bkl,s2026:val; s3001:val; s3002:val; s3003:train; s3004:train; s3005:train,ISIC_0033338,HAM_0006925,nv,cohort:cohort,False,cohort
+340,0.9416,ISIC_0025702,HAM_0006347,nv,s2026:test; s3001:val; s3002:train; s3003:train; s3004:train; s3005:train,ISIC_0029030,HAM_0001393,nv,cohort:cohort,True,
+341,0.9416,ISIC_0028413,HAM_0005360,nv,s2026:train; s3001:train; s3002:train; s3003:test; s3004:train; s3005:train,ISIC_0029879,HAM_0001329,nv,not used,True,
+342,0.9416,ISIC_0032339,HAM_0007072,nv,s2026:train; s3001:train; s3002:train; s3003:test; s3004:val; s3005:test,ISIC_0027666,HAM_0001856,nv,cohort:cohort,True,cohort
+343,0.9416,ISIC_0026241,HAM_0003412,nv,cohort:cohort,ISIC_0027363,HAM_0001030,nv,cohort:cohort,True,
+344,0.9416,ISIC_0027743,HAM_0004591,nv,cohort:cohort,ISIC_0026931,HAM_0003901,nv,cohort:cohort,True,
+345,0.9416,ISIC_0029266,HAM_0004750,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:train; s3005:test,ISIC_0032002,HAM_0005130,nv,s2026:val; s3001:train; s3002:train; s3003:train; s3004:train; s3005:test,True,
+346,0.9416,ISIC_0028927,HAM_0000680,nv,s2026:train; s3001:train; s3002:val; s3003:val; s3004:train; s3005:train,ISIC_0024427,HAM_0003988,nv,cohort:cohort,True,cohort
+347,0.9415,ISIC_0026300,HAM_0005411,nv,cohort:cohort,ISIC_0030788,HAM_0004785,nv,cohort:cohort,True,
+348,0.9415,ISIC_0025271,HAM_0003430,nv,s2026:train; s3001:train; s3002:val; s3003:train; s3004:train; s3005:train,ISIC_0031769,HAM_0006861,nv,cohort:cohort,True,cohort
+349,0.9415,ISIC_0033595,HAM_0005280,mel,not used,ISIC_0032546,HAM_0000547,nv,cohort:cohort,False,
+350,0.9415,ISIC_0028745,HAM_0003214,nv,s2026:test; s3001:train; s3002:train; s3003:test; s3004:train; s3005:val,ISIC_0029078,HAM_0004808,nv,s2026:test; s3001:test; s3002:val; s3003:train; s3004:train; s3005:train,True,"s3001,s3003"
+351,0.9415,ISIC_0028991,HAM_0001194,nv,cohort:cohort,ISIC_0031884,HAM_0004753,nv,cohort:cohort,True,
+352,0.9415,ISIC_0032662,HAM_0003386,mel,s2026:train; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,ISIC_0034079,HAM_0005374,nv,cohort:cohort,False,cohort
+353,0.9415,ISIC_0030471,HAM_0002540,nv,cohort:cohort,ISIC_0029813,HAM_0007457,nv,s2026:train; s3001:test; s3002:test; s3003:test; s3004:test; s3005:train,True,cohort
+354,0.9415,ISIC_0033917,HAM_0004548,nv,cohort:cohort,ISIC_0033311,HAM_0005190,nv,cohort:cohort,True,
+355,0.9415,ISIC_0028764,HAM_0004746,mel,not used,ISIC_0026492,HAM_0006481,akiec,not used,False,
+356,0.9414,ISIC_0030999,HAM_0006057,nv,cohort:cohort,ISIC_0025480,HAM_0006990,nv,cohort:cohort,True,
+357,0.9414,ISIC_0025981,HAM_0007499,nv,cohort:cohort,ISIC_0030154,HAM_0000293,nv,cohort:cohort,True,
+358,0.9414,ISIC_0026283,HAM_0003654,nv,s2026:train; s3001:test; s3002:train; s3003:train; s3004:val; s3005:train,ISIC_0030190,HAM_0003956,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:test; s3005:train,True,"s3001,s3004"
+359,0.9414,ISIC_0024978,HAM_0003629,nv,cohort:cohort,ISIC_0025625,HAM_0004497,nv,s2026:val; s3001:val; s3002:val; s3003:train; s3004:train; s3005:train,True,cohort
+360,0.9414,ISIC_0027927,HAM_0006614,nv,cohort:cohort,ISIC_0029754,HAM_0000389,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:val; s3005:train,True,cohort
+361,0.9414,ISIC_0029754,HAM_0000389,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:val; s3005:train,ISIC_0032319,HAM_0002352,nv,cohort:cohort,True,cohort
+362,0.9414,ISIC_0033589,HAM_0006925,nv,cohort:cohort,ISIC_0025653,HAM_0005347,nv,cohort:cohort,True,
+363,0.9414,ISIC_0030409,HAM_0001181,nv,cohort:cohort,ISIC_0028850,HAM_0003837,nv,cohort:cohort,True,
+364,0.9413,ISIC_0028850,HAM_0003837,nv,cohort:cohort,ISIC_0027363,HAM_0001030,nv,cohort:cohort,True,
+365,0.9413,ISIC_0030050,HAM_0001662,nv,cohort:cohort,ISIC_0025551,HAM_0003022,nv,cohort:cohort,True,
+366,0.9413,ISIC_0028695,HAM_0006010,nv,cohort:cohort,ISIC_0024794,HAM_0006811,nv,cohort:cohort,True,
+367,0.9413,ISIC_0027659,HAM_0005642,mel,cohort:cohort,ISIC_0033881,HAM_0005545,mel,s2026:train; s3001:train; s3002:train; s3003:test; s3004:train; s3005:train,True,cohort
+368,0.9413,ISIC_0031637,HAM_0007159,nv,cohort:cohort,ISIC_0026975,HAM_0006063,nv,cohort:cohort,True,
+369,0.9413,ISIC_0028054,HAM_0004890,nv,cohort:cohort,ISIC_0028695,HAM_0006010,nv,cohort:cohort,True,
+370,0.9413,ISIC_0026128,HAM_0006033,nv,cohort:cohort,ISIC_0025126,HAM_0002953,nv,s2026:test; s3001:train; s3002:train; s3003:train; s3004:train; s3005:test,True,
+371,0.9413,ISIC_0025981,HAM_0007499,nv,cohort:cohort,ISIC_0029796,HAM_0000860,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,True,cohort
+372,0.9412,ISIC_0025124,HAM_0004484,nv,cohort:cohort,ISIC_0028574,HAM_0004686,nv,cohort:cohort,True,
+373,0.9412,ISIC_0034211,HAM_0007558,mel,not used,ISIC_0033617,HAM_0005062,nv,cohort:cohort,False,
+374,0.9412,ISIC_0030357,HAM_0004026,nv,s2026:train; s3001:val; s3002:train; s3003:train; s3004:train; s3005:val,ISIC_0030224,HAM_0001802,nv,cohort:cohort,True,cohort
+375,0.9411,ISIC_0027035,HAM_0003331,nv,s2026:val; s3001:train; s3002:train; s3003:test; s3004:train; s3005:train,ISIC_0025582,HAM_0007423,nv,s2026:train; s3001:test; s3002:train; s3003:train; s3004:train; s3005:test,True,"s3001,s3003,s3005"
+376,0.9411,ISIC_0030854,HAM_0003908,nv,cohort:cohort,ISIC_0026873,HAM_0001866,nv,cohort:cohort,True,
+377,0.9411,ISIC_0026287,HAM_0002412,nv,cohort:cohort,ISIC_0025426,HAM_0006677,nv,cohort:cohort,True,
+378,0.9411,ISIC_0030502,HAM_0002991,nv,cohort:cohort,ISIC_0024362,HAM_0001758,nv,cohort:cohort,True,
+379,0.941,ISIC_0027569,HAM_0005009,nv,cohort:cohort,ISIC_0031317,HAM_0004667,nv,cohort:cohort,True,
+380,0.941,ISIC_0024456,HAM_0003612,nv,cohort:cohort,ISIC_0025666,HAM_0005882,nv,cohort:cohort,True,
+381,0.941,ISIC_0028443,HAM_0004601,nv,s2026:train; s3001:train; s3002:train; s3003:test; s3004:train; s3005:val,ISIC_0024606,HAM_0006576,nv,cohort:cohort,True,cohort
+382,0.941,ISIC_0031063,HAM_0003764,bcc,s2026:train; s3001:val; s3002:test; s3003:test; s3004:train; s3005:train,ISIC_0026492,HAM_0006481,akiec,not used,False,
+383,0.941,ISIC_0024939,HAM_0000074,nv,cohort:cohort,ISIC_0032137,HAM_0006354,nv,cohort:cohort,True,
+384,0.941,ISIC_0027547,HAM_0000558,nv,cohort:cohort,ISIC_0025308,HAM_0001821,nv,cohort:cohort,True,
+385,0.941,ISIC_0026397,HAM_0000340,nv,cohort:cohort,ISIC_0030921,HAM_0000350,nv,cohort:cohort,True,
+386,0.941,ISIC_0026148,HAM_0002975,nv,cohort:cohort,ISIC_0033404,HAM_0006623,nv,cohort:cohort,True,
+387,0.9409,ISIC_0031330,HAM_0002495,nv,cohort:cohort,ISIC_0028284,HAM_0006768,nv,cohort:cohort,True,
+388,0.9409,ISIC_0026397,HAM_0000340,nv,cohort:cohort,ISIC_0029542,HAM_0006388,nv,cohort:cohort,True,
+389,0.9409,ISIC_0025481,HAM_0001909,nv,s2026:train; s3001:train; s3002:train; s3003:test; s3004:train; s3005:train,ISIC_0027363,HAM_0001030,nv,cohort:cohort,True,cohort
+390,0.9409,ISIC_0025483,HAM_0007170,nv,cohort:cohort,ISIC_0025124,HAM_0004484,nv,cohort:cohort,True,
+391,0.9409,ISIC_0030380,HAM_0002405,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:val; s3005:test,ISIC_0031128,HAM_0004287,nv,cohort:cohort,True,cohort
+392,0.9409,ISIC_0025666,HAM_0005882,nv,cohort:cohort,ISIC_0027880,HAM_0005687,nv,cohort:cohort,True,
+393,0.9408,ISIC_0029691,HAM_0002880,nv,cohort:cohort,ISIC_0025995,HAM_0000914,nv,cohort:cohort,True,
+394,0.9408,ISIC_0024762,HAM_0005154,nv,s2026:val; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,ISIC_0025271,HAM_0003430,nv,s2026:train; s3001:train; s3002:val; s3003:train; s3004:train; s3005:train,True,
+395,0.9407,ISIC_0028769,HAM_0004242,nv,cohort:cohort,ISIC_0026904,HAM_0004626,nv,cohort:cohort,True,
+396,0.9407,ISIC_0025843,HAM_0004098,nv,s2026:train; s3001:val; s3002:train; s3003:val; s3004:train; s3005:test,ISIC_0030637,HAM_0004173,nv,s2026:test; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,True,"s2026,s3005"
+397,0.9407,ISIC_0030863,HAM_0005070,nv,cohort:cohort,ISIC_0025480,HAM_0006990,nv,cohort:cohort,True,
+398,0.9407,ISIC_0032891,HAM_0006080,nv,not used,ISIC_0033852,HAM_0004708,nv,s2026:train; s3001:train; s3002:test; s3003:train; s3004:train; s3005:train,True,
+399,0.9407,ISIC_0029605,HAM_0005502,nv,cohort:cohort,ISIC_0028726,HAM_0005900,nv,cohort:cohort,True,
+400,0.9407,ISIC_0027723,HAM_0003264,nv,s2026:test; s3001:train; s3002:test; s3003:train; s3004:train; s3005:test,ISIC_0028769,HAM_0004242,nv,cohort:cohort,True,
+401,0.9407,ISIC_0029956,HAM_0005073,nv,cohort:cohort,ISIC_0030108,HAM_0005165,nv,cohort:cohort,True,
+402,0.9406,ISIC_0030502,HAM_0002991,nv,cohort:cohort,ISIC_0032252,HAM_0005895,nv,cohort:cohort,True,
+403,0.9406,ISIC_0027771,HAM_0000933,bkl,s2026:train; s3001:train; s3002:train; s3003:train; s3004:train; s3005:val,ISIC_0028929,HAM_0000588,mel,cohort:cohort,False,cohort
+404,0.9406,ISIC_0028054,HAM_0004890,nv,cohort:cohort,ISIC_0030471,HAM_0002540,nv,cohort:cohort,True,
+405,0.9406,ISIC_0029184,HAM_0005454,nv,cohort:cohort,ISIC_0028267,HAM_0006195,nv,cohort:cohort,True,
+406,0.9406,ISIC_0031210,HAM_0004390,nv,cohort:cohort,ISIC_0028268,HAM_0004875,nv,cohort:cohort,True,
+407,0.9406,ISIC_0027377,HAM_0005105,nv,cohort:cohort,ISIC_0029700,HAM_0001787,nv,cohort:cohort,True,
+408,0.9406,ISIC_0030493,HAM_0004981,nv,cohort:cohort,ISIC_0026648,HAM_0003994,nv,cohort:cohort,True,
+409,0.9406,ISIC_0030380,HAM_0002405,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:val; s3005:test,ISIC_0024742,HAM_0000111,nv,cohort:cohort,True,cohort
+410,0.9405,ISIC_0024713,HAM_0005955,nv,cohort:cohort,ISIC_0030200,HAM_0000495,nv,cohort:cohort,True,
+411,0.9405,ISIC_0031114,HAM_0005214,nv,cohort:cohort,ISIC_0030510,HAM_0000895,nv,cohort:cohort,True,
+412,0.9405,ISIC_0025551,HAM_0003022,nv,cohort:cohort,ISIC_0029648,HAM_0005099,nv,cohort:cohort,True,
+413,0.9405,ISIC_0024465,HAM_0006377,nv,cohort:cohort,ISIC_0024325,HAM_0002044,nv,cohort:cohort,True,
+414,0.9405,ISIC_0027507,HAM_0003601,mel,s2026:train; s3001:train; s3002:val; s3003:test; s3004:train; s3005:train,ISIC_0031025,HAM_0002911,mel,not used,True,
+415,0.9405,ISIC_0028054,HAM_0004890,nv,cohort:cohort,ISIC_0029766,HAM_0004023,nv,cohort:cohort,True,
+416,0.9405,ISIC_0025329,HAM_0001056,nv,cohort:cohort,ISIC_0032282,HAM_0007064,nv,cohort:cohort,True,
+417,0.9405,ISIC_0025404,HAM_0000251,nv,cohort:cohort,ISIC_0026408,HAM_0000271,nv,cohort:cohort,True,
+418,0.9405,ISIC_0026854,HAM_0004842,nv,cohort:cohort,ISIC_0029171,HAM_0004179,nv,cohort:cohort,True,
+419,0.9405,ISIC_0032241,HAM_0000882,nv,cohort:cohort,ISIC_0029727,HAM_0000929,nv,cohort:cohort,True,
+420,0.9405,ISIC_0029940,HAM_0007297,nv,cohort:cohort,ISIC_0032239,HAM_0004858,nv,cohort:cohort,True,
+421,0.9404,ISIC_0025551,HAM_0003022,nv,cohort:cohort,ISIC_0025418,HAM_0006571,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:test; s3005:train,True,cohort
+422,0.9404,ISIC_0029490,HAM_0003721,nv,cohort:cohort,ISIC_0025921,HAM_0007099,nv,cohort:cohort,True,
+423,0.9404,ISIC_0026143,HAM_0002776,nv,cohort:cohort,ISIC_0029648,HAM_0005099,nv,cohort:cohort,True,
+424,0.9404,ISIC_0025514,HAM_0006791,nv,cohort:cohort,ISIC_0025437,HAM_0007273,nv,cohort:cohort,True,
+425,0.9403,ISIC_0026112,HAM_0000301,nv,cohort:cohort,ISIC_0026204,HAM_0000670,nv,cohort:cohort,True,
+426,0.9403,ISIC_0032066,HAM_0002225,nv,cohort:cohort,ISIC_0027687,HAM_0004467,nv,cohort:cohort,True,
+427,0.9403,ISIC_0024348,HAM_0002426,nv,cohort:cohort,ISIC_0030409,HAM_0001181,nv,cohort:cohort,True,
+428,0.9403,ISIC_0027684,HAM_0003692,nv,cohort:cohort,ISIC_0032158,HAM_0004318,nv,cohort:cohort,True,
+429,0.9403,ISIC_0024358,HAM_0000933,bkl,not used,ISIC_0025605,HAM_0007047,akiec,s2026:train; s3001:train; s3002:train; s3003:test; s3004:train; s3005:train,False,
+430,0.9403,ISIC_0025496,HAM_0002996,nv,cohort:cohort,ISIC_0028725,HAM_0003598,nv,cohort:cohort,True,
+431,0.9403,ISIC_0025514,HAM_0006791,nv,cohort:cohort,ISIC_0024966,HAM_0004137,nv,cohort:cohort,True,
+432,0.9403,ISIC_0025147,HAM_0004425,nv,cohort:cohort,ISIC_0025159,HAM_0000283,nv,cohort:cohort,True,
+433,0.9402,ISIC_0027743,HAM_0004591,nv,cohort:cohort,ISIC_0027625,HAM_0002922,nv,cohort:cohort,True,
+434,0.9402,ISIC_0026240,HAM_0006429,nv,cohort:cohort,ISIC_0030780,HAM_0007501,nv,s2026:train; s3001:val; s3002:val; s3003:val; s3004:test; s3005:test,True,cohort
+435,0.9402,ISIC_0026648,HAM_0003994,nv,cohort:cohort,ISIC_0025921,HAM_0007099,nv,cohort:cohort,True,
+436,0.9402,ISIC_0031709,HAM_0000282,mel,not used,ISIC_0026466,HAM_0000456,akiec,s2026:train; s3001:val; s3002:train; s3003:train; s3004:train; s3005:train,False,
+437,0.9402,ISIC_0032847,HAM_0002004,mel,cohort:cohort,ISIC_0032885,HAM_0003713,nv,cohort:cohort,False,
+438,0.9401,ISIC_0031745,HAM_0001671,mel,s2026:train; s3001:train; s3002:test; s3003:val; s3004:test; s3005:train,ISIC_0028565,HAM_0005624,mel,not used,True,
+439,0.9401,ISIC_0033540,HAM_0000556,nv,not used,ISIC_0033589,HAM_0006925,nv,cohort:cohort,True,
+440,0.9401,ISIC_0025754,HAM_0006797,nv,cohort:cohort,ISIC_0028078,HAM_0005637,nv,cohort:cohort,True,
+441,0.9401,ISIC_0031638,HAM_0002704,nv,cohort:cohort,ISIC_0024465,HAM_0006377,nv,cohort:cohort,True,
+442,0.9401,ISIC_0024584,HAM_0001391,nv,cohort:cohort,ISIC_0029050,HAM_0003481,nv,cohort:cohort,True,
+443,0.9401,ISIC_0025995,HAM_0000914,nv,cohort:cohort,ISIC_0030720,HAM_0002663,nv,cohort:cohort,True,
+444,0.9401,ISIC_0027940,HAM_0003436,nv,cohort:cohort,ISIC_0025159,HAM_0000283,nv,cohort:cohort,True,
+445,0.94,ISIC_0033883,HAM_0004949,mel,cohort:cohort,ISIC_0032797,HAM_0001863,mel,not used,True,
+446,0.94,ISIC_0027170,HAM_0000323,nv,cohort:cohort,ISIC_0027317,HAM_0001857,nv,cohort:cohort,True,
+447,0.94,ISIC_0027399,HAM_0000935,nv,cohort:cohort,ISIC_0024768,HAM_0003024,nv,cohort:cohort,True,
+448,0.94,ISIC_0027834,HAM_0002138,nv,cohort:cohort,ISIC_0030502,HAM_0002991,nv,cohort:cohort,True,
+449,0.94,ISIC_0031086,HAM_0004159,nv,cohort:cohort,ISIC_0031210,HAM_0004390,nv,cohort:cohort,True,
+450,0.94,ISIC_0031086,HAM_0004159,nv,cohort:cohort,ISIC_0025551,HAM_0003022,nv,cohort:cohort,True,
+451,0.94,ISIC_0030781,HAM_0000592,nv,cohort:cohort,ISIC_0030571,HAM_0003190,nv,cohort:cohort,True,
+452,0.94,ISIC_0025462,HAM_0000367,nv,cohort:cohort,ISIC_0027363,HAM_0001030,nv,cohort:cohort,True,
+453,0.94,ISIC_0026320,HAM_0005564,nv,cohort:cohort,ISIC_0029295,HAM_0005941,nv,cohort:cohort,True,
+454,0.9399,ISIC_0026943,HAM_0003440,nv,cohort:cohort,ISIC_0025308,HAM_0001821,nv,cohort:cohort,True,
+455,0.9399,ISIC_0032239,HAM_0004858,nv,cohort:cohort,ISIC_0030780,HAM_0007501,nv,s2026:train; s3001:val; s3002:val; s3003:val; s3004:test; s3005:test,True,cohort
+456,0.9399,ISIC_0027927,HAM_0006614,nv,cohort:cohort,ISIC_0025839,HAM_0003385,nv,cohort:cohort,True,
+457,0.9399,ISIC_0032949,HAM_0006085,bkl,cohort:cohort,ISIC_0033262,HAM_0005258,bkl,cohort:cohort,True,
+458,0.9399,ISIC_0028164,HAM_0006443,nv,cohort:cohort,ISIC_0030113,HAM_0005729,nv,cohort:cohort,True,
+459,0.9399,ISIC_0030685,HAM_0000585,nv,cohort:cohort,ISIC_0027547,HAM_0000558,nv,cohort:cohort,True,
+460,0.9399,ISIC_0029691,HAM_0002880,nv,cohort:cohort,ISIC_0029709,HAM_0003763,nv,cohort:cohort,True,
+461,0.9399,ISIC_0026510,HAM_0002428,nv,cohort:cohort,ISIC_0032357,HAM_0007098,nv,cohort:cohort,True,
+462,0.9399,ISIC_0027941,HAM_0002290,nv,cohort:cohort,ISIC_0029198,HAM_0006749,nv,s2026:test; s3001:train; s3002:train; s3003:test; s3004:train; s3005:train,True,
+463,0.9398,ISIC_0026946,HAM_0007040,nv,cohort:cohort,ISIC_0031084,HAM_0006562,nv,cohort:cohort,True,
+464,0.9398,ISIC_0028786,HAM_0005272,nv,cohort:cohort,ISIC_0027035,HAM_0003331,nv,s2026:val; s3001:train; s3002:train; s3003:test; s3004:train; s3005:train,True,cohort
+465,0.9398,ISIC_0026990,HAM_0000568,nv,cohort:cohort,ISIC_0027395,HAM_0007130,nv,cohort:cohort,True,
+466,0.9398,ISIC_0031323,HAM_0000258,nv,not used,ISIC_0031791,HAM_0004742,nv,cohort:cohort,True,
+467,0.9398,ISIC_0029050,HAM_0003481,nv,cohort:cohort,ISIC_0024536,HAM_0003273,nv,cohort:cohort,True,
+468,0.9398,ISIC_0031505,HAM_0005991,nv,cohort:cohort,ISIC_0030685,HAM_0000585,nv,cohort:cohort,True,
+469,0.9398,ISIC_0031895,HAM_0007316,nv,cohort:cohort,ISIC_0030682,HAM_0002924,nv,s2026:val; s3001:train; s3002:train; s3003:train; s3004:val; s3005:val,True,cohort
+470,0.9398,ISIC_0024376,HAM_0000984,nv,cohort:cohort,ISIC_0025435,HAM_0002619,nv,cohort:cohort,True,
+471,0.9398,ISIC_0025281,HAM_0007416,nv,cohort:cohort,ISIC_0027880,HAM_0005687,nv,cohort:cohort,True,
+472,0.9398,ISIC_0030338,HAM_0001775,nv,cohort:cohort,ISIC_0030628,HAM_0002707,nv,cohort:cohort,True,
+473,0.9398,ISIC_0026931,HAM_0003901,nv,cohort:cohort,ISIC_0027625,HAM_0002922,nv,cohort:cohort,True,
+474,0.9398,ISIC_0033896,HAM_0004349,nv,s2026:train; s3001:test; s3002:test; s3003:train; s3004:train; s3005:train,ISIC_0033690,HAM_0004347,nv,cohort:cohort,True,cohort
+475,0.9398,ISIC_0032177,HAM_0002520,nv,cohort:cohort,ISIC_0024655,HAM_0000013,nv,cohort:cohort,True,
+476,0.9398,ISIC_0029708,HAM_0000899,nv,cohort:cohort,ISIC_0028725,HAM_0003598,nv,cohort:cohort,True,
+477,0.9397,ISIC_0029505,HAM_0003789,bkl,not used,ISIC_0024409,HAM_0000835,bkl,not used,True,
+478,0.9397,ISIC_0025271,HAM_0003430,nv,s2026:train; s3001:train; s3002:val; s3003:train; s3004:train; s3005:train,ISIC_0028008,HAM_0005018,nv,cohort:cohort,True,cohort
+479,0.9397,ISIC_0026733,HAM_0006385,nv,cohort:cohort,ISIC_0025796,HAM_0002830,nv,cohort:cohort,True,
+480,0.9397,ISIC_0029122,HAM_0006050,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:val; s3005:test,ISIC_0024811,HAM_0007452,nv,cohort:cohort,True,cohort
+481,0.9397,ISIC_0032467,HAM_0003234,nv,cohort:cohort,ISIC_0030678,HAM_0006591,nv,s2026:train; s3001:train; s3002:train; s3003:test; s3004:train; s3005:train,True,cohort
+482,0.9396,ISIC_0033863,HAM_0007086,mel,s2026:train; s3001:test; s3002:train; s3003:test; s3004:train; s3005:train,ISIC_0032546,HAM_0000547,nv,cohort:cohort,False,cohort
+483,0.9396,ISIC_0032583,HAM_0000006,mel,s2026:train; s3001:train; s3002:test; s3003:train; s3004:train; s3005:train,ISIC_0025271,HAM_0003430,nv,s2026:train; s3001:train; s3002:val; s3003:train; s3004:train; s3005:train,False,s3002
+484,0.9396,ISIC_0031458,HAM_0007561,nv,cohort:cohort,ISIC_0030997,HAM_0006825,nv,cohort:cohort,True,
+485,0.9396,ISIC_0027793,HAM_0006870,mel,cohort:cohort,ISIC_0024346,HAM_0003411,nv,cohort:cohort,False,
+486,0.9396,ISIC_0024544,HAM_0007336,nv,cohort:cohort,ISIC_0030306,HAM_0001904,nv,s2026:train; s3001:train; s3002:val; s3003:train; s3004:val; s3005:train,True,cohort
+487,0.9396,ISIC_0030502,HAM_0002991,nv,cohort:cohort,ISIC_0027272,HAM_0004668,nv,s2026:train; s3001:test; s3002:train; s3003:test; s3004:train; s3005:train,True,cohort
+488,0.9396,ISIC_0026234,HAM_0003729,nv,s2026:test; s3001:test; s3002:val; s3003:val; s3004:train; s3005:train,ISIC_0030928,HAM_0002047,nv,s2026:train; s3001:train; s3002:val; s3003:test; s3004:train; s3005:test,True,"s2026,s3001,s3003,s3005"
+489,0.9396,ISIC_0031086,HAM_0004159,nv,cohort:cohort,ISIC_0030527,HAM_0006713,nv,cohort:cohort,True,
+490,0.9395,ISIC_0029085,HAM_0007467,nv,cohort:cohort,ISIC_0026944,HAM_0000331,nv,cohort:cohort,True,
+491,0.9395,ISIC_0032084,HAM_0003067,nv,cohort:cohort,ISIC_0029226,HAM_0000831,nv,cohort:cohort,True,
+492,0.9395,ISIC_0028164,HAM_0006443,nv,cohort:cohort,ISIC_0025281,HAM_0007416,nv,cohort:cohort,True,
+493,0.9395,ISIC_0026899,HAM_0001652,nv,cohort:cohort,ISIC_0032418,HAM_0004594,nv,cohort:cohort,True,
+494,0.9395,ISIC_0029299,HAM_0000071,nv,cohort:cohort,ISIC_0025995,HAM_0000914,nv,cohort:cohort,True,
+495,0.9395,ISIC_0033917,HAM_0004548,nv,cohort:cohort,ISIC_0032702,HAM_0004814,nv,not used,True,
+496,0.9395,ISIC_0029710,HAM_0002068,nv,cohort:cohort,ISIC_0025435,HAM_0002619,nv,cohort:cohort,True,
+497,0.9394,ISIC_0031100,HAM_0006178,nv,cohort:cohort,ISIC_0031320,HAM_0001206,nv,cohort:cohort,True,
+498,0.9394,ISIC_0025889,HAM_0002801,nv,cohort:cohort,ISIC_0028783,HAM_0007326,nv,cohort:cohort,True,
+499,0.9394,ISIC_0027453,HAM_0000780,nv,cohort:cohort,ISIC_0024427,HAM_0003988,nv,cohort:cohort,True,
+500,0.9394,ISIC_0027430,HAM_0002330,nv,cohort:cohort,ISIC_0029886,HAM_0007459,nv,cohort:cohort,True,
+501,0.9394,ISIC_0025625,HAM_0004497,nv,s2026:val; s3001:val; s3002:val; s3003:train; s3004:train; s3005:train,ISIC_0027054,HAM_0005414,nv,cohort:cohort,True,cohort
+502,0.9394,ISIC_0028695,HAM_0006010,nv,cohort:cohort,ISIC_0024536,HAM_0003273,nv,cohort:cohort,True,
+503,0.9394,ISIC_0032485,HAM_0003443,nv,cohort:cohort,ISIC_0029804,HAM_0005851,nv,s2026:train; s3001:test; s3002:train; s3003:train; s3004:train; s3005:train,True,cohort
+504,0.9394,ISIC_0024346,HAM_0003411,nv,cohort:cohort,ISIC_0032465,HAM_0004557,nv,s2026:train; s3001:test; s3002:train; s3003:train; s3004:train; s3005:train,True,cohort
+505,0.9394,ISIC_0025053,HAM_0005661,nv,cohort:cohort,ISIC_0031246,HAM_0003538,nv,cohort:cohort,True,
+506,0.9393,ISIC_0029940,HAM_0007297,nv,cohort:cohort,ISIC_0030780,HAM_0007501,nv,s2026:train; s3001:val; s3002:val; s3003:val; s3004:test; s3005:test,True,cohort
+507,0.9393,ISIC_0025364,HAM_0000692,nv,cohort:cohort,ISIC_0025159,HAM_0000283,nv,cohort:cohort,True,
+508,0.9393,ISIC_0033917,HAM_0004548,nv,cohort:cohort,ISIC_0034044,HAM_0000747,nv,not used,True,
+509,0.9393,ISIC_0027325,HAM_0005951,nv,cohort:cohort,ISIC_0030471,HAM_0002540,nv,cohort:cohort,True,
+510,0.9393,ISIC_0028927,HAM_0000680,nv,s2026:train; s3001:train; s3002:val; s3003:val; s3004:train; s3005:train,ISIC_0025705,HAM_0004961,nv,cohort:cohort,True,cohort
+511,0.9392,ISIC_0028109,HAM_0000814,mel,not used,ISIC_0024818,HAM_0006645,nv,cohort:cohort,False,
+512,0.9392,ISIC_0030068,HAM_0005322,nv,cohort:cohort,ISIC_0024427,HAM_0003988,nv,cohort:cohort,True,
+513,0.9392,ISIC_0026170,HAM_0001010,nv,cohort:cohort,ISIC_0025566,HAM_0006117,nv,cohort:cohort,True,
+514,0.9392,ISIC_0031086,HAM_0004159,nv,cohort:cohort,ISIC_0031548,HAM_0003575,nv,cohort:cohort,True,
+515,0.9392,ISIC_0028683,HAM_0006839,nv,cohort:cohort,ISIC_0028691,HAM_0001161,nv,cohort:cohort,True,
+516,0.9392,ISIC_0034264,HAM_0005248,nv,cohort:cohort,ISIC_0034044,HAM_0000747,nv,not used,True,
+517,0.9391,ISIC_0026691,HAM_0001034,nv,cohort:cohort,ISIC_0025408,HAM_0000469,nv,cohort:cohort,True,
+518,0.9391,ISIC_0030381,HAM_0005702,nv,cohort:cohort,ISIC_0032491,HAM_0001513,nv,cohort:cohort,True,
+519,0.9391,ISIC_0024762,HAM_0005154,nv,s2026:val; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,ISIC_0025653,HAM_0005347,nv,cohort:cohort,True,cohort
+520,0.9391,ISIC_0033595,HAM_0005280,mel,not used,ISIC_0034132,HAM_0003466,mel,s2026:train; s3001:train; s3002:val; s3003:val; s3004:train; s3005:test,True,
+521,0.9391,ISIC_0024578,HAM_0004518,nv,s2026:train; s3001:val; s3002:train; s3003:train; s3004:test; s3005:train,ISIC_0034177,HAM_0006239,nv,cohort:cohort,True,cohort
+522,0.9391,ISIC_0024376,HAM_0000984,nv,cohort:cohort,ISIC_0027430,HAM_0002330,nv,cohort:cohort,True,
+523,0.9391,ISIC_0025796,HAM_0002830,nv,cohort:cohort,ISIC_0024912,HAM_0007613,nv,cohort:cohort,True,
+524,0.9391,ISIC_0026395,HAM_0005382,bcc,not used,ISIC_0025653,HAM_0005347,nv,cohort:cohort,False,
+525,0.9391,ISIC_0024713,HAM_0005955,nv,cohort:cohort,ISIC_0024325,HAM_0002044,nv,cohort:cohort,True,
+526,0.9391,ISIC_0025632,HAM_0004223,nv,cohort:cohort,ISIC_0028893,HAM_0007556,nv,cohort:cohort,True,
+527,0.9391,ISIC_0026931,HAM_0003901,nv,cohort:cohort,ISIC_0027180,HAM_0001063,nv,cohort:cohort,True,
+528,0.9391,ISIC_0030050,HAM_0001662,nv,cohort:cohort,ISIC_0029766,HAM_0004023,nv,cohort:cohort,True,
+529,0.9391,ISIC_0028902,HAM_0005426,nv,cohort:cohort,ISIC_0024811,HAM_0007452,nv,cohort:cohort,True,
+530,0.9391,ISIC_0024483,HAM_0004266,nv,s2026:train; s3001:train; s3002:val; s3003:test; s3004:train; s3005:train,ISIC_0025294,HAM_0006015,nv,cohort:cohort,True,cohort
+531,0.939,ISIC_0033038,HAM_0003466,mel,not used,ISIC_0033050,HAM_0003439,mel,s2026:test; s3001:train; s3002:train; s3003:val; s3004:train; s3005:train,True,
+532,0.939,ISIC_0026821,HAM_0007321,nv,cohort:cohort,ISIC_0029960,HAM_0001451,nv,cohort:cohort,True,
+533,0.939,ISIC_0028911,HAM_0006058,nv,cohort:cohort,ISIC_0026408,HAM_0000271,nv,cohort:cohort,True,
+534,0.939,ISIC_0028769,HAM_0004242,nv,cohort:cohort,ISIC_0025281,HAM_0007416,nv,cohort:cohort,True,
+535,0.939,ISIC_0030202,HAM_0003644,nv,cohort:cohort,ISIC_0026274,HAM_0001901,nv,s2026:train; s3001:train; s3002:train; s3003:test; s3004:train; s3005:train,True,cohort
+536,0.939,ISIC_0034211,HAM_0007558,mel,not used,ISIC_0033768,HAM_0000639,nv,not used,False,
+537,0.939,ISIC_0026731,HAM_0001213,nv,cohort:cohort,ISIC_0026931,HAM_0003901,nv,cohort:cohort,True,
+538,0.939,ISIC_0034132,HAM_0003466,mel,s2026:train; s3001:train; s3002:val; s3003:val; s3004:train; s3005:test,ISIC_0033872,HAM_0006101,mel,cohort:cohort,True,cohort
+539,0.939,ISIC_0031086,HAM_0004159,nv,cohort:cohort,ISIC_0026227,HAM_0000986,nv,cohort:cohort,True,
+540,0.9389,ISIC_0024536,HAM_0003273,nv,cohort:cohort,ISIC_0031210,HAM_0004390,nv,cohort:cohort,True,
+541,0.9389,ISIC_0031988,HAM_0003904,nv,cohort:cohort,ISIC_0031791,HAM_0004742,nv,cohort:cohort,True,
+542,0.9389,ISIC_0033905,HAM_0000042,mel,s2026:val; s3001:train; s3002:val; s3003:train; s3004:train; s3005:test,ISIC_0033338,HAM_0006925,nv,cohort:cohort,False,cohort
+543,0.9389,ISIC_0030306,HAM_0001904,nv,s2026:train; s3001:train; s3002:val; s3003:train; s3004:val; s3005:train,ISIC_0028144,HAM_0006125,nv,cohort:cohort,True,cohort
+544,0.9389,ISIC_0032828,HAM_0005308,nv,s2026:train; s3001:train; s3002:val; s3003:train; s3004:val; s3005:train,ISIC_0033053,HAM_0003236,nv,cohort:cohort,True,cohort
+545,0.9389,ISIC_0027553,HAM_0002974,nv,cohort:cohort,ISIC_0026204,HAM_0000670,nv,cohort:cohort,True,
+546,0.9389,ISIC_0027703,HAM_0001049,nv,cohort:cohort,ISIC_0026733,HAM_0006385,nv,cohort:cohort,True,
+547,0.9388,ISIC_0025437,HAM_0007273,nv,cohort:cohort,ISIC_0029738,HAM_0003637,nv,cohort:cohort,True,
+548,0.9388,ISIC_0032504,HAM_0001791,mel,s2026:train; s3001:val; s3002:train; s3003:train; s3004:train; s3005:train,ISIC_0028834,HAM_0007566,nv,cohort:cohort,False,cohort
+549,0.9388,ISIC_0027854,HAM_0002105,nv,cohort:cohort,ISIC_0024536,HAM_0003273,nv,cohort:cohort,True,
+550,0.9388,ISIC_0025364,HAM_0000692,nv,cohort:cohort,ISIC_0027553,HAM_0002974,nv,cohort:cohort,True,
+551,0.9388,ISIC_0028996,HAM_0004151,nv,cohort:cohort,ISIC_0031210,HAM_0004390,nv,cohort:cohort,True,
+552,0.9388,ISIC_0031745,HAM_0001671,mel,s2026:train; s3001:train; s3002:test; s3003:val; s3004:test; s3005:train,ISIC_0032906,HAM_0003887,bcc,s2026:train; s3001:test; s3002:train; s3003:train; s3004:val; s3005:test,False,"s3001,s3002,s3004,s3005"
+553,0.9387,ISIC_0027703,HAM_0001049,nv,cohort:cohort,ISIC_0032224,HAM_0005033,nv,cohort:cohort,True,
+554,0.9387,ISIC_0028677,HAM_0001711,bcc,cohort:cohort,ISIC_0032004,HAM_0000623,nv,cohort:cohort,False,
+555,0.9387,ISIC_0024455,HAM_0006585,nv,cohort:cohort,ISIC_0032465,HAM_0004557,nv,s2026:train; s3001:test; s3002:train; s3003:train; s3004:train; s3005:train,True,cohort
+556,0.9387,ISIC_0027000,HAM_0000408,nv,cohort:cohort,ISIC_0029421,HAM_0003203,nv,cohort:cohort,True,
+557,0.9387,ISIC_0033888,HAM_0006925,nv,cohort:cohort,ISIC_0032571,HAM_0004181,nv,cohort:cohort,True,
+558,0.9387,ISIC_0031240,HAM_0004602,nv,cohort:cohort,ISIC_0027830,HAM_0001516,nv,cohort:cohort,True,
+559,0.9387,ISIC_0025308,HAM_0001821,nv,cohort:cohort,ISIC_0029886,HAM_0007459,nv,cohort:cohort,True,
+560,0.9387,ISIC_0027000,HAM_0000408,nv,cohort:cohort,ISIC_0029295,HAM_0005941,nv,cohort:cohort,True,
+561,0.9386,ISIC_0024427,HAM_0003988,nv,cohort:cohort,ISIC_0025496,HAM_0002996,nv,cohort:cohort,True,
+562,0.9386,ISIC_0030628,HAM_0002707,nv,cohort:cohort,ISIC_0025839,HAM_0003385,nv,cohort:cohort,True,
+563,0.9386,ISIC_0025528,HAM_0005597,nv,cohort:cohort,ISIC_0025186,HAM_0002586,nv,cohort:cohort,True,
+564,0.9386,ISIC_0025528,HAM_0005597,nv,cohort:cohort,ISIC_0024939,HAM_0000074,nv,cohort:cohort,True,
+565,0.9386,ISIC_0027880,HAM_0005687,nv,cohort:cohort,ISIC_0026630,HAM_0001682,nv,cohort:cohort,True,
+566,0.9386,ISIC_0027148,HAM_0005949,nv,cohort:cohort,ISIC_0028801,HAM_0003855,nv,cohort:cohort,True,
+567,0.9386,ISIC_0032546,HAM_0000547,nv,cohort:cohort,ISIC_0033311,HAM_0005190,nv,cohort:cohort,True,
+568,0.9385,ISIC_0034205,HAM_0007583,mel,not used,ISIC_0032702,HAM_0004814,nv,not used,False,
+569,0.9385,ISIC_0026961,HAM_0006181,bkl,cohort:cohort,ISIC_0031192,HAM_0006932,nv,cohort:cohort,False,
+570,0.9385,ISIC_0031283,HAM_0000411,nv,cohort:cohort,ISIC_0030622,HAM_0006134,nv,cohort:cohort,True,
+571,0.9385,ISIC_0025551,HAM_0003022,nv,cohort:cohort,ISIC_0027543,HAM_0006952,nv,cohort:cohort,True,
+572,0.9385,ISIC_0024675,HAM_0001600,mel,cohort:cohort,ISIC_0024762,HAM_0005154,nv,s2026:val; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,False,cohort
+573,0.9385,ISIC_0031282,HAM_0003042,nv,cohort:cohort,ISIC_0024593,HAM_0007369,nv,cohort:cohort,True,
+574,0.9385,ISIC_0029610,HAM_0005459,akiec,s2026:train; s3001:train; s3002:test; s3003:train; s3004:train; s3005:train,ISIC_0030142,HAM_0006434,akiec,not used,True,
+575,0.9385,ISIC_0029691,HAM_0002880,nv,cohort:cohort,ISIC_0027906,HAM_0000185,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,True,cohort
+576,0.9384,ISIC_0027230,HAM_0001687,nv,cohort:cohort,ISIC_0030924,HAM_0004049,nv,cohort:cohort,True,
+577,0.9384,ISIC_0024483,HAM_0004266,nv,s2026:train; s3001:train; s3002:val; s3003:test; s3004:train; s3005:train,ISIC_0026250,HAM_0003955,nv,cohort:cohort,True,cohort
+578,0.9384,ISIC_0031532,HAM_0004247,nv,cohort:cohort,ISIC_0028778,HAM_0006534,nv,cohort:cohort,True,
+579,0.9384,ISIC_0029979,HAM_0004233,nv,cohort:cohort,ISIC_0027363,HAM_0001030,nv,cohort:cohort,True,
+580,0.9384,ISIC_0029122,HAM_0006050,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:val; s3005:test,ISIC_0028725,HAM_0003598,nv,cohort:cohort,True,cohort
+581,0.9384,ISIC_0033268,HAM_0007163,mel,cohort:cohort,ISIC_0032662,HAM_0003386,mel,s2026:train; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,True,cohort
+582,0.9384,ISIC_0027854,HAM_0002105,nv,cohort:cohort,ISIC_0030050,HAM_0001662,nv,cohort:cohort,True,
+583,0.9383,ISIC_0025561,HAM_0000739,nv,s2026:train; s3001:val; s3002:val; s3003:train; s3004:train; s3005:test,ISIC_0029204,HAM_0005877,nv,cohort:cohort,True,cohort
+584,0.9383,ISIC_0024325,HAM_0002044,nv,cohort:cohort,ISIC_0025595,HAM_0000192,nv,s2026:train; s3001:train; s3002:train; s3003:val; s3004:test; s3005:test,True,cohort
+585,0.9383,ISIC_0029017,HAM_0004980,mel,s2026:train; s3001:test; s3002:train; s3003:test; s3004:train; s3005:train,ISIC_0033515,HAM_0002402,nv,cohort:cohort,False,cohort
+586,0.9383,ISIC_0025281,HAM_0007416,nv,cohort:cohort,ISIC_0032137,HAM_0006354,nv,cohort:cohort,True,
+587,0.9383,ISIC_0033207,HAM_0006869,nv,s2026:test; s3001:val; s3002:train; s3003:train; s3004:train; s3005:train,ISIC_0033890,HAM_0003365,nv,cohort:cohort,True,
+588,0.9383,ISIC_0030718,HAM_0005373,nv,cohort:cohort,ISIC_0027543,HAM_0006952,nv,cohort:cohort,True,
+589,0.9383,ISIC_0027347,HAM_0005234,nv,cohort:cohort,ISIC_0030393,HAM_0005238,nv,cohort:cohort,True,
+590,0.9383,ISIC_0034293,HAM_0004099,nv,cohort:cohort,ISIC_0025653,HAM_0005347,nv,cohort:cohort,True,
+591,0.9383,ISIC_0025437,HAM_0007273,nv,cohort:cohort,ISIC_0026648,HAM_0003994,nv,cohort:cohort,True,
+592,0.9383,ISIC_0027124,HAM_0003636,nv,s2026:train; s3001:train; s3002:test; s3003:train; s3004:train; s3005:val,ISIC_0025186,HAM_0002586,nv,cohort:cohort,True,cohort
+593,0.9383,ISIC_0026904,HAM_0004626,nv,cohort:cohort,ISIC_0026931,HAM_0003901,nv,cohort:cohort,True,
+594,0.9382,ISIC_0024563,HAM_0000497,nv,cohort:cohort,ISIC_0032900,HAM_0003811,nv,s2026:val; s3001:val; s3002:train; s3003:train; s3004:train; s3005:train,True,cohort
+595,0.9382,ISIC_0033595,HAM_0005280,mel,not used,ISIC_0033863,HAM_0007086,mel,s2026:train; s3001:test; s3002:train; s3003:test; s3004:train; s3005:train,True,
+596,0.9382,ISIC_0029633,HAM_0002302,nv,cohort:cohort,ISIC_0024536,HAM_0003273,nv,cohort:cohort,True,
+597,0.9382,ISIC_0031638,HAM_0002704,nv,cohort:cohort,ISIC_0029116,HAM_0007062,nv,s2026:train; s3001:train; s3002:val; s3003:test; s3004:train; s3005:train,True,cohort
+598,0.9382,ISIC_0032365,HAM_0003206,bkl,cohort:cohort,ISIC_0032310,HAM_0007014,nv,cohort:cohort,False,
+599,0.9382,ISIC_0030921,HAM_0000350,nv,cohort:cohort,ISIC_0028267,HAM_0006195,nv,cohort:cohort,True,
+600,0.9382,ISIC_0027905,HAM_0006770,bkl,s2026:train; s3001:train; s3002:train; s3003:val; s3004:train; s3005:train,ISIC_0025653,HAM_0005347,nv,cohort:cohort,False,cohort
+601,0.9381,ISIC_0031634,HAM_0000341,nv,cohort:cohort,ISIC_0029361,HAM_0001182,nv,cohort:cohort,True,
+602,0.9381,ISIC_0029198,HAM_0006749,nv,s2026:test; s3001:train; s3002:train; s3003:test; s3004:train; s3005:train,ISIC_0024797,HAM_0000828,nv,cohort:cohort,True,
+603,0.9381,ISIC_0031845,HAM_0007203,nv,cohort:cohort,ISIC_0025053,HAM_0005661,nv,cohort:cohort,True,
+604,0.9381,ISIC_0028786,HAM_0005272,nv,cohort:cohort,ISIC_0029076,HAM_0005147,nv,cohort:cohort,True,
+605,0.9381,ISIC_0027619,HAM_0006286,nv,cohort:cohort,ISIC_0031478,HAM_0004658,nv,cohort:cohort,True,
+606,0.9381,ISIC_0030788,HAM_0004785,nv,cohort:cohort,ISIC_0030891,HAM_0001025,nv,cohort:cohort,True,
+607,0.9381,ISIC_0026148,HAM_0002975,nv,cohort:cohort,ISIC_0033888,HAM_0006925,nv,cohort:cohort,True,
+608,0.9381,ISIC_0027356,HAM_0000473,nv,cohort:cohort,ISIC_0030836,HAM_0001554,nv,cohort:cohort,True,
+609,0.938,ISIC_0028269,HAM_0001282,nv,cohort:cohort,ISIC_0028125,HAM_0003604,nv,cohort:cohort,True,
+610,0.938,ISIC_0031900,HAM_0001113,mel,s2026:train; s3001:train; s3002:train; s3003:val; s3004:train; s3005:train,ISIC_0031063,HAM_0003764,bcc,s2026:train; s3001:val; s3002:test; s3003:test; s3004:train; s3005:train,False,"s3002,s3003"
+611,0.938,ISIC_0028603,HAM_0007559,nv,cohort:cohort,ISIC_0032464,HAM_0001865,nv,cohort:cohort,True,
+612,0.938,ISIC_0030921,HAM_0000350,nv,cohort:cohort,ISIC_0026300,HAM_0005411,nv,cohort:cohort,True,
+613,0.938,ISIC_0024990,HAM_0005430,nv,cohort:cohort,ISIC_0026534,HAM_0000365,nv,cohort:cohort,True,
+614,0.938,ISIC_0032282,HAM_0007064,nv,cohort:cohort,ISIC_0025308,HAM_0001821,nv,cohort:cohort,True,
+615,0.938,ISIC_0030409,HAM_0001181,nv,cohort:cohort,ISIC_0030713,HAM_0006866,nv,cohort:cohort,True,
+616,0.9379,ISIC_0024821,HAM_0001172,nv,cohort:cohort,ISIC_0031769,HAM_0006861,nv,cohort:cohort,True,
+617,0.9379,ISIC_0031027,HAM_0006499,nv,s2026:train; s3001:test; s3002:test; s3003:val; s3004:train; s3005:train,ISIC_0025839,HAM_0003385,nv,cohort:cohort,True,cohort
+618,0.9379,ISIC_0029381,HAM_0002681,nv,cohort:cohort,ISIC_0030571,HAM_0003190,nv,cohort:cohort,True,
+619,0.9379,ISIC_0026238,HAM_0001375,nv,cohort:cohort,ISIC_0027186,HAM_0005688,nv,cohort:cohort,True,
+620,0.9379,ISIC_0031800,HAM_0003551,nv,cohort:cohort,ISIC_0024440,HAM_0001879,nv,cohort:cohort,True,
+621,0.9379,ISIC_0024399,HAM_0004064,nv,cohort:cohort,ISIC_0029338,HAM_0002141,nv,cohort:cohort,True,
+622,0.9379,ISIC_0027347,HAM_0005234,nv,cohort:cohort,ISIC_0030713,HAM_0006866,nv,cohort:cohort,True,
+623,0.9379,ISIC_0028277,HAM_0005168,nv,cohort:cohort,ISIC_0028725,HAM_0003598,nv,cohort:cohort,True,
+624,0.9379,ISIC_0025147,HAM_0004425,nv,cohort:cohort,ISIC_0027830,HAM_0001516,nv,cohort:cohort,True,
+625,0.9379,ISIC_0033881,HAM_0005545,mel,s2026:train; s3001:train; s3002:train; s3003:test; s3004:train; s3005:train,ISIC_0033589,HAM_0006925,nv,cohort:cohort,False,cohort
+626,0.9378,ISIC_0026648,HAM_0003994,nv,cohort:cohort,ISIC_0027377,HAM_0005105,nv,cohort:cohort,True,
+627,0.9378,ISIC_0027001,HAM_0003134,nv,cohort:cohort,ISIC_0025015,HAM_0004119,nv,cohort:cohort,True,
+628,0.9378,ISIC_0027170,HAM_0000323,nv,cohort:cohort,ISIC_0028443,HAM_0004601,nv,s2026:train; s3001:train; s3002:train; s3003:test; s3004:train; s3005:val,True,cohort
+629,0.9378,ISIC_0030788,HAM_0004785,nv,cohort:cohort,ISIC_0025788,HAM_0003591,nv,cohort:cohort,True,
+630,0.9378,ISIC_0025186,HAM_0002586,nv,cohort:cohort,ISIC_0026274,HAM_0001901,nv,s2026:train; s3001:train; s3002:train; s3003:test; s3004:train; s3005:train,True,cohort
+631,0.9378,ISIC_0025513,HAM_0001907,bcc,s2026:train; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,ISIC_0028195,HAM_0006221,nv,not used,False,
+632,0.9378,ISIC_0029184,HAM_0005454,nv,cohort:cohort,ISIC_0031879,HAM_0003065,nv,cohort:cohort,True,
+633,0.9378,ISIC_0027243,HAM_0007288,nv,cohort:cohort,ISIC_0031393,HAM_0006247,nv,s2026:val; s3001:train; s3002:test; s3003:train; s3004:train; s3005:train,True,cohort
+634,0.9378,ISIC_0029492,HAM_0000735,nv,cohort:cohort,ISIC_0026198,HAM_0004729,nv,s2026:test; s3001:test; s3002:train; s3003:train; s3004:train; s3005:train,True,
+635,0.9378,ISIC_0028861,HAM_0005621,nv,cohort:cohort,ISIC_0029064,HAM_0000134,nv,cohort:cohort,True,
+636,0.9377,ISIC_0024535,HAM_0001287,nv,s2026:test; s3001:val; s3002:train; s3003:train; s3004:train; s3005:train,ISIC_0028788,HAM_0002351,nv,cohort:cohort,True,
+637,0.9377,ISIC_0030154,HAM_0000293,nv,cohort:cohort,ISIC_0027182,HAM_0000172,nv,s2026:test; s3001:train; s3002:train; s3003:val; s3004:train; s3005:train,True,
+638,0.9377,ISIC_0029956,HAM_0005073,nv,cohort:cohort,ISIC_0030228,HAM_0002777,nv,cohort:cohort,True,
+639,0.9377,ISIC_0025271,HAM_0003430,nv,s2026:train; s3001:train; s3002:val; s3003:train; s3004:train; s3005:train,ISIC_0025653,HAM_0005347,nv,cohort:cohort,True,cohort
+640,0.9377,ISIC_0029239,HAM_0001367,nv,cohort:cohort,ISIC_0026858,HAM_0007093,nv,cohort:cohort,True,
+641,0.9377,ISIC_0025551,HAM_0003022,nv,cohort:cohort,ISIC_0029766,HAM_0004023,nv,cohort:cohort,True,
+642,0.9377,ISIC_0030435,HAM_0002877,nv,cohort:cohort,ISIC_0026931,HAM_0003901,nv,cohort:cohort,True,
+643,0.9377,ISIC_0026240,HAM_0006429,nv,cohort:cohort,ISIC_0025839,HAM_0003385,nv,cohort:cohort,True,
+644,0.9377,ISIC_0031100,HAM_0006178,nv,cohort:cohort,ISIC_0028699,HAM_0002260,nv,cohort:cohort,True,
+645,0.9376,ISIC_0030200,HAM_0000495,nv,cohort:cohort,ISIC_0026732,HAM_0001761,nv,cohort:cohort,True,
+646,0.9376,ISIC_0032949,HAM_0006085,bkl,cohort:cohort,ISIC_0032984,HAM_0005636,mel,s2026:train; s3001:train; s3002:val; s3003:train; s3004:train; s3005:train,False,cohort
+647,0.9376,ISIC_0027880,HAM_0005687,nv,cohort:cohort,ISIC_0027499,HAM_0001070,nv,cohort:cohort,True,
+648,0.9376,ISIC_0031715,HAM_0003464,nv,cohort:cohort,ISIC_0025859,HAM_0002837,nv,cohort:cohort,True,
+649,0.9376,ISIC_0026967,HAM_0007027,bkl,cohort:cohort,ISIC_0028359,HAM_0001842,nv,cohort:cohort,False,
+650,0.9376,ISIC_0033947,HAM_0005545,mel,not used,ISIC_0029339,HAM_0000418,nv,cohort:cohort,False,
+651,0.9376,ISIC_0033363,HAM_0002363,nv,cohort:cohort,ISIC_0025653,HAM_0005347,nv,cohort:cohort,True,
+652,0.9376,ISIC_0026039,HAM_0000797,nv,cohort:cohort,ISIC_0029421,HAM_0003203,nv,cohort:cohort,True,
+653,0.9376,ISIC_0025725,HAM_0000056,nv,cohort:cohort,ISIC_0026521,HAM_0004939,nv,cohort:cohort,True,
+654,0.9376,ISIC_0026821,HAM_0007321,nv,cohort:cohort,ISIC_0027880,HAM_0005687,nv,cohort:cohort,True,
+655,0.9376,ISIC_0028436,HAM_0005127,nv,cohort:cohort,ISIC_0028008,HAM_0005018,nv,cohort:cohort,True,
+656,0.9375,ISIC_0024427,HAM_0003988,nv,cohort:cohort,ISIC_0027116,HAM_0002656,nv,cohort:cohort,True,
+657,0.9375,ISIC_0032137,HAM_0006354,nv,cohort:cohort,ISIC_0031549,HAM_0001899,nv,cohort:cohort,True,
+658,0.9375,ISIC_0027426,HAM_0004381,nv,cohort:cohort,ISIC_0026320,HAM_0005564,nv,cohort:cohort,True,
+659,0.9375,ISIC_0026227,HAM_0000986,nv,cohort:cohort,ISIC_0027325,HAM_0005951,nv,cohort:cohort,True,
+660,0.9375,ISIC_0028911,HAM_0006058,nv,cohort:cohort,ISIC_0030040,HAM_0003543,nv,cohort:cohort,True,
+661,0.9375,ISIC_0026731,HAM_0001213,nv,cohort:cohort,ISIC_0027723,HAM_0003264,nv,s2026:test; s3001:train; s3002:test; s3003:train; s3004:train; s3005:test,True,
+662,0.9375,ISIC_0029490,HAM_0003721,nv,cohort:cohort,ISIC_0025258,HAM_0006519,nv,cohort:cohort,True,
+663,0.9374,ISIC_0026395,HAM_0005382,bcc,not used,ISIC_0027684,HAM_0003692,nv,cohort:cohort,False,
+664,0.9374,ISIC_0030562,HAM_0004093,nv,cohort:cohort,ISIC_0027377,HAM_0005105,nv,cohort:cohort,True,
+665,0.9374,ISIC_0031354,HAM_0002823,nv,cohort:cohort,ISIC_0030967,HAM_0005881,nv,cohort:cohort,True,
+666,0.9374,ISIC_0025551,HAM_0003022,nv,cohort:cohort,ISIC_0029605,HAM_0005502,nv,cohort:cohort,True,
+667,0.9374,ISIC_0027880,HAM_0005687,nv,cohort:cohort,ISIC_0026931,HAM_0003901,nv,cohort:cohort,True,
+668,0.9374,ISIC_0030380,HAM_0002405,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:val; s3005:test,ISIC_0024427,HAM_0003988,nv,cohort:cohort,True,cohort
+669,0.9374,ISIC_0027927,HAM_0006614,nv,cohort:cohort,ISIC_0030715,HAM_0003339,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:test; s3005:val,True,cohort
+670,0.9374,ISIC_0027586,HAM_0001421,nv,cohort:cohort,ISIC_0025294,HAM_0006015,nv,cohort:cohort,True,
+671,0.9373,ISIC_0032283,HAM_0003021,bkl,not used,ISIC_0024602,HAM_0002984,bkl,cohort:cohort,True,
+672,0.9373,ISIC_0031128,HAM_0004287,nv,cohort:cohort,ISIC_0030854,HAM_0003908,nv,cohort:cohort,True,
+673,0.9373,ISIC_0026648,HAM_0003994,nv,cohort:cohort,ISIC_0030381,HAM_0005702,nv,cohort:cohort,True,
+674,0.9373,ISIC_0025551,HAM_0003022,nv,cohort:cohort,ISIC_0024847,HAM_0003570,nv,cohort:cohort,True,
+675,0.9373,ISIC_0032158,HAM_0004318,nv,cohort:cohort,ISIC_0032334,HAM_0006197,nv,cohort:cohort,True,
+676,0.9373,ISIC_0027173,HAM_0005472,nv,cohort:cohort,ISIC_0030347,HAM_0006019,nv,cohort:cohort,True,
+677,0.9373,ISIC_0024705,HAM_0007355,bkl,cohort:cohort,ISIC_0027202,HAM_0001011,bkl,cohort:cohort,True,
+678,0.9373,ISIC_0032049,HAM_0000839,nv,cohort:cohort,ISIC_0027499,HAM_0001070,nv,cohort:cohort,True,
+679,0.9373,ISIC_0032066,HAM_0002225,nv,cohort:cohort,ISIC_0024794,HAM_0006811,nv,cohort:cohort,True,
+680,0.9372,ISIC_0030502,HAM_0002991,nv,cohort:cohort,ISIC_0029088,HAM_0007430,nv,s2026:val; s3001:train; s3002:val; s3003:train; s3004:test; s3005:test,True,cohort
+681,0.9372,ISIC_0024477,HAM_0000259,bkl,cohort:cohort,ISIC_0026539,HAM_0004696,bkl,not used,True,
+682,0.9372,ISIC_0026906,HAM_0005782,nv,cohort:cohort,ISIC_0028801,HAM_0003855,nv,cohort:cohort,True,
+683,0.9372,ISIC_0024989,HAM_0002035,nv,cohort:cohort,ISIC_0029078,HAM_0004808,nv,s2026:test; s3001:test; s3002:val; s3003:train; s3004:train; s3005:train,True,
+684,0.9372,ISIC_0032546,HAM_0000547,nv,cohort:cohort,ISIC_0032702,HAM_0004814,nv,not used,True,
+685,0.9372,ISIC_0028268,HAM_0004875,nv,cohort:cohort,ISIC_0030020,HAM_0003986,nv,s2026:train; s3001:train; s3002:test; s3003:train; s3004:train; s3005:test,True,cohort
+686,0.9372,ISIC_0032892,HAM_0003354,mel,s2026:train; s3001:val; s3002:train; s3003:train; s3004:train; s3005:val,ISIC_0032913,HAM_0004881,mel,s2026:val; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,True,
+687,0.9372,ISIC_0024465,HAM_0006377,nv,cohort:cohort,ISIC_0028783,HAM_0007326,nv,cohort:cohort,True,
+688,0.9372,ISIC_0027422,HAM_0002539,nv,cohort:cohort,ISIC_0032418,HAM_0004594,nv,cohort:cohort,True,
+689,0.9372,ISIC_0025258,HAM_0006519,nv,cohort:cohort,ISIC_0029739,HAM_0007352,nv,cohort:cohort,True,
+690,0.9372,ISIC_0027347,HAM_0005234,nv,cohort:cohort,ISIC_0025478,HAM_0005499,nv,s2026:train; s3001:test; s3002:val; s3003:train; s3004:train; s3005:train,True,cohort
+691,0.9372,ISIC_0027566,HAM_0004664,nv,cohort:cohort,ISIC_0029076,HAM_0005147,nv,cohort:cohort,True,
+692,0.9372,ISIC_0028177,HAM_0000031,nv,cohort:cohort,ISIC_0027880,HAM_0005687,nv,cohort:cohort,True,
+693,0.9371,ISIC_0024456,HAM_0003612,nv,cohort:cohort,ISIC_0032137,HAM_0006354,nv,cohort:cohort,True,
+694,0.9371,ISIC_0026399,HAM_0003344,nv,cohort:cohort,ISIC_0027830,HAM_0001516,nv,cohort:cohort,True,
+695,0.9371,ISIC_0032066,HAM_0002225,nv,cohort:cohort,ISIC_0030713,HAM_0006866,nv,cohort:cohort,True,
+696,0.9371,ISIC_0031355,HAM_0007466,nv,cohort:cohort,ISIC_0027464,HAM_0005380,nv,cohort:cohort,True,
+697,0.9371,ISIC_0030715,HAM_0003339,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:test; s3005:val,ISIC_0025294,HAM_0006015,nv,cohort:cohort,True,cohort
+698,0.9371,ISIC_0030762,HAM_0006944,nv,cohort:cohort,ISIC_0031027,HAM_0006499,nv,s2026:train; s3001:test; s3002:test; s3003:val; s3004:train; s3005:train,True,cohort
+699,0.9371,ISIC_0027546,HAM_0005617,bcc,s2026:train; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,ISIC_0026492,HAM_0006481,akiec,not used,False,
+700,0.937,ISIC_0028177,HAM_0000031,nv,cohort:cohort,ISIC_0024427,HAM_0003988,nv,cohort:cohort,True,
+701,0.937,ISIC_0024670,HAM_0002935,nv,cohort:cohort,ISIC_0028268,HAM_0004875,nv,cohort:cohort,True,
+702,0.937,ISIC_0032847,HAM_0002004,mel,cohort:cohort,ISIC_0032759,HAM_0004186,nv,cohort:cohort,False,
+703,0.937,ISIC_0030713,HAM_0006866,nv,cohort:cohort,ISIC_0030628,HAM_0002707,nv,cohort:cohort,True,
+704,0.937,ISIC_0031549,HAM_0001899,nv,cohort:cohort,ISIC_0030020,HAM_0003986,nv,s2026:train; s3001:train; s3002:test; s3003:train; s3004:train; s3005:test,True,cohort
+705,0.937,ISIC_0030380,HAM_0002405,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:val; s3005:test,ISIC_0030854,HAM_0003908,nv,cohort:cohort,True,cohort
+706,0.937,ISIC_0030347,HAM_0006019,nv,cohort:cohort,ISIC_0025625,HAM_0004497,nv,s2026:val; s3001:val; s3002:val; s3003:train; s3004:train; s3005:train,True,cohort
+707,0.937,ISIC_0027906,HAM_0000185,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,ISIC_0027547,HAM_0000558,nv,cohort:cohort,True,cohort
+708,0.937,ISIC_0033947,HAM_0005545,mel,not used,ISIC_0033338,HAM_0006925,nv,cohort:cohort,False,
+709,0.937,ISIC_0029979,HAM_0004233,nv,cohort:cohort,ISIC_0024826,HAM_0000522,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:val; s3005:test,True,cohort
+710,0.937,ISIC_0031151,HAM_0003438,nv,s2026:val; s3001:train; s3002:train; s3003:train; s3004:train; s3005:val,ISIC_0024978,HAM_0003629,nv,cohort:cohort,True,cohort
+711,0.937,ISIC_0024713,HAM_0005955,nv,cohort:cohort,ISIC_0027445,HAM_0007399,nv,cohort:cohort,True,
+712,0.937,ISIC_0027499,HAM_0001070,nv,cohort:cohort,ISIC_0029657,HAM_0006694,nv,cohort:cohort,True,
+713,0.9369,ISIC_0031536,HAM_0007339,nv,cohort:cohort,ISIC_0024856,HAM_0004009,nv,cohort:cohort,True,
+714,0.9369,ISIC_0026030,HAM_0003580,nv,cohort:cohort,ISIC_0030311,HAM_0000836,nv,cohort:cohort,True,
+715,0.9369,ISIC_0024847,HAM_0003570,nv,cohort:cohort,ISIC_0028268,HAM_0004875,nv,cohort:cohort,True,
+716,0.9369,ISIC_0031549,HAM_0001899,nv,cohort:cohort,ISIC_0028268,HAM_0004875,nv,cohort:cohort,True,
+717,0.9369,ISIC_0026039,HAM_0000797,nv,cohort:cohort,ISIC_0025889,HAM_0002801,nv,cohort:cohort,True,
+718,0.9369,ISIC_0029956,HAM_0005073,nv,cohort:cohort,ISIC_0029800,HAM_0003702,nv,cohort:cohort,True,
+719,0.9369,ISIC_0028007,HAM_0006969,nv,cohort:cohort,ISIC_0029421,HAM_0003203,nv,cohort:cohort,True,
+720,0.9369,ISIC_0025551,HAM_0003022,nv,cohort:cohort,ISIC_0029579,HAM_0003082,nv,cohort:cohort,True,
+721,0.9369,ISIC_0024557,HAM_0001247,nv,cohort:cohort,ISIC_0026971,HAM_0003407,nv,cohort:cohort,True,
+722,0.9369,ISIC_0027422,HAM_0002539,nv,cohort:cohort,ISIC_0029184,HAM_0005454,nv,cohort:cohort,True,
+723,0.9369,ISIC_0026881,HAM_0006021,nv,cohort:cohort,ISIC_0029116,HAM_0007062,nv,s2026:train; s3001:train; s3002:val; s3003:test; s3004:train; s3005:train,True,cohort
+724,0.9369,ISIC_0026774,HAM_0007242,mel,cohort:cohort,ISIC_0026030,HAM_0003580,nv,cohort:cohort,False,
+725,0.9368,ISIC_0028177,HAM_0000031,nv,cohort:cohort,ISIC_0026485,HAM_0006414,nv,cohort:cohort,True,
+726,0.9368,ISIC_0028979,HAM_0004608,nv,cohort:cohort,ISIC_0024811,HAM_0007452,nv,cohort:cohort,True,
+727,0.9368,ISIC_0030846,HAM_0006242,nv,cohort:cohort,ISIC_0024456,HAM_0003612,nv,cohort:cohort,True,
+728,0.9368,ISIC_0025702,HAM_0006347,nv,s2026:test; s3001:val; s3002:train; s3003:train; s3004:train; s3005:train,ISIC_0025653,HAM_0005347,nv,cohort:cohort,True,
+729,0.9368,ISIC_0033947,HAM_0005545,mel,not used,ISIC_0033888,HAM_0006925,nv,cohort:cohort,False,
+730,0.9368,ISIC_0025632,HAM_0004223,nv,cohort:cohort,ISIC_0032147,HAM_0006867,nv,cohort:cohort,True,
+731,0.9368,ISIC_0024939,HAM_0000074,nv,cohort:cohort,ISIC_0025215,HAM_0006495,nv,cohort:cohort,True,
+732,0.9368,ISIC_0029535,HAM_0000664,nv,cohort:cohort,ISIC_0031365,HAM_0006728,nv,s2026:val; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,True,cohort
+733,0.9368,ISIC_0026252,HAM_0003651,nv,cohort:cohort,ISIC_0025230,HAM_0001966,nv,cohort:cohort,True,
+734,0.9368,ISIC_0028268,HAM_0004875,nv,cohort:cohort,ISIC_0028169,HAM_0002500,nv,cohort:cohort,True,
+735,0.9367,ISIC_0026731,HAM_0001213,nv,cohort:cohort,ISIC_0028268,HAM_0004875,nv,cohort:cohort,True,
+736,0.9367,ISIC_0030084,HAM_0004616,nv,cohort:cohort,ISIC_0024325,HAM_0002044,nv,cohort:cohort,True,
+737,0.9367,ISIC_0024357,HAM_0005676,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:train; s3005:val,ISIC_0026246,HAM_0003788,nv,cohort:cohort,True,cohort
+738,0.9367,ISIC_0026093,HAM_0004704,nv,s2026:train; s3001:val; s3002:train; s3003:train; s3004:train; s3005:train,ISIC_0027381,HAM_0004452,nv,cohort:cohort,True,cohort
+739,0.9367,ISIC_0025404,HAM_0000251,nv,cohort:cohort,ISIC_0028277,HAM_0005168,nv,cohort:cohort,True,
+740,0.9367,ISIC_0030506,HAM_0000384,nv,cohort:cohort,ISIC_0030055,HAM_0006743,nv,cohort:cohort,True,
+741,0.9367,ISIC_0027799,HAM_0000654,nv,cohort:cohort,ISIC_0030685,HAM_0000585,nv,cohort:cohort,True,
+742,0.9366,ISIC_0030849,HAM_0006181,bkl,cohort:cohort,ISIC_0024579,HAM_0000005,akiec,not used,False,
+743,0.9366,ISIC_0026088,HAM_0002958,nv,cohort:cohort,ISIC_0030267,HAM_0000877,nv,cohort:cohort,True,
+744,0.9366,ISIC_0025028,HAM_0003231,nv,cohort:cohort,ISIC_0027749,HAM_0000466,nv,cohort:cohort,True,
+745,0.9366,ISIC_0032493,HAM_0007011,nv,cohort:cohort,ISIC_0025609,HAM_0005906,nv,cohort:cohort,True,
+746,0.9366,ISIC_0032847,HAM_0002004,mel,cohort:cohort,ISIC_0034114,HAM_0004212,nv,cohort:cohort,False,
+747,0.9366,ISIC_0024456,HAM_0003612,nv,cohort:cohort,ISIC_0028268,HAM_0004875,nv,cohort:cohort,True,
+748,0.9365,ISIC_0026912,HAM_0007337,bkl,cohort:cohort,ISIC_0033460,HAM_0005847,bkl,cohort:cohort,True,
+749,0.9365,ISIC_0032320,HAM_0005990,nv,cohort:cohort,ISIC_0031492,HAM_0003638,nv,cohort:cohort,True,
+750,0.9365,ISIC_0024542,HAM_0000224,nv,cohort:cohort,ISIC_0031994,HAM_0002669,nv,cohort:cohort,True,
+751,0.9365,ISIC_0027272,HAM_0004668,nv,s2026:train; s3001:test; s3002:train; s3003:test; s3004:train; s3005:train,ISIC_0032259,HAM_0004333,nv,s2026:train; s3001:train; s3002:train; s3003:test; s3004:train; s3005:train,True,s3001
+752,0.9365,ISIC_0029987,HAM_0005071,nv,cohort:cohort,ISIC_0030762,HAM_0006944,nv,cohort:cohort,True,
+753,0.9365,ISIC_0030357,HAM_0004026,nv,s2026:train; s3001:val; s3002:train; s3003:train; s3004:train; s3005:val,ISIC_0029873,HAM_0005824,nv,cohort:cohort,True,cohort
+754,0.9365,ISIC_0027718,HAM_0004997,nv,cohort:cohort,ISIC_0031988,HAM_0003904,nv,cohort:cohort,True,
+755,0.9365,ISIC_0029050,HAM_0003481,nv,cohort:cohort,ISIC_0027743,HAM_0004591,nv,cohort:cohort,True,
+756,0.9365,ISIC_0031634,HAM_0000341,nv,cohort:cohort,ISIC_0028564,HAM_0003204,nv,cohort:cohort,True,
+757,0.9365,ISIC_0027718,HAM_0004997,nv,cohort:cohort,ISIC_0031769,HAM_0006861,nv,cohort:cohort,True,
+758,0.9365,ISIC_0025024,HAM_0002562,nv,cohort:cohort,ISIC_0027994,HAM_0007525,nv,s2026:val; s3001:train; s3002:train; s3003:test; s3004:train; s3005:train,True,cohort
+759,0.9364,ISIC_0028725,HAM_0003598,nv,cohort:cohort,ISIC_0031815,HAM_0002760,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,True,cohort
+760,0.9364,ISIC_0028054,HAM_0004890,nv,cohort:cohort,ISIC_0025481,HAM_0001909,nv,s2026:train; s3001:train; s3002:train; s3003:test; s3004:train; s3005:train,True,cohort
+761,0.9364,ISIC_0027765,HAM_0005307,nv,cohort:cohort,ISIC_0032217,HAM_0006503,nv,cohort:cohort,True,
+762,0.9364,ISIC_0032989,HAM_0005135,nv,cohort:cohort,ISIC_0032648,HAM_0003106,nv,not used,True,
+763,0.9364,ISIC_0032180,HAM_0004236,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,ISIC_0025258,HAM_0006519,nv,cohort:cohort,True,cohort
+764,0.9364,ISIC_0025783,HAM_0000417,mel,cohort:cohort,ISIC_0029175,HAM_0002806,nv,cohort:cohort,False,
+765,0.9364,ISIC_0032416,HAM_0003347,nv,cohort:cohort,ISIC_0029601,HAM_0001131,nv,cohort:cohort,True,
+766,0.9364,ISIC_0030526,HAM_0002313,bcc,not used,ISIC_0024517,HAM_0001894,akiec,cohort:cohort,False,
+767,0.9363,ISIC_0024960,HAM_0000489,nv,cohort:cohort,ISIC_0028189,HAM_0006849,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:test; s3005:train,True,cohort
+768,0.9363,ISIC_0028786,HAM_0005272,nv,cohort:cohort,ISIC_0030780,HAM_0007501,nv,s2026:train; s3001:val; s3002:val; s3003:val; s3004:test; s3005:test,True,cohort
+769,0.9363,ISIC_0032121,HAM_0006000,nv,cohort:cohort,ISIC_0029090,HAM_0007389,nv,cohort:cohort,True,
+770,0.9363,ISIC_0027477,HAM_0000641,nv,cohort:cohort,ISIC_0027241,HAM_0000995,nv,cohort:cohort,True,
+771,0.9363,ISIC_0028394,HAM_0004684,nv,cohort:cohort,ISIC_0031324,HAM_0003628,nv,s2026:val; s3001:val; s3002:train; s3003:train; s3004:train; s3005:train,True,cohort
+772,0.9363,ISIC_0033040,HAM_0007478,nv,cohort:cohort,ISIC_0032658,HAM_0005717,nv,cohort:cohort,True,
+773,0.9363,ISIC_0025625,HAM_0004497,nv,s2026:val; s3001:val; s3002:val; s3003:train; s3004:train; s3005:train,ISIC_0031152,HAM_0007314,nv,cohort:cohort,True,cohort
+774,0.9363,ISIC_0029691,HAM_0002880,nv,cohort:cohort,ISIC_0025572,HAM_0003268,nv,cohort:cohort,True,
+775,0.9363,ISIC_0030831,HAM_0002926,nv,cohort:cohort,ISIC_0029294,HAM_0003564,nv,cohort:cohort,True,
+776,0.9363,ISIC_0027830,HAM_0001516,nv,cohort:cohort,ISIC_0025159,HAM_0000283,nv,cohort:cohort,True,
+777,0.9363,ISIC_0028695,HAM_0006010,nv,cohort:cohort,ISIC_0030718,HAM_0005373,nv,cohort:cohort,True,
+778,0.9363,ISIC_0030857,HAM_0003479,nv,cohort:cohort,ISIC_0027683,HAM_0005738,nv,cohort:cohort,True,
+779,0.9362,ISIC_0028951,HAM_0007116,nv,cohort:cohort,ISIC_0025684,HAM_0006941,nv,cohort:cohort,True,
+780,0.9362,ISIC_0025503,HAM_0005423,nv,cohort:cohort,ISIC_0027880,HAM_0005687,nv,cohort:cohort,True,
+781,0.9362,ISIC_0024362,HAM_0001758,nv,cohort:cohort,ISIC_0024427,HAM_0003988,nv,cohort:cohort,True,
+782,0.9362,ISIC_0030780,HAM_0007501,nv,s2026:train; s3001:val; s3002:val; s3003:val; s3004:test; s3005:test,ISIC_0032418,HAM_0004594,nv,cohort:cohort,True,cohort
+783,0.9362,ISIC_0031187,HAM_0006589,nv,cohort:cohort,ISIC_0026116,HAM_0002855,nv,cohort:cohort,True,
+784,0.9362,ISIC_0026128,HAM_0006033,nv,cohort:cohort,ISIC_0025595,HAM_0000192,nv,s2026:train; s3001:train; s3002:train; s3003:val; s3004:test; s3005:test,True,cohort
+785,0.9362,ISIC_0031075,HAM_0003154,nv,cohort:cohort,ISIC_0026969,HAM_0005148,nv,cohort:cohort,True,
+786,0.9362,ISIC_0031523,HAM_0000686,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:train; s3005:val,ISIC_0031254,HAM_0006906,nv,cohort:cohort,True,cohort
+787,0.9362,ISIC_0029605,HAM_0005502,nv,cohort:cohort,ISIC_0029804,HAM_0005851,nv,s2026:train; s3001:test; s3002:train; s3003:train; s3004:train; s3005:train,True,cohort
+788,0.9362,ISIC_0024713,HAM_0005955,nv,cohort:cohort,ISIC_0031548,HAM_0003575,nv,cohort:cohort,True,
+789,0.9362,ISIC_0027971,HAM_0007082,nv,cohort:cohort,ISIC_0024401,HAM_0002178,nv,cohort:cohort,True,
+790,0.9362,ISIC_0030483,HAM_0006569,nv,cohort:cohort,ISIC_0028443,HAM_0004601,nv,s2026:train; s3001:train; s3002:train; s3003:test; s3004:train; s3005:val,True,cohort
+791,0.9362,ISIC_0030921,HAM_0000350,nv,cohort:cohort,ISIC_0027247,HAM_0001447,nv,cohort:cohort,True,
+792,0.9361,ISIC_0026344,HAM_0000221,nv,cohort:cohort,ISIC_0027726,HAM_0003342,nv,cohort:cohort,True,
+793,0.9361,ISIC_0025074,HAM_0000851,nv,cohort:cohort,ISIC_0029614,HAM_0006684,nv,cohort:cohort,True,
+794,0.9361,ISIC_0030928,HAM_0002047,nv,s2026:train; s3001:train; s3002:val; s3003:test; s3004:train; s3005:test,ISIC_0026020,HAM_0001550,nv,cohort:cohort,True,cohort
+795,0.9361,ISIC_0024974,HAM_0006093,nv,cohort:cohort,ISIC_0031856,HAM_0007197,nv,cohort:cohort,True,
+796,0.9361,ISIC_0031240,HAM_0004602,nv,cohort:cohort,ISIC_0025159,HAM_0000283,nv,cohort:cohort,True,
+797,0.9361,ISIC_0029178,HAM_0000594,nv,cohort:cohort,ISIC_0026033,HAM_0003319,nv,cohort:cohort,True,
+798,0.9361,ISIC_0028413,HAM_0005360,nv,s2026:train; s3001:train; s3002:train; s3003:test; s3004:train; s3005:train,ISIC_0028008,HAM_0005018,nv,cohort:cohort,True,cohort
+799,0.9361,ISIC_0032224,HAM_0005033,nv,cohort:cohort,ISIC_0025725,HAM_0000056,nv,cohort:cohort,True,
+800,0.9361,ISIC_0029546,HAM_0005482,bcc,s2026:train; s3001:val; s3002:train; s3003:train; s3004:val; s3005:val,ISIC_0024829,HAM_0007535,bcc,cohort:cohort,True,cohort
+801,0.9361,ISIC_0032713,HAM_0005209,nv,cohort:cohort,ISIC_0033890,HAM_0003365,nv,cohort:cohort,True,
+802,0.9361,ISIC_0031330,HAM_0002495,nv,cohort:cohort,ISIC_0027971,HAM_0007082,nv,cohort:cohort,True,
+803,0.9361,ISIC_0027422,HAM_0002539,nv,cohort:cohort,ISIC_0028267,HAM_0006195,nv,cohort:cohort,True,
+804,0.9361,ISIC_0028268,HAM_0004875,nv,cohort:cohort,ISIC_0025839,HAM_0003385,nv,cohort:cohort,True,
+805,0.9361,ISIC_0032583,HAM_0000006,mel,s2026:train; s3001:train; s3002:test; s3003:train; s3004:train; s3005:train,ISIC_0032009,HAM_0001107,nv,cohort:cohort,False,cohort
+806,0.936,ISIC_0024593,HAM_0007369,nv,cohort:cohort,ISIC_0032472,HAM_0002140,nv,cohort:cohort,True,
+807,0.936,ISIC_0031505,HAM_0005991,nv,cohort:cohort,ISIC_0027532,HAM_0005602,nv,cohort:cohort,True,
+808,0.936,ISIC_0025551,HAM_0003022,nv,cohort:cohort,ISIC_0027357,HAM_0004540,nv,s2026:train; s3001:train; s3002:train; s3003:test; s3004:train; s3005:val,True,cohort
+809,0.936,ISIC_0031046,HAM_0002657,nv,cohort:cohort,ISIC_0027949,HAM_0002087,nv,cohort:cohort,True,
+810,0.936,ISIC_0031634,HAM_0000341,nv,cohort:cohort,ISIC_0029886,HAM_0007459,nv,cohort:cohort,True,
+811,0.936,ISIC_0025308,HAM_0001821,nv,cohort:cohort,ISIC_0025048,HAM_0005734,nv,cohort:cohort,True,
+812,0.936,ISIC_0032137,HAM_0006354,nv,cohort:cohort,ISIC_0032369,HAM_0003079,nv,cohort:cohort,True,
+813,0.936,ISIC_0025159,HAM_0000283,nv,cohort:cohort,ISIC_0024385,HAM_0006164,nv,cohort:cohort,True,
+814,0.936,ISIC_0025126,HAM_0002953,nv,s2026:test; s3001:train; s3002:train; s3003:train; s3004:train; s3005:test,ISIC_0031548,HAM_0003575,nv,cohort:cohort,True,
+815,0.936,ISIC_0027347,HAM_0005234,nv,cohort:cohort,ISIC_0026948,HAM_0007619,nv,cohort:cohort,True,
+816,0.9359,ISIC_0030409,HAM_0001181,nv,cohort:cohort,ISIC_0025418,HAM_0006571,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:test; s3005:train,True,cohort
+817,0.9359,ISIC_0026058,HAM_0007361,nv,cohort:cohort,ISIC_0029709,HAM_0003763,nv,cohort:cohort,True,
+818,0.9359,ISIC_0033910,HAM_0006654,bkl,cohort:cohort,ISIC_0034211,HAM_0007558,mel,not used,False,
+819,0.9359,ISIC_0031311,HAM_0000150,nv,not used,ISIC_0028150,HAM_0002451,nv,cohort:cohort,True,
+820,0.9359,ISIC_0027196,HAM_0007304,nv,cohort:cohort,ISIC_0030985,HAM_0004679,nv,cohort:cohort,True,
+821,0.9359,ISIC_0030898,HAM_0001847,mel,s2026:train; s3001:test; s3002:val; s3003:train; s3004:test; s3005:val,ISIC_0027260,HAM_0002391,mel,s2026:train; s3001:train; s3002:test; s3003:val; s3004:test; s3005:train,True,"s3001,s3002"
+822,0.9359,ISIC_0027070,HAM_0003526,nv,cohort:cohort,ISIC_0025483,HAM_0007170,nv,cohort:cohort,True,
+823,0.9359,ISIC_0032444,HAM_0000949,nv,cohort:cohort,ISIC_0026492,HAM_0006481,akiec,not used,False,
+824,0.9359,ISIC_0025843,HAM_0004098,nv,s2026:train; s3001:val; s3002:train; s3003:val; s3004:train; s3005:test,ISIC_0024521,HAM_0007330,nv,s2026:train; s3001:val; s3002:train; s3003:val; s3004:train; s3005:val,True,s3005
+825,0.9359,ISIC_0027743,HAM_0004591,nv,cohort:cohort,ISIC_0030020,HAM_0003986,nv,s2026:train; s3001:train; s3002:test; s3003:train; s3004:train; s3005:test,True,cohort
+826,0.9359,ISIC_0027765,HAM_0005307,nv,cohort:cohort,ISIC_0028318,HAM_0001886,nv,cohort:cohort,True,
+827,0.9359,ISIC_0027049,HAM_0006826,nv,s2026:train; s3001:test; s3002:val; s3003:train; s3004:train; s3005:test,ISIC_0028843,HAM_0002409,nv,cohort:cohort,True,cohort
+828,0.9358,ISIC_0024584,HAM_0001391,nv,cohort:cohort,ISIC_0027743,HAM_0004591,nv,cohort:cohort,True,
+829,0.9358,ISIC_0029116,HAM_0007062,nv,s2026:train; s3001:train; s3002:val; s3003:test; s3004:train; s3005:train,ISIC_0026931,HAM_0003901,nv,cohort:cohort,True,cohort
+830,0.9358,ISIC_0029556,HAM_0001831,nv,cohort:cohort,ISIC_0026821,HAM_0007321,nv,cohort:cohort,True,
+831,0.9358,ISIC_0028054,HAM_0004890,nv,cohort:cohort,ISIC_0029497,HAM_0001300,nv,cohort:cohort,True,
+832,0.9358,ISIC_0028769,HAM_0004242,nv,cohort:cohort,ISIC_0026881,HAM_0006021,nv,cohort:cohort,True,
+833,0.9358,ISIC_0034102,HAM_0003713,nv,cohort:cohort,ISIC_0033283,HAM_0001246,nv,cohort:cohort,True,
+834,0.9358,ISIC_0029322,HAM_0001371,nv,cohort:cohort,ISIC_0032282,HAM_0007064,nv,cohort:cohort,True,
+835,0.9358,ISIC_0028068,HAM_0002331,nv,s2026:train; s3001:train; s3002:test; s3003:val; s3004:val; s3005:train,ISIC_0030646,HAM_0007074,nv,cohort:cohort,True,cohort
+836,0.9358,ISIC_0026366,HAM_0005236,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:val; s3005:train,ISIC_0030896,HAM_0003406,nv,cohort:cohort,True,cohort
+837,0.9358,ISIC_0027703,HAM_0001049,nv,cohort:cohort,ISIC_0030857,HAM_0003479,nv,cohort:cohort,True,
+838,0.9358,ISIC_0028054,HAM_0004890,nv,cohort:cohort,ISIC_0031086,HAM_0004159,nv,cohort:cohort,True,
+839,0.9358,ISIC_0024978,HAM_0003629,nv,cohort:cohort,ISIC_0028838,HAM_0004541,nv,cohort:cohort,True,
+840,0.9358,ISIC_0027854,HAM_0002105,nv,cohort:cohort,ISIC_0031086,HAM_0004159,nv,cohort:cohort,True,
+841,0.9358,ISIC_0030911,HAM_0005111,nv,cohort:cohort,ISIC_0025435,HAM_0002619,nv,cohort:cohort,True,
+842,0.9358,ISIC_0030971,HAM_0001700,nv,s2026:train; s3001:train; s3002:test; s3003:train; s3004:train; s3005:train,ISIC_0029691,HAM_0002880,nv,cohort:cohort,True,cohort
+843,0.9358,ISIC_0029050,HAM_0003481,nv,cohort:cohort,ISIC_0029171,HAM_0004179,nv,cohort:cohort,True,
+844,0.9358,ISIC_0025147,HAM_0004425,nv,cohort:cohort,ISIC_0028604,HAM_0006449,nv,cohort:cohort,True,
+845,0.9358,ISIC_0027691,HAM_0001482,nv,s2026:val; s3001:test; s3002:train; s3003:val; s3004:train; s3005:train,ISIC_0026708,HAM_0005850,nv,s2026:test; s3001:val; s3002:train; s3003:train; s3004:val; s3005:val,True,"s2026,s3001"
+846,0.9357,ISIC_0028302,HAM_0007302,nv,s2026:test; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,ISIC_0027377,HAM_0005105,nv,cohort:cohort,True,
+847,0.9357,ISIC_0029297,HAM_0002153,df,cohort:cohort,ISIC_0024655,HAM_0000013,nv,cohort:cohort,False,
+848,0.9357,ISIC_0029692,HAM_0005503,nv,cohort:cohort,ISIC_0031246,HAM_0003538,nv,cohort:cohort,True,
+849,0.9357,ISIC_0025622,HAM_0005362,df,s2026:train; s3001:test; s3002:train; s3003:test; s3004:train; s3005:train,ISIC_0031372,HAM_0007418,df,cohort:cohort,True,cohort
+850,0.9357,ISIC_0028195,HAM_0006221,nv,not used,ISIC_0025653,HAM_0005347,nv,cohort:cohort,True,
+851,0.9357,ISIC_0027417,HAM_0007615,nv,cohort:cohort,ISIC_0030632,HAM_0002811,nv,s2026:train; s3001:train; s3002:val; s3003:train; s3004:train; s3005:train,True,cohort
+852,0.9357,ISIC_0031210,HAM_0004390,nv,cohort:cohort,ISIC_0031415,HAM_0001704,nv,cohort:cohort,True,
+853,0.9357,ISIC_0033268,HAM_0007163,mel,cohort:cohort,ISIC_0033793,HAM_0003143,nv,cohort:cohort,False,
+854,0.9357,ISIC_0024774,HAM_0002903,bkl,cohort:cohort,ISIC_0028818,HAM_0003694,bcc,cohort:cohort,False,
+855,0.9357,ISIC_0024427,HAM_0003988,nv,cohort:cohort,ISIC_0025011,HAM_0002700,nv,cohort:cohort,True,
+856,0.9357,ISIC_0032282,HAM_0007064,nv,cohort:cohort,ISIC_0029739,HAM_0007352,nv,cohort:cohort,True,
+857,0.9356,ISIC_0029979,HAM_0004233,nv,cohort:cohort,ISIC_0030338,HAM_0001775,nv,cohort:cohort,True,
+858,0.9356,ISIC_0032009,HAM_0001107,nv,cohort:cohort,ISIC_0025653,HAM_0005347,nv,cohort:cohort,True,
+859,0.9356,ISIC_0031800,HAM_0003551,nv,cohort:cohort,ISIC_0030921,HAM_0000350,nv,cohort:cohort,True,
+860,0.9356,ISIC_0027586,HAM_0001421,nv,cohort:cohort,ISIC_0024655,HAM_0000013,nv,cohort:cohort,True,
+861,0.9356,ISIC_0030441,HAM_0000479,nv,cohort:cohort,ISIC_0029556,HAM_0001831,nv,cohort:cohort,True,
+862,0.9356,ISIC_0030713,HAM_0006866,nv,cohort:cohort,ISIC_0026041,HAM_0001072,nv,cohort:cohort,True,
+863,0.9356,ISIC_0030050,HAM_0001662,nv,cohort:cohort,ISIC_0024325,HAM_0002044,nv,cohort:cohort,True,
+864,0.9356,ISIC_0030716,HAM_0006308,nv,cohort:cohort,ISIC_0030708,HAM_0002162,nv,s2026:test; s3001:train; s3002:test; s3003:train; s3004:train; s3005:train,True,
+865,0.9356,ISIC_0027272,HAM_0004668,nv,s2026:train; s3001:test; s3002:train; s3003:test; s3004:train; s3005:train,ISIC_0032483,HAM_0004104,nv,cohort:cohort,True,cohort
+866,0.9356,ISIC_0029892,HAM_0006511,nv,cohort:cohort,ISIC_0030734,HAM_0004692,nv,cohort:cohort,True,
+867,0.9356,ISIC_0033691,HAM_0006654,bkl,cohort:cohort,ISIC_0033555,HAM_0003143,nv,cohort:cohort,False,
+868,0.9356,ISIC_0032143,HAM_0004796,nv,cohort:cohort,ISIC_0031944,HAM_0004162,nv,cohort:cohort,True,
+869,0.9356,ISIC_0030200,HAM_0000495,nv,cohort:cohort,ISIC_0032332,HAM_0004449,nv,cohort:cohort,True,
+870,0.9355,ISIC_0026733,HAM_0006385,nv,cohort:cohort,ISIC_0030502,HAM_0002991,nv,cohort:cohort,True,
+871,0.9355,ISIC_0025307,HAM_0002362,nv,cohort:cohort,ISIC_0027728,HAM_0000644,nv,cohort:cohort,True,
+872,0.9355,ISIC_0034048,HAM_0000042,mel,s2026:val; s3001:train; s3002:val; s3003:train; s3004:train; s3005:test,ISIC_0032797,HAM_0001863,mel,not used,True,
+873,0.9355,ISIC_0029892,HAM_0006511,nv,cohort:cohort,ISIC_0025444,HAM_0000427,nv,cohort:cohort,True,
+874,0.9355,ISIC_0027124,HAM_0003636,nv,s2026:train; s3001:train; s3002:test; s3003:train; s3004:train; s3005:val,ISIC_0028318,HAM_0001886,nv,cohort:cohort,True,cohort
+875,0.9355,ISIC_0024393,HAM_0001432,nv,cohort:cohort,ISIC_0025395,HAM_0000371,nv,cohort:cohort,True,
+876,0.9355,ISIC_0029911,HAM_0000647,nv,s2026:train; s3001:val; s3002:test; s3003:train; s3004:train; s3005:train,ISIC_0028850,HAM_0003837,nv,cohort:cohort,True,cohort
+877,0.9355,ISIC_0028164,HAM_0006443,nv,cohort:cohort,ISIC_0026322,HAM_0007624,nv,cohort:cohort,True,
+878,0.9355,ISIC_0025981,HAM_0007499,nv,cohort:cohort,ISIC_0030832,HAM_0003756,nv,cohort:cohort,True,
+879,0.9355,ISIC_0030357,HAM_0004026,nv,s2026:train; s3001:val; s3002:train; s3003:train; s3004:train; s3005:val,ISIC_0024939,HAM_0000074,nv,cohort:cohort,True,cohort
+880,0.9355,ISIC_0027426,HAM_0004381,nv,cohort:cohort,ISIC_0025139,HAM_0007584,nv,cohort:cohort,True,
+881,0.9355,ISIC_0027243,HAM_0007288,nv,cohort:cohort,ISIC_0031549,HAM_0001899,nv,cohort:cohort,True,
+882,0.9354,ISIC_0026227,HAM_0000986,nv,cohort:cohort,ISIC_0030471,HAM_0002540,nv,cohort:cohort,True,
+883,0.9354,ISIC_0030562,HAM_0004093,nv,cohort:cohort,ISIC_0026648,HAM_0003994,nv,cohort:cohort,True,
+884,0.9354,ISIC_0027553,HAM_0002974,nv,cohort:cohort,ISIC_0029691,HAM_0002880,nv,cohort:cohort,True,
+885,0.9354,ISIC_0026733,HAM_0006385,nv,cohort:cohort,ISIC_0028927,HAM_0000680,nv,s2026:train; s3001:train; s3002:val; s3003:val; s3004:train; s3005:train,True,cohort
+886,0.9354,ISIC_0027834,HAM_0002138,nv,cohort:cohort,ISIC_0032252,HAM_0005895,nv,cohort:cohort,True,
+887,0.9354,ISIC_0030857,HAM_0003479,nv,cohort:cohort,ISIC_0028564,HAM_0003204,nv,cohort:cohort,True,
+888,0.9354,ISIC_0027054,HAM_0005414,nv,cohort:cohort,ISIC_0025308,HAM_0001821,nv,cohort:cohort,True,
+889,0.9354,ISIC_0029335,HAM_0005119,nv,cohort:cohort,ISIC_0029657,HAM_0006694,nv,cohort:cohort,True,
+890,0.9354,ISIC_0029050,HAM_0003481,nv,cohort:cohort,ISIC_0032137,HAM_0006354,nv,cohort:cohort,True,
+891,0.9354,ISIC_0027691,HAM_0001482,nv,s2026:val; s3001:test; s3002:train; s3003:val; s3004:train; s3005:train,ISIC_0024912,HAM_0007613,nv,cohort:cohort,True,cohort
+892,0.9354,ISIC_0029136,HAM_0005416,nv,cohort:cohort,ISIC_0027986,HAM_0003725,nv,cohort:cohort,True,
+893,0.9354,ISIC_0029184,HAM_0005454,nv,cohort:cohort,ISIC_0029484,HAM_0005296,nv,cohort:cohort,True,
+894,0.9354,ISIC_0026241,HAM_0003412,nv,cohort:cohort,ISIC_0028405,HAM_0002816,nv,cohort:cohort,True,
+895,0.9354,ISIC_0025675,HAM_0000557,nv,s2026:train; s3001:val; s3002:train; s3003:train; s3004:train; s3005:train,ISIC_0031227,HAM_0002252,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,True,
+896,0.9354,ISIC_0025666,HAM_0005882,nv,cohort:cohort,ISIC_0029165,HAM_0004666,nv,cohort:cohort,True,
+897,0.9353,ISIC_0029421,HAM_0003203,nv,cohort:cohort,ISIC_0029295,HAM_0005941,nv,cohort:cohort,True,
+898,0.9353,ISIC_0026320,HAM_0005564,nv,cohort:cohort,ISIC_0031680,HAM_0003731,nv,cohort:cohort,True,
+899,0.9353,ISIC_0028295,HAM_0007186,nv,cohort:cohort,ISIC_0024502,HAM_0001732,nv,cohort:cohort,True,
+900,0.9353,ISIC_0027723,HAM_0003264,nv,s2026:test; s3001:train; s3002:test; s3003:train; s3004:train; s3005:test,ISIC_0027880,HAM_0005687,nv,cohort:cohort,True,
+901,0.9353,ISIC_0027183,HAM_0001104,nv,cohort:cohort,ISIC_0025918,HAM_0003078,nv,cohort:cohort,True,
+902,0.9353,ISIC_0030788,HAM_0004785,nv,cohort:cohort,ISIC_0025284,HAM_0003471,nv,cohort:cohort,True,
+903,0.9353,ISIC_0024621,HAM_0000314,nv,cohort:cohort,ISIC_0024499,HAM_0000708,nv,cohort:cohort,True,
+904,0.9353,ISIC_0030739,HAM_0002678,nv,cohort:cohort,ISIC_0027778,HAM_0006682,nv,cohort:cohort,True,
+905,0.9353,ISIC_0029605,HAM_0005502,nv,cohort:cohort,ISIC_0028574,HAM_0004686,nv,cohort:cohort,True,
+906,0.9353,ISIC_0026733,HAM_0006385,nv,cohort:cohort,ISIC_0027272,HAM_0004668,nv,s2026:train; s3001:test; s3002:train; s3003:test; s3004:train; s3005:train,True,cohort
+907,0.9353,ISIC_0030380,HAM_0002405,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:val; s3005:test,ISIC_0029691,HAM_0002880,nv,cohort:cohort,True,cohort
+908,0.9352,ISIC_0034044,HAM_0000747,nv,not used,ISIC_0032702,HAM_0004814,nv,not used,True,
+909,0.9352,ISIC_0034132,HAM_0003466,mel,s2026:train; s3001:train; s3002:val; s3003:val; s3004:train; s3005:test,ISIC_0032560,HAM_0003614,nv,cohort:cohort,False,cohort
+910,0.9352,ISIC_0026733,HAM_0006385,nv,cohort:cohort,ISIC_0025582,HAM_0007423,nv,s2026:train; s3001:test; s3002:train; s3003:train; s3004:train; s3005:test,True,cohort
+911,0.9352,ISIC_0032650,HAM_0002908,nv,cohort:cohort,ISIC_0033421,HAM_0004196,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:val; s3005:train,True,cohort
+912,0.9352,ISIC_0026170,HAM_0001010,nv,cohort:cohort,ISIC_0027386,HAM_0001724,nv,cohort:cohort,True,
+913,0.9352,ISIC_0032320,HAM_0005990,nv,cohort:cohort,ISIC_0026408,HAM_0000271,nv,cohort:cohort,True,
+914,0.9352,ISIC_0024713,HAM_0005955,nv,cohort:cohort,ISIC_0027381,HAM_0004452,nv,cohort:cohort,True,
+915,0.9352,ISIC_0027834,HAM_0002138,nv,cohort:cohort,ISIC_0029940,HAM_0007297,nv,cohort:cohort,True,
+916,0.9352,ISIC_0026227,HAM_0000986,nv,cohort:cohort,ISIC_0028574,HAM_0004686,nv,cohort:cohort,True,
+917,0.9352,ISIC_0025702,HAM_0006347,nv,s2026:test; s3001:val; s3002:train; s3003:train; s3004:train; s3005:train,ISIC_0029355,HAM_0007069,nv,cohort:cohort,True,
+918,0.9352,ISIC_0024736,HAM_0003762,nv,cohort:cohort,ISIC_0024427,HAM_0003988,nv,cohort:cohort,True,
+919,0.9352,ISIC_0030380,HAM_0002405,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:val; s3005:test,ISIC_0028927,HAM_0000680,nv,s2026:train; s3001:train; s3002:val; s3003:val; s3004:train; s3005:train,True,s3005
+920,0.9352,ISIC_0027566,HAM_0004664,nv,cohort:cohort,ISIC_0026240,HAM_0006429,nv,cohort:cohort,True,
+921,0.9352,ISIC_0033351,HAM_0001870,nv,cohort:cohort,ISIC_0025271,HAM_0003430,nv,s2026:train; s3001:train; s3002:val; s3003:train; s3004:train; s3005:train,True,cohort
+922,0.9351,ISIC_0029484,HAM_0005296,nv,cohort:cohort,ISIC_0031227,HAM_0002252,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,True,cohort
+923,0.9351,ISIC_0030022,HAM_0002347,nv,cohort:cohort,ISIC_0031850,HAM_0003271,nv,cohort:cohort,True,
+924,0.9351,ISIC_0025093,HAM_0003970,nv,cohort:cohort,ISIC_0029886,HAM_0007459,nv,cohort:cohort,True,
+925,0.9351,ISIC_0025981,HAM_0007499,nv,cohort:cohort,ISIC_0032049,HAM_0000839,nv,cohort:cohort,True,
+926,0.9351,ISIC_0031320,HAM_0001206,nv,cohort:cohort,ISIC_0024606,HAM_0006576,nv,cohort:cohort,True,
+927,0.9351,ISIC_0028435,HAM_0001324,nv,cohort:cohort,ISIC_0029601,HAM_0001131,nv,cohort:cohort,True,
+928,0.9351,ISIC_0026975,HAM_0006063,nv,cohort:cohort,ISIC_0026345,HAM_0007140,nv,cohort:cohort,True,
+929,0.9351,ISIC_0028164,HAM_0006443,nv,cohort:cohort,ISIC_0029050,HAM_0003481,nv,cohort:cohort,True,
+930,0.9351,ISIC_0032009,HAM_0001107,nv,cohort:cohort,ISIC_0028008,HAM_0005018,nv,cohort:cohort,True,
+931,0.9351,ISIC_0024939,HAM_0000074,nv,cohort:cohort,ISIC_0026881,HAM_0006021,nv,cohort:cohort,True,
+932,0.9351,ISIC_0033896,HAM_0004349,nv,s2026:train; s3001:test; s3002:test; s3003:train; s3004:train; s3005:train,ISIC_0034248,HAM_0004214,nv,cohort:cohort,True,cohort
+933,0.9351,ISIC_0024465,HAM_0006377,nv,cohort:cohort,ISIC_0029295,HAM_0005941,nv,cohort:cohort,True,
+934,0.9351,ISIC_0030815,HAM_0000305,nv,cohort:cohort,ISIC_0026602,HAM_0003571,nv,cohort:cohort,True,
+935,0.9351,ISIC_0031461,HAM_0001241,nv,cohort:cohort,ISIC_0026732,HAM_0001761,nv,cohort:cohort,True,
+936,0.935,ISIC_0026208,HAM_0007201,nv,s2026:train; s3001:train; s3002:train; s3003:val; s3004:val; s3005:train,ISIC_0032038,HAM_0001998,nv,cohort:cohort,True,cohort
+937,0.935,ISIC_0024348,HAM_0002426,nv,cohort:cohort,ISIC_0029497,HAM_0001300,nv,cohort:cohort,True,
+938,0.935,ISIC_0031856,HAM_0007197,nv,cohort:cohort,ISIC_0025435,HAM_0002619,nv,cohort:cohort,True,
+939,0.935,ISIC_0029605,HAM_0005502,nv,cohort:cohort,ISIC_0025124,HAM_0004484,nv,cohort:cohort,True,
+940,0.935,ISIC_0027556,HAM_0005916,nv,cohort:cohort,ISIC_0026250,HAM_0003955,nv,cohort:cohort,True,
+941,0.935,ISIC_0028272,HAM_0001306,nv,cohort:cohort,ISIC_0028438,HAM_0003384,nv,cohort:cohort,True,
+942,0.935,ISIC_0024485,HAM_0006172,nv,cohort:cohort,ISIC_0031365,HAM_0006728,nv,s2026:val; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,True,cohort
+943,0.935,ISIC_0025513,HAM_0001907,bcc,s2026:train; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,ISIC_0025653,HAM_0005347,nv,cohort:cohort,False,cohort
+944,0.935,ISIC_0027687,HAM_0004467,nv,cohort:cohort,ISIC_0025455,HAM_0002504,nv,cohort:cohort,True,
+945,0.935,ISIC_0032177,HAM_0002520,nv,cohort:cohort,ISIC_0024440,HAM_0001879,nv,cohort:cohort,True,
+946,0.935,ISIC_0028695,HAM_0006010,nv,cohort:cohort,ISIC_0029171,HAM_0004179,nv,cohort:cohort,True,
+947,0.935,ISIC_0026648,HAM_0003994,nv,cohort:cohort,ISIC_0027520,HAM_0002055,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,True,cohort
+948,0.935,ISIC_0032282,HAM_0007064,nv,cohort:cohort,ISIC_0028068,HAM_0002331,nv,s2026:train; s3001:train; s3002:test; s3003:val; s3004:val; s3005:train,True,cohort
+949,0.935,ISIC_0028818,HAM_0003694,bcc,cohort:cohort,ISIC_0033421,HAM_0004196,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:val; s3005:train,False,cohort
+950,0.9349,ISIC_0032066,HAM_0002225,nv,cohort:cohort,ISIC_0030997,HAM_0006825,nv,cohort:cohort,True,
+951,0.9349,ISIC_0024713,HAM_0005955,nv,cohort:cohort,ISIC_0030020,HAM_0003986,nv,s2026:train; s3001:train; s3002:test; s3003:train; s3004:train; s3005:test,True,cohort
+952,0.9349,ISIC_0028291,HAM_0006253,mel,not used,ISIC_0029651,HAM_0004643,mel,cohort:cohort,True,
+953,0.9349,ISIC_0025251,HAM_0000956,nv,s2026:train; s3001:train; s3002:train; s3003:test; s3004:train; s3005:val,ISIC_0027553,HAM_0002974,nv,cohort:cohort,True,cohort
+954,0.9349,ISIC_0032137,HAM_0006354,nv,cohort:cohort,ISIC_0031492,HAM_0003638,nv,cohort:cohort,True,
+955,0.9349,ISIC_0031240,HAM_0004602,nv,cohort:cohort,ISIC_0025147,HAM_0004425,nv,cohort:cohort,True,
+956,0.9349,ISIC_0025186,HAM_0002586,nv,cohort:cohort,ISIC_0028783,HAM_0007326,nv,cohort:cohort,True,
+957,0.9349,ISIC_0028986,HAM_0007338,nv,cohort:cohort,ISIC_0027906,HAM_0000185,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,True,cohort
+958,0.9349,ISIC_0027703,HAM_0001049,nv,cohort:cohort,ISIC_0031461,HAM_0001241,nv,cohort:cohort,True,
+959,0.9349,ISIC_0031816,HAM_0005321,nv,s2026:train; s3001:test; s3002:train; s3003:test; s3004:train; s3005:test,ISIC_0029421,HAM_0003203,nv,cohort:cohort,True,cohort
+960,0.9349,ISIC_0025444,HAM_0000427,nv,cohort:cohort,ISIC_0030409,HAM_0001181,nv,cohort:cohort,True,
+961,0.9349,ISIC_0033478,HAM_0006623,nv,cohort:cohort,ISIC_0033589,HAM_0006925,nv,cohort:cohort,True,
+962,0.9349,ISIC_0030441,HAM_0000479,nv,cohort:cohort,ISIC_0025538,HAM_0000661,nv,cohort:cohort,True,
+963,0.9348,ISIC_0033366,HAM_0000879,bcc,cohort:cohort,ISIC_0033589,HAM_0006925,nv,cohort:cohort,False,
+964,0.9348,ISIC_0031912,HAM_0002183,nv,s2026:train; s3001:val; s3002:train; s3003:train; s3004:train; s3005:test,ISIC_0025230,HAM_0001966,nv,cohort:cohort,True,cohort
+965,0.9348,ISIC_0025666,HAM_0005882,nv,cohort:cohort,ISIC_0026732,HAM_0001761,nv,cohort:cohort,True,
+966,0.9348,ISIC_0028850,HAM_0003837,nv,cohort:cohort,ISIC_0030685,HAM_0000585,nv,cohort:cohort,True,
+967,0.9348,ISIC_0026300,HAM_0005411,nv,cohort:cohort,ISIC_0024878,HAM_0005635,nv,cohort:cohort,True,
+968,0.9348,ISIC_0025399,HAM_0001992,nv,cohort:cohort,ISIC_0026121,HAM_0002415,nv,cohort:cohort,True,
+969,0.9348,ISIC_0026915,HAM_0002851,nv,s2026:train; s3001:train; s3002:train; s3003:val; s3004:train; s3005:train,ISIC_0028458,HAM_0006680,nv,cohort:cohort,True,cohort
+970,0.9348,ISIC_0032949,HAM_0006085,bkl,cohort:cohort,ISIC_0033268,HAM_0007163,mel,cohort:cohort,False,
+971,0.9347,ISIC_0030150,HAM_0005124,mel,s2026:train; s3001:train; s3002:train; s3003:train; s3004:train; s3005:val,ISIC_0031063,HAM_0003764,bcc,s2026:train; s3001:val; s3002:test; s3003:test; s3004:train; s3005:train,False,"s3002,s3003"
+972,0.9347,ISIC_0028695,HAM_0006010,nv,cohort:cohort,ISIC_0031755,HAM_0003928,nv,cohort:cohort,True,
+973,0.9347,ISIC_0026628,HAM_0006935,nv,cohort:cohort,ISIC_0027357,HAM_0004540,nv,s2026:train; s3001:train; s3002:train; s3003:test; s3004:train; s3005:val,True,cohort
+974,0.9347,ISIC_0028284,HAM_0006768,nv,cohort:cohort,ISIC_0029605,HAM_0005502,nv,cohort:cohort,True,
+975,0.9347,ISIC_0027437,HAM_0004125,bkl,cohort:cohort,ISIC_0033947,HAM_0005545,mel,not used,False,
+976,0.9347,ISIC_0033050,HAM_0003439,mel,s2026:test; s3001:train; s3002:train; s3003:val; s3004:train; s3005:train,ISIC_0033589,HAM_0006925,nv,cohort:cohort,False,
+977,0.9347,ISIC_0029911,HAM_0000647,nv,s2026:train; s3001:val; s3002:test; s3003:train; s3004:train; s3005:train,ISIC_0030471,HAM_0002540,nv,cohort:cohort,True,cohort
+978,0.9347,ISIC_0030287,HAM_0004055,nv,cohort:cohort,ISIC_0024713,HAM_0005955,nv,cohort:cohort,True,
+979,0.9347,ISIC_0033356,HAM_0005213,nv,cohort:cohort,ISIC_0033237,HAM_0001040,nv,s2026:train; s3001:train; s3002:test; s3003:val; s3004:test; s3005:train,True,cohort
+980,0.9347,ISIC_0027691,HAM_0001482,nv,s2026:val; s3001:test; s3002:train; s3003:val; s3004:train; s3005:train,ISIC_0029896,HAM_0001352,nv,cohort:cohort,True,cohort
+981,0.9347,ISIC_0032572,HAM_0003356,nv,cohort:cohort,ISIC_0027265,HAM_0005347,nv,cohort:cohort,True,
+982,0.9347,ISIC_0025551,HAM_0003022,nv,cohort:cohort,ISIC_0030718,HAM_0005373,nv,cohort:cohort,True,
+983,0.9347,ISIC_0027723,HAM_0003264,nv,s2026:test; s3001:train; s3002:test; s3003:train; s3004:train; s3005:test,ISIC_0026904,HAM_0004626,nv,cohort:cohort,True,
+984,0.9347,ISIC_0031638,HAM_0002704,nv,cohort:cohort,ISIC_0024325,HAM_0002044,nv,cohort:cohort,True,
+985,0.9347,ISIC_0025551,HAM_0003022,nv,cohort:cohort,ISIC_0028574,HAM_0004686,nv,cohort:cohort,True,
+986,0.9347,ISIC_0026181,HAM_0001560,nv,s2026:train; s3001:test; s3002:train; s3003:train; s3004:train; s3005:train,ISIC_0031027,HAM_0006499,nv,s2026:train; s3001:test; s3002:test; s3003:val; s3004:train; s3005:train,True,s3002
+987,0.9347,ISIC_0025551,HAM_0003022,nv,cohort:cohort,ISIC_0028379,HAM_0003333,nv,cohort:cohort,True,
+988,0.9346,ISIC_0033577,HAM_0004346,nv,cohort:cohort,ISIC_0033970,HAM_0004350,nv,cohort:cohort,True,
+989,0.9346,ISIC_0032566,HAM_0004574,nv,cohort:cohort,ISIC_0034027,HAM_0005059,nv,cohort:cohort,True,
+990,0.9346,ISIC_0025483,HAM_0007170,nv,cohort:cohort,ISIC_0029804,HAM_0005851,nv,s2026:train; s3001:test; s3002:train; s3003:train; s3004:train; s3005:train,True,cohort
+991,0.9346,ISIC_0029116,HAM_0007062,nv,s2026:train; s3001:train; s3002:val; s3003:test; s3004:train; s3005:train,ISIC_0030571,HAM_0003190,nv,cohort:cohort,True,cohort
+992,0.9346,ISIC_0025572,HAM_0003268,nv,cohort:cohort,ISIC_0030854,HAM_0003908,nv,cohort:cohort,True,
+993,0.9346,ISIC_0031441,HAM_0007267,nv,s2026:train; s3001:train; s3002:train; s3003:train; s3004:train; s3005:train,ISIC_0026568,HAM_0003740,nv,cohort:cohort,True,cohort
+994,0.9346,ISIC_0026240,HAM_0006429,nv,cohort:cohort,ISIC_0030357,HAM_0004026,nv,s2026:train; s3001:val; s3002:train; s3003:train; s3004:train; s3005:val,True,cohort
+995,0.9346,ISIC_0026803,HAM_0007355,bkl,cohort:cohort,ISIC_0024909,HAM_0002757,bkl,s2026:train; s3001:val; s3002:train; s3003:train; s3004:train; s3005:test,True,cohort
+996,0.9346,ISIC_0029691,HAM_0002880,nv,cohort:cohort,ISIC_0027054,HAM_0005414,nv,cohort:cohort,True,
+997,0.9346,ISIC_0030854,HAM_0003908,nv,cohort:cohort,ISIC_0031254,HAM_0006906,nv,cohort:cohort,True,
+998,0.9345,ISIC_0025474,HAM_0004271,nv,cohort:cohort,ISIC_0024849,HAM_0004573,nv,cohort:cohort,True,
+999,0.9345,ISIC_0024816,HAM_0007434,nv,cohort:cohort,ISIC_0027445,HAM_0007399,nv,cohort:cohort,True,
+1000,0.9345,ISIC_0024939,HAM_0000074,nv,cohort:cohort,ISIC_0031101,HAM_0000621,nv,cohort:cohort,True,

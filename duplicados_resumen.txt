@@ -1,0 +1,4 @@
+top 20: similarity >= 0.958; pairs crossing a train/test boundary: 4
+top 60: similarity >= 0.953; pairs crossing a train/test boundary: 13
+top 200: similarity >= 0.945; pairs crossing a train/test boundary: 42
+top 1000: similarity >= 0.934; pairs crossing a train/test boundary: 234

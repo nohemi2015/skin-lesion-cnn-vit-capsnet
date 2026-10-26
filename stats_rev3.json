@@ -1,0 +1,438 @@
+{
+ "test_ci": {
+  "efficientnetb1_v2": {
+   "sens": [
+    82.02,
+    76.07,
+    87.94
+   ],
+   "spec": [
+    67.65,
+    61.63,
+    73.53
+   ],
+   "prec": [
+    66.31,
+    58.4,
+    73.6
+   ],
+   "npv": [
+    83.43,
+    77.22,
+    89.31
+   ]
+  },
+  "vit32_as_run_v2": {
+   "sens": [
+    88.84,
+    83.48,
+    93.79
+   ],
+   "spec": [
+    60.94,
+    53.83,
+    68.25
+   ],
+   "prec": [
+    63.48,
+    55.5,
+    71.35
+   ],
+   "npv": [
+    88.17,
+    82.23,
+    93.52
+   ]
+  },
+  "vit32_frozen_ckpt": {
+   "sens": [
+    84.5,
+    77.81,
+    90.87
+   ],
+   "spec": [
+    66.0,
+    59.07,
+    73.16
+   ],
+   "prec": [
+    65.36,
+    56.91,
+    73.69
+   ],
+   "npv": [
+    84.88,
+    78.29,
+    90.94
+   ]
+  },
+  "vit32_ft_ckpt": {
+   "sens": [
+    77.83,
+    71.56,
+    83.73
+   ],
+   "spec": [
+    72.82,
+    67.7,
+    78.17
+   ],
+   "prec": [
+    69.07,
+    61.28,
+    76.5
+   ],
+   "npv": [
+    81.72,
+    75.81,
+    87.41
+   ]
+  },
+  "vit32_ft_imagenet": {
+   "sens": [
+    81.09,
+    74.81,
+    87.05
+   ],
+   "spec": [
+    68.94,
+    62.53,
+    75.14
+   ],
+   "prec": [
+    66.52,
+    58.16,
+    74.37
+   ],
+   "npv": [
+    82.99,
+    76.69,
+    89.06
+   ]
+  },
+  "capsnet_r3_v2": {
+   "sens": [
+    68.06,
+    64.71,
+    71.43
+   ],
+   "spec": [
+    33.53,
+    30.54,
+    36.5
+   ],
+   "prec": [
+    43.23,
+    36.27,
+    50.11
+   ],
+   "npv": [
+    69.11,
+    54.08,
+    76.38
+   ]
+  },
+  "capsnet_r3_revised": {
+   "sens": [
+    89.61,
+    85.41,
+    93.17
+   ],
+   "spec": [
+    57.53,
+    51.46,
+    63.56
+   ],
+   "prec": [
+    62.3,
+    54.64,
+    69.42
+   ],
+   "npv": [
+    89.09,
+    83.99,
+    93.39
+   ]
+  }
+ },
+ "cohort_ci": {
+  "efficientnetb1_v2": {
+   "sens": [
+    86.09,
+    83.49,
+    88.56
+   ],
+   "spec": [
+    76.77,
+    75.68,
+    77.9
+   ],
+   "prec": [
+    24.57,
+    22.26,
+    26.89
+   ],
+   "npv": [
+    98.5,
+    98.16,
+    98.8
+   ]
+  },
+  "vit32_as_run_v2": {
+   "sens": [
+    91.53,
+    89.04,
+    93.8
+   ],
+   "spec": [
+    72.28,
+    71.09,
+    73.49
+   ],
+   "prec": [
+    22.49,
+    20.32,
+    24.68
+   ],
+   "npv": [
+    99.04,
+    98.73,
+    99.32
+   ]
+  },
+  "vit32_frozen_ckpt": {
+   "sens": [
+    86.19,
+    82.7,
+    89.2
+   ],
+   "spec": [
+    75.22,
+    74.01,
+    76.47
+   ],
+   "prec": [
+    22.98,
+    20.79,
+    25.21
+   ],
+   "npv": [
+    98.46,
+    98.05,
+    98.82
+   ]
+  },
+  "vit32_ft_ckpt": {
+   "sens": [
+    83.99,
+    81.13,
+    86.76
+   ],
+   "spec": [
+    80.17,
+    79.28,
+    81.12
+   ],
+   "prec": [
+    27.76,
+    25.26,
+    30.24
+   ],
+   "npv": [
+    98.33,
+    97.97,
+    98.68
+   ]
+  },
+  "vit32_ft_imagenet": {
+   "sens": [
+    86.26,
+    83.3,
+    88.96
+   ],
+   "spec": [
+    79.2,
+    78.19,
+    80.25
+   ],
+   "prec": [
+    26.53,
+    24.1,
+    28.89
+   ],
+   "npv": [
+    98.55,
+    98.18,
+    98.87
+   ]
+  },
+  "capsnet_r3_v2": {
+   "sens": [
+    69.75,
+    67.98,
+    71.66
+   ],
+   "spec": [
+    36.49,
+    35.98,
+    37.03
+   ],
+   "prec": [
+    8.93,
+    7.97,
+    9.87
+   ],
+   "npv": [
+    90.77,
+    88.86,
+    92.63
+   ]
+  },
+  "capsnet_r3_revised": {
+   "sens": [
+    90.57,
+    88.46,
+    92.44
+   ],
+   "spec": [
+    65.57,
+    64.35,
+    66.8
+   ],
+   "prec": [
+    18.89,
+    17.07,
+    20.67
+   ],
+   "npv": [
+    98.84,
+    98.54,
+    99.11
+   ]
+  }
+ },
+ "overlap": {
+  "n_wrong": {
+   "efficientnetb1_v2": 78,
+   "vit32_as_run_v2": 78,
+   "vit32_frozen_ckpt": 79,
+   "vit32_ft_ckpt": 68,
+   "vit32_ft_imagenet": 77,
+   "capsnet_r3_v2": 156,
+   "capsnet_r3_revised": 84
+  },
+  "all3_pretrained_wrong": 37,
+  "any3_pretrained_wrong": 111,
+  "all3_FN": 8,
+  "all3_FP": 29,
+  "all4_incl_caps": 30,
+  "all3_by_dx": {
+   "nv": 13,
+   "bkl": 12,
+   "mel": 8,
+   "df": 4
+  }
+ },
+ "repeated": {
+  "('sens', 'mean')": {
+   "capsnet_r3": 63.4,
+   "capsnet_r3_revised": 80.8,
+   "efficientnetb1_ft": 83.1,
+   "vit32_frozen_imagenet": 80.7,
+   "vit32_ft_ckpt": 82.2
+  },
+  "('sens', 'std')": {
+   "capsnet_r3": 34.4,
+   "capsnet_r3_revised": 8.7,
+   "efficientnetb1_ft": 6.9,
+   "vit32_frozen_imagenet": 7.0,
+   "vit32_ft_ckpt": 7.1
+  },
+  "('sens', 'min')": {
+   "capsnet_r3": 3.0,
+   "capsnet_r3_revised": 64.2,
+   "efficientnetb1_ft": 73.2,
+   "vit32_frozen_imagenet": 67.9,
+   "vit32_ft_ckpt": 72.4
+  },
+  "('sens', 'max')": {
+   "capsnet_r3": 98.7,
+   "capsnet_r3_revised": 93.2,
+   "efficientnetb1_ft": 94.5,
+   "vit32_frozen_imagenet": 90.1,
+   "vit32_ft_ckpt": 94.5
+  },
+  "('sens', 'count')": {
+   "capsnet_r3": 15,
+   "capsnet_r3_revised": 15,
+   "efficientnetb1_ft": 15,
+   "vit32_frozen_imagenet": 15,
+   "vit32_ft_ckpt": 15
+  },
+  "('spec', 'mean')": {
+   "capsnet_r3": 44.5,
+   "capsnet_r3_revised": 68.9,
+   "efficientnetb1_ft": 72.5,
+   "vit32_frozen_imagenet": 77.2,
+   "vit32_ft_ckpt": 75.5
+  },
+  "('spec', 'std')": {
+   "capsnet_r3": 31.9,
+   "capsnet_r3_revised": 7.5,
+   "efficientnetb1_ft": 7.5,
+   "vit32_frozen_imagenet": 5.0,
+   "vit32_ft_ckpt": 5.6
+  },
+  "('spec', 'min')": {
+   "capsnet_r3": 7.0,
+   "capsnet_r3_revised": 55.3,
+   "efficientnetb1_ft": 60.9,
+   "vit32_frozen_imagenet": 68.9,
+   "vit32_ft_ckpt": 62.2
+  },
+  "('spec', 'max')": {
+   "capsnet_r3": 99.3,
+   "capsnet_r3_revised": 82.1,
+   "efficientnetb1_ft": 84.9,
+   "vit32_frozen_imagenet": 84.5,
+   "vit32_ft_ckpt": 82.8
+  },
+  "('spec', 'count')": {
+   "capsnet_r3": 15,
+   "capsnet_r3_revised": 15,
+   "efficientnetb1_ft": 15,
+   "vit32_frozen_imagenet": 15,
+   "vit32_ft_ckpt": 15
+  }
+ },
+ "repeated_counts": {
+  "TP": {
+   "capsnet_r3": 1457,
+   "capsnet_r3_revised": 1864,
+   "efficientnetb1_ft": 1920,
+   "vit32_frozen_imagenet": 1861,
+   "vit32_ft_ckpt": 1898
+  },
+  "FN": {
+   "capsnet_r3": 853,
+   "capsnet_r3_revised": 446,
+   "efficientnetb1_ft": 390,
+   "vit32_frozen_imagenet": 449,
+   "vit32_ft_ckpt": 412
+  },
+  "TN": {
+   "capsnet_r3": 995,
+   "capsnet_r3_revised": 1552,
+   "efficientnetb1_ft": 1637,
+   "vit32_frozen_imagenet": 1742,
+   "vit32_ft_ckpt": 1703
+  },
+  "FP": {
+   "capsnet_r3": 1261,
+   "capsnet_r3_revised": 704,
+   "efficientnetb1_ft": 619,
+   "vit32_frozen_imagenet": 514,
+   "vit32_ft_ckpt": 553
+  }
+ }
+}

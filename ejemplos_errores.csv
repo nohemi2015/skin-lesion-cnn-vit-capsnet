@@ -1,0 +1,13 @@
+image_id,lesion_id,dx,y,mean_score,all3_wrong,kind
+ISIC_0025316,HAM_0003761,mel,1,0.14143652,True,false negative
+ISIC_0031598,HAM_0005381,mel,1,0.16589709,True,false negative
+ISIC_0026506,HAM_0000871,mel,1,0.1683359,True,false negative
+ISIC_0033980,HAM_0003602,mel,1,0.20152478,True,false negative
+ISIC_0026314,HAM_0000233,mel,1,0.21619081,True,false negative
+ISIC_0031529,HAM_0001657,mel,1,0.23299205,True,false negative
+ISIC_0030579,HAM_0002546,df,0,0.95310235,True,false positive
+ISIC_0027568,HAM_0006398,nv,0,0.88749963,True,false positive
+ISIC_0033264,HAM_0004255,bkl,0,0.84361345,True,false positive
+ISIC_0034259,HAM_0004555,bkl,0,0.8284991,True,false positive
+ISIC_0025960,HAM_0002142,nv,0,0.7770899,True,false positive
+ISIC_0028294,HAM_0002042,bkl,0,0.76077676,True,false positive
