@@ -144,7 +144,7 @@ res["repeated_counts"] = rs.groupby("model")[["TP", "FN", "TN", "FP"]].sum().to_
 def fmt(o):
     if isinstance(o, dict): return {str(k): fmt(v) for k, v in o.items()}
     if isinstance(o, (tuple, list)): return [fmt(v) for v in o]
-    if isinstance(o, (np.floating, float)): return round(float(o), 2)
+    if isinstance(o, (np.floating, float)): return round(float(o), 6)
     if isinstance(o, np.integer): return int(o)
     return o
 json.dump(fmt(res), open(f"{OUT}/stats_rev3.json", "w"), indent=1)
